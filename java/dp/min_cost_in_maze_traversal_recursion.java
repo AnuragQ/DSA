@@ -1,3 +1,5 @@
+package java.dp;
+
 // 1. You are given a number n, representing the number of rows.
 // 2. You are given a number m, representing the number of columns.
 // 3. You are given n*m numbers, representing elements of 2d array a, which represents a maze.
@@ -9,7 +11,6 @@
                                
                                
 import java.io.*;
-import java.util.*;
 
 public class min_cost_in_maze_traversal_recursion {
 

@@ -1,3 +1,5 @@
+package java.dp;
+
 // 1. You are given a number n, representing the number of rows.
 // 2. You are given a number m, representing the number of columns.
 // 3. You are given n*m numbers, representing elements of 2d array a, which represents a gold mine.
@@ -6,7 +8,6 @@
 // 6. Each cell has a value that is the amount of gold available in the cell.
 // 7. You are required to identify the maximum amount of gold that can be dug out from the mine.
 import java.io.*;
-import java.util.*;
 
 public class goldmin_dp {
 

@@ -1,3 +1,5 @@
+package java.dp;
+
 /*
 LINK-https://www.pepcoding.com/resources/placement-bootcamp---batch-1/dynamic-programming-and-greedy/climb-stairs-with-minimum-moves-official/ojquestion
 1. You are given a number n, representing the number of stairs in a staircase.

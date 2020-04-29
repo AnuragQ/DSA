@@ -1,3 +1,5 @@
+package java.recursion;
+
 // 1. You are given a string str of digits. (will never start with a 0)
 // 2. You are required to encode the str as per following rules
 //     1 -> a

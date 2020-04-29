@@ -1,5 +1,5 @@
 
-package DataStructures.StackOps;
+package java;
 
 import java.util.Arrays;
 

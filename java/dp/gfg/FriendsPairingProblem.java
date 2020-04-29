@@ -1,3 +1,4 @@
+package java.dp.gfg;
 
 // https://practice.geeksforgeeks.org/problems/friends-pairing-problem/0
 
