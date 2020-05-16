@@ -12,5 +12,6 @@ public class CountCharacteOccurances {
 
 
         }
+        hm.put('a', 1);
     }
 }
