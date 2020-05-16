@@ -2,7 +2,7 @@ package java.dp;
 
 import java.io.*;
 
-public class paint_house_many_colors {
+public class paint_house_many_colors_mem {
 
     public static void main(final String[] args) throws Exception {
 

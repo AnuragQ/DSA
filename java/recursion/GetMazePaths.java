@@ -7,7 +7,7 @@ package java.recursion;
 import java.io.*;
 import java.util.*;
 
-public class get_maze_paths {
+public class GetMazePaths {
 
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

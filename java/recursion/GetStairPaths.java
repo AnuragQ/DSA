@@ -6,7 +6,7 @@ package java.recursion;
 import java.io.*;
 import java.util.*;
 
-public class get_stair_paths {
+public class GetStairPaths {
 
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

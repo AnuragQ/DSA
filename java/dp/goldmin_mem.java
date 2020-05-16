@@ -9,7 +9,7 @@ package java.dp;
 // 7. You are required to identify the maximum amount of gold that can be dug out from the mine.
 import java.io.*;
 
-public class goldmin_dp {
+public class goldmin_mem {
 
     public static void main(String[] args) throws Exception {
         // write your code here

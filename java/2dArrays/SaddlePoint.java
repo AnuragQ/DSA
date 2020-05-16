@@ -5,7 +5,7 @@
 
 import java.io.*;
 
-public class saddle_point {
+public class SaddlePoint {
 
     public static void main(String[] args) throws Exception {
         // write your code here

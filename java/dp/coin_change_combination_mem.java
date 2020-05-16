@@ -10,7 +10,7 @@ package java.dp;
 
 import java.io.*;
 
-public class coin_change_combination_dp {
+public class coin_change_combination_mem {
 
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

@@ -1,0 +1,212 @@
+priority
+1. current count - 165
+2. interview prep - ~600
+3. leetcode - medium - 740  
+4. gfg,codechef
+5. leetcode (easy - 407h,hard - 303)
+
+daily 5hr
+weekend 10hr	
+total - 45hr 
+1. 2d-array
+	1.1. MatrixMultiplication	done
+	1.2. WaveTraversal		done
+	1.3. SpiralDisplay		done
+	1.4. ExitPoint
+	1.5. RotateBy90			done
+	1.6. ShellRotate	
+	1.7. Diagonal Traversal		done
+	1.8. SaddlePoint 		done
+ 	1.9. SearchIn2dArray		done
+
+2. Recursion
+	2.1. TowerOfHanoi		done
+	2.2. MaxOfArray			done
+	2.3. FirstIndex			done
+	2.4. LastIndex			done
+	2.5. AllIndices			done
+	2.6. GetSubsequence		done
+	2.8. GetKPC			done
+	2.9. GetStairPaths		done
+	2.10. GetMazePaths		done
+	2.11. GetMazePathWithJumps	done
+	2.12. PrintKPC			done
+	2.13. PrintStairPaths		done
+	2.14. PrintSubsequence		done
+	2.15. PrintMazePathWithJumps	done
+	2.16. PrintPermutations		done
+	2.17. PrintEncoding		done
+	2.18. Floodfill			done	
+	2.19. TargetSum Subsets		done
+	2.20. NQueens			done
+	2.21. KnightsTour
+	2.22. Sudoku
+	2.23. MagnatePuzzle
+	
+
+3. DP (r-recursion, m-memoized, i-iterative) and Greedy
+
+	3.1. Fibonacci-dp
+	3.2. Climb Stairs
+	3.3. Climb Stairs With Variable Jumps
+	3.4. Climb Stairs With Minimum Moves		r m i
+	3.5. Min Cost In Maze Traversal			r m 
+	3.6. Goldmine					  m
+	3.7. Target Sum Subsets - Dp
+	3.8. Coin Change Combination			  m i 
+	3.9. Coin Change Permutations
+	3.10. Zero One Knapsack
+	3.11. Unbounded Knapsack
+	3.12. Count Binary Strings
+	3.13. Arrange Buildings
+	3.14. Count Encodings
+	3.15. Count A+b+c+ Subsequences
+	3.16. Maximum Sum Non Adjacent Elements
+	3.17. Paint House
+	3.18. Paint House - Many Colors			  m
+	3.19. Paint Fence
+	3.20. Tiling With 2 * 1 Tiles
+	3.21. Tiling With M * 1 Tiles
+	3.22. Friends Pairing
+	3.23. Partition Into Subsets
+	3.24. Buy And Sell Stocks - One Transaction Allowed
+	3.25. Buy And Sell Stocks-infinite Transactions Allowed
+	3.26. Buy And Sell Stocks With Transaction Fee - Infinite Transactions Allowed
+	3.27. Buy And Sell Stocks With Cooldown - Infinite Transaction Allowed
+	3.28. Buy And Sell Stocks - Two Transactions Allowed
+	3.29. Buy And Sell Stocks - K Transactions Allowed
+	3.30. Longest Increasing Subsequence
+	3.31. Maximum Sum Increasing Subsequence
+	3.32. Longest Bitonic Subsequence
+	3.33. Maximum Non-overlapping Bridges
+	3.34. Russian Doll Envelopes
+	3.35. Longest Common Subsequence
+	3.36. Longest Palindromic Subsequences
+	3.37. Count Palindromic Subsequences
+	3.38. Count Palindromic Substrings
+	3.39. Longest Palindromic Substring
+	3.40. CrosswordPuzzleProblem
+	3.41. PartitionIntoKSubsets
+
+4. Stacks and Queues
+	4.1. NGE
+	4.2. StockSpan
+	4.3. LargestAreaHistgram
+	4.4. SlidingWindowMaximum
+	4.5. SmallestNumberFollowingPattern
+	4.6. CelebrityProblem
+	4.7. MinStack
+	4.8. MinStack_2
+	4.9. TwoStack
+	4.10. Kstack
+	4.11. MergeOverlappingInterval
+	4.12. PetrolPumpProblem
+
+5. LinkedList
+	5.1. ReverseDataIterative
+	5.2. ReverseDataRecursive
+	5.3. ReversePointerIterative
+	5.4. ReversePointerRecursive
+	5.5. KReverseMulti
+	5.6. MidPoint
+	5.7. KthFromLast
+	5.8. MergeTwoSortedLL
+	5.9. RemoveDuplicatesInSortedLL
+	5.10. OddEvenLL
+	5.11. IsPalindrome
+	5.12. Fold
+	5.13. Unfold
+	5.14. AddTwoLL
+	5.15. IntersectionPoint
+	5.17. CloneLLWithRandomPointer
+	5.18. FloydCycle
+	5.19. GetAddRemove
+
+6. GenericTrees
+	6.1. SizeSumMaxHeight
+	6.2. Traversals(pre-post-level--iterative-recursive)
+	6.3. RemoveLeaves
+	6.4. Linearize
+	6.5. Find
+	6.6. NodeToRootPath
+	6.7. LCA
+	6.8. DistanceBetweenTwoNodes
+	6.9. PredecessorAndSuccessor
+	6.10. CeilAndFloor
+	6.11. KthLargestElement
+	6.12. NodeWithMaxSum
+	6.13. Diameter
+
+7. BinaryTree 
+	7.1. SizeSumMaxHeight
+	7.2. Traversals(pre-post-in-level--iterative-recursive)
+	7.3. NodeToRootPath
+	7.4. PrintKLevelsDown
+	7.5. PathToLeafFromRootInRange
+	7.6. TransFormToLeftCloneTreeAndReverse
+	7.7. PrintSingleChildNodes
+	7.8. RemoveLeaves
+	7.9. PrintNodesAtKDitstance
+	7.10. IsBalanced
+	7.11. IsBST
+	7.12. TreeFromInPre
+	7.13. TreeFromInPost
+	7.14. TreeFromPrePost(condition - tree is full BT)
+	7.15. TreeFromInLevel
+	7.16. MultiSolver
+	7.17. LCA
+	7.18. Diameter(normal + efficient) 
+	7.19. LargestBst
+	7.20. RootToLeafPathTargetSum
+	7.21. MaxSumN2L
+	7.22. MaxSumL2L
+	7.23. MaxSumN2N
+	7.24. TreeFromParentArray
+	7.25. TreeFromPerfectArray(CompleteBinaryTreeFromGivenLevelOrder)
+	7.26. TopView
+	7.27. BottomView
+	7.28. LeftView
+	7.29. RightView
+	7.30. BoundaryTraversal
+	7.31. VerticalSum
+	7.32. TreeToLL
+	7.33. LLtoTree
+	7.34. TreeToCLL
+	7.35. CLLtoTree
+	7.36. TiltBT
+	7.37. CloneWithRandomPointer
+.
+
+8. BinarySearchTree and AVL
+	8.1. GetAddRemove
+	8.2. Find
+	8.3. MinMax
+	8.4. LCA
+	8.5. RepalceBySumOfGV
+	8.6. PrintInRange  
+
+9. HashMap
+	9.1. HashmapCreation
+	9.2. HighestFrequencyChar
+	9.3. GetCommonElementDistinct
+	9.4. GetCommonElementAll
+	9.5. LongestConsecutiveSequence
+
+10. Heap
+
+11. Trie
+
+12. Graphs
+
+13. Math
+
+14. Strings
+
+
+
+
+
+
+
+
+

@@ -12,7 +12,7 @@ Note -> If there is no path through the staircase print null.
 
 import java.io.*;
 
-public class climb_stairs_with_minimum_moves_dp {
+public class climb_stairs_with_minimum_moves_mem {
 
     public static void main(String[] args) throws Exception {
 

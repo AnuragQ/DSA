@@ -1,0 +1,12 @@
+priority 1
+Target - tree all 
+count = 13 + 37 + 6 + 5 = 61 
+ 
+priority 2 
+Target - graphs heap trie all
+count = 
+
+priority 3 
+Target - LinkedList
+count ~ 10
+
