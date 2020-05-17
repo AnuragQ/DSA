@@ -1,6 +1,6 @@
-package java;
 
 // import java.util.*;
+
 public class decompressString {
 
     public static void main(String[] args) {
