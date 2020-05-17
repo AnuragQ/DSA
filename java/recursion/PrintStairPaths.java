@@ -1,16 +1,16 @@
-package java.recursion;
+// package java.recursion;
 
 import java.io.*;
 
 public class PrintStairPaths {
 
-    public static void main(String[] args) throws Exception {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        int n = Integer.parseInt(br.readLine());
+    public static void main(final String[] args) throws Exception {
+        final BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        final int n = Integer.parseInt(br.readLine());
         printStairPaths(n, "");
     }
 
-    public static void printStairPaths(int n, String path) {
+    public static void printStairPaths(final int n, final String path) {
         if (n == 0) {
             System.out.println(path);
         } else if (n < 0) {

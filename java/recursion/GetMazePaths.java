@@ -1,4 +1,4 @@
-package java.recursion;
+// package java.recursion;
 
 // 
 // 1. You are given a number n and a number m representing number of rows and columns in a maze.

@@ -1,4 +1,4 @@
-package java.recursion;
+
 
 // 1. You are given a string str of digits. (will never start with a 0)
 // 2. You are required to encode the str as per following rules
@@ -19,7 +19,7 @@ import java.io.*;
 
 public class print_encodings {
 
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String str = br.readLine();
         printEncodings(str, "");

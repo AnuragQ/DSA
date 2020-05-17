@@ -1,4 +1,4 @@
-package java.stacks;
+package java.stacksAndQueues;
 
 class checkBrackets {
     public static void name() {
