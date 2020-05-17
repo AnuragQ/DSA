@@ -2,12 +2,11 @@
 <classpath>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="java/recursion"/>
-	<classpathentry kind="src" path="java/trieCust"/>
 	<classpathentry kind="src" path="java/dp"/>
 	<classpathentry kind="src" path="java/linkedLists/outsourced"/>
 	<classpathentry excluding="outsourced/" kind="src" path="java/linkedLists"/>
 	<classpathentry kind="src" path="java/stacksAndQueues"/>
 	<classpathentry kind="src" path="java/trie"/>
-	<classpathentry excluding="recursion/|trieCust/|dp/|linkedLists/outsourced/|linkedLists/|stacksAndQueues/|trie/" kind="src" path="java"/>
+	<classpathentry excluding="recursion/|dp/|linkedLists/outsourced/|linkedLists/|stacksAndQueues/|trie/" kind="src" path="java"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
