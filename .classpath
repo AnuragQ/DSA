@@ -7,5 +7,6 @@
 	<classpathentry kind="src" path="java/linkedLists/outsourced"/>
 	<classpathentry excluding="outsourced/" kind="src" path="java/linkedLists"/>
 	<classpathentry kind="src" path="java/stacksAndQueues"/>
+	<classpathentry kind="src" path="java/trie"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

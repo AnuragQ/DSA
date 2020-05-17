@@ -2,7 +2,7 @@ import java.io.*;
 
 public class CountEncodings_mem {
 
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String str = br.readLine();
         System.out.println(countEncoding(str, 0, new int[str.length()]));

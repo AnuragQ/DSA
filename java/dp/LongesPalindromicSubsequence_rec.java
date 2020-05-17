@@ -2,7 +2,7 @@ import java.io.*;
 
 public class LongesPalindromicSubsequence_rec {
 
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String str1 = br.readLine();
         // String str3=br.readLine();

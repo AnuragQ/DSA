@@ -66,7 +66,7 @@ public class MinStack_  {
     }
   }
 
-  public static void main(String[] args) throws Exception {
+  public static void main(String[] args) throws IOException {
     BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     MinStack st = new MinStack();
 

@@ -3,7 +3,7 @@ import java.util.*;
 
 public class SmallestNumberFollowingPattern {
 
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String str = br.readLine();
         Stack<Integer> st = new Stack<>();

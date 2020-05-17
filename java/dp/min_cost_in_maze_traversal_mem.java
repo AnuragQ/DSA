@@ -1,4 +1,3 @@
-package java.dp;
 
 // 1. You are given a number n, representing the number of rows.
 
@@ -13,7 +12,7 @@ import java.io.*;
 
 public class min_cost_in_maze_traversal_mem {
 
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) throws IOException {
         // write your code here
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
       int n = Integer.parseInt(br.readLine());

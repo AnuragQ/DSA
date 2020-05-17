@@ -1,4 +1,3 @@
-package java.dp;
 
 /*
 LINK-https://www.pepcoding.com/resources/placement-bootcamp---batch-1/dynamic-programming-and-greedy/climb-stairs-with-minimum-moves-official/ojquestion
@@ -14,7 +13,7 @@ import java.io.*;
 
 public class climb_stairs_with_minimum_moves_mem {
 
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) throws IOException {
 
 
 

@@ -2,7 +2,7 @@ import java.util.*;
 
 public class Fibonacci_mem{
 
-public static void main(String[] args) throws Exception {
+public static void main(String[] args)  {
     // write your code here
     Scanner sc =new Scanner(System.in);
     int n=sc.nextInt();

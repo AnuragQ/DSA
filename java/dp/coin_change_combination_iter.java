@@ -1,4 +1,3 @@
-package java.dp;
 
 // 1. You are given a number n, representing the count of coins.
 // 2. You are given n numbers, representing the denominations of n coins.
@@ -12,7 +11,7 @@ import java.io.*;
 
 public class coin_change_combination_iter {
 
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int n = Integer.parseInt(br.readLine());
         int[] arr = new int[n];

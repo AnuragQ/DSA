@@ -2,7 +2,7 @@ import java.io.*;
 
 public class LIS_mem {
 public static int[] dp;
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) throws IOException {
         // write your code here
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
