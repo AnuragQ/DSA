@@ -1,4 +1,3 @@
-package java.dp;
 
 // https://practice.geeksforgeeks.org/problems/friends-pairing-problem/0
 
@@ -7,7 +6,7 @@ package java.dp;
 
 import java.util.*;
 
-class GFG{
+class FriendsPairing_gfg_mem{
 	public static void main (String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int test=sc.nextInt();

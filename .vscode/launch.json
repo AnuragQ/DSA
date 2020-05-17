@@ -1,0 +1,322 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Trie",
+            "request": "launch",
+            "mainClass": "Trie",
+            "projectName": "DSA"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TrieDriver",
+            "request": "launch",
+            "mainClass": "TrieDriver",
+            "projectName": "DSA"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PrintStairPaths",
+            "request": "launch",
+            "mainClass": "PrintStairPaths",
+            "projectName": "DSA"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TrieDriverCust",
+            "request": "launch",
+            "mainClass": "TrieDriverCust",
+            "projectName": "DSA"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - print_kpc",
+            "request": "launch",
+            "mainClass": "print_kpc",
+            "projectName": "DSA"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FloodFill",
+            "request": "launch",
+            "mainClass": "FloodFill",
+            "projectName": "DSA"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - get_maze_paths_with_jumps",
+            "request": "launch",
+            "mainClass": "get_maze_paths_with_jumps",
+            "projectName": "DSA"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - GetKPC",
+            "request": "launch",
+            "mainClass": "GetKPC",
+            "projectName": "DSA"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-KStacksOptimized<DSA_dd63b4be>",
+            "request": "launch",
+            "mainClass": "java.KStacksOptimized",
+            "projectName": "DSA_dd63b4be"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-decompressString<DSA_dd63b4be>",
+            "request": "launch",
+            "mainClass": "java.decompressString",
+            "projectName": "DSA_dd63b4be"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-GFG<DSA_dd63b4be>",
+            "request": "launch",
+            "mainClass": "java.dp.GFG",
+            "projectName": "DSA_dd63b4be"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-climb_stairs_with_minimum_moves_iter<DSA_dd63b4be>",
+            "request": "launch",
+            "mainClass": "java.dp.climb_stairs_with_minimum_moves_iter",
+            "projectName": "DSA_dd63b4be"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-climb_stairs_with_minimum_moves_mem<DSA_dd63b4be>",
+            "request": "launch",
+            "mainClass": "java.dp.climb_stairs_with_minimum_moves_mem",
+            "projectName": "DSA_dd63b4be"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-climb_stairs_with_minimum_moves_recursion<DSA_dd63b4be>",
+            "request": "launch",
+            "mainClass": "java.dp.climb_stairs_with_minimum_moves_recursion",
+            "projectName": "DSA_dd63b4be"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-coin_change_combination_iter<DSA_dd63b4be>",
+            "request": "launch",
+            "mainClass": "java.dp.coin_change_combination_iter",
+            "projectName": "DSA_dd63b4be"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-coin_change_combination_mem<DSA_dd63b4be>",
+            "request": "launch",
+            "mainClass": "java.dp.coin_change_combination_mem",
+            "projectName": "DSA_dd63b4be"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-goldmin_mem<DSA_dd63b4be>",
+            "request": "launch",
+            "mainClass": "java.dp.goldmin_mem",
+            "projectName": "DSA_dd63b4be"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-min_cost_in_maze_traversal_mem<DSA_dd63b4be>",
+            "request": "launch",
+            "mainClass": "java.dp.min_cost_in_maze_traversal_mem",
+            "projectName": "DSA_dd63b4be"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-min_cost_in_maze_traversal_recursion<DSA_dd63b4be>",
+            "request": "launch",
+            "mainClass": "java.dp.min_cost_in_maze_traversal_recursion",
+            "projectName": "DSA_dd63b4be"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-paint_house_many_colors_mem<DSA_dd63b4be>",
+            "request": "launch",
+            "mainClass": "java.dp.paint_house_many_colors_mem",
+            "projectName": "DSA_dd63b4be"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CountCharacteOccurances<DSA_dd63b4be>",
+            "request": "launch",
+            "mainClass": "java.hashmap.CountCharacteOccurances",
+            "projectName": "DSA_dd63b4be"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-hashmaptest<DSA_dd63b4be>",
+            "request": "launch",
+            "mainClass": "java.hashmap.hashmaptest",
+            "projectName": "DSA_dd63b4be"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-AllIndices<DSA_dd63b4be>",
+            "request": "launch",
+            "mainClass": "java.recursion.AllIndices",
+            "projectName": "DSA_dd63b4be"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FirstIndex<DSA_dd63b4be>",
+            "request": "launch",
+            "mainClass": "java.recursion.FirstIndex",
+            "projectName": "DSA_dd63b4be"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FloodFill<DSA_dd63b4be>",
+            "request": "launch",
+            "mainClass": "java.recursion.FloodFill",
+            "projectName": "DSA_dd63b4be"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-GetKPC<DSA_dd63b4be>",
+            "request": "launch",
+            "mainClass": "java.recursion.GetKPC",
+            "projectName": "DSA_dd63b4be"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-GetMazePaths<DSA_dd63b4be>",
+            "request": "launch",
+            "mainClass": "java.recursion.GetMazePaths",
+            "projectName": "DSA_dd63b4be"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-GetStairPaths<DSA_dd63b4be>",
+            "request": "launch",
+            "mainClass": "java.recursion.GetStairPaths",
+            "projectName": "DSA_dd63b4be"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-GetSubsequence<DSA_dd63b4be>",
+            "request": "launch",
+            "mainClass": "java.recursion.GetSubsequence",
+            "projectName": "DSA_dd63b4be"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LastIndex<DSA_dd63b4be>",
+            "request": "launch",
+            "mainClass": "java.recursion.LastIndex",
+            "projectName": "DSA_dd63b4be"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MaxOfAnArray<DSA_dd63b4be>",
+            "request": "launch",
+            "mainClass": "java.recursion.MaxOfAnArray",
+            "projectName": "DSA_dd63b4be"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-NQueens<DSA_dd63b4be>",
+            "request": "launch",
+            "mainClass": "java.recursion.NQueens",
+            "projectName": "DSA_dd63b4be"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PrintPermutations<DSA_dd63b4be>",
+            "request": "launch",
+            "mainClass": "java.recursion.PrintPermutations",
+            "projectName": "DSA_dd63b4be"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PrintStairPaths<DSA_dd63b4be>",
+            "request": "launch",
+            "mainClass": "java.recursion.PrintStairPaths",
+            "projectName": "DSA_dd63b4be"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TargetSumSubsets<DSA_dd63b4be>",
+            "request": "launch",
+            "mainClass": "java.recursion.TargetSumSubsets",
+            "projectName": "DSA_dd63b4be"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TowerOfHanoi<DSA_dd63b4be>",
+            "request": "launch",
+            "mainClass": "java.recursion.TowerOfHanoi",
+            "projectName": "DSA_dd63b4be"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-getSubsequence<DSA_dd63b4be>",
+            "request": "launch",
+            "mainClass": "java.recursion.getSubsequence",
+            "projectName": "DSA_dd63b4be"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-get_maze_paths_with_jumps<DSA_dd63b4be>",
+            "request": "launch",
+            "mainClass": "java.recursion.get_maze_paths_with_jumps",
+            "projectName": "DSA_dd63b4be"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-print_encodings<DSA_dd63b4be>",
+            "request": "launch",
+            "mainClass": "java.recursion.print_encodings",
+            "projectName": "DSA_dd63b4be"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-print_kpc<DSA_dd63b4be>",
+            "request": "launch",
+            "mainClass": "java.recursion.print_kpc",
+            "projectName": "DSA_dd63b4be"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-print_maze_paths_with_jumps<DSA_dd63b4be>",
+            "request": "launch",
+            "mainClass": "java.recursion.print_maze_paths_with_jumps",
+            "projectName": "DSA_dd63b4be"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-genericTreeDriver<DSA_dd63b4be>",
+            "request": "launch",
+            "mainClass": "java.trees.genericTreeDriver",
+            "projectName": "DSA_dd63b4be"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TrieDriverCust<DSA_dd63b4be>",
+            "request": "launch",
+            "mainClass": "java.trieCust.TrieDriverCust",
+            "projectName": "DSA_dd63b4be"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-test<DSA_dd63b4be>",
+            "request": "launch",
+            "mainClass": "test",
+            "projectName": "DSA_dd63b4be"
+        }
+    ]
+}

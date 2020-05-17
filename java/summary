@@ -12,7 +12,7 @@ total - 45hr
 	1.1. MatrixMultiplication	done
 	1.2. WaveTraversal		done
 	1.3. SpiralDisplay		done
-	1.4. ExitPoint
+	1.4. ExitPoint			
 	1.5. RotateBy90			done
 	1.6. ShellRotate	
 	1.7. Diagonal Traversal		done
@@ -46,42 +46,42 @@ total - 45hr
 
 3. DP (r-recursion, m-memoized, i-iterative) and Greedy
 
-	3.1. Fibonacci-dp
-	3.2. Climb Stairs
-	3.3. Climb Stairs With Variable Jumps
+	3.1. Fibonacci-dp				  m
+	3.2. Climb Stairs				    i
+	3.3. Climb Stairs With Variable Jumps		  m i
 	3.4. Climb Stairs With Minimum Moves		r m i
 	3.5. Min Cost In Maze Traversal			r m 
 	3.6. Goldmine					  m
-	3.7. Target Sum Subsets - Dp
+	3.7. Target Sum Subsets - Dp			r m 
 	3.8. Coin Change Combination			  m i 
-	3.9. Coin Change Permutations
-	3.10. Zero One Knapsack
-	3.11. Unbounded Knapsack
-	3.12. Count Binary Strings
-	3.13. Arrange Buildings
-	3.14. Count Encodings
-	3.15. Count A+b+c+ Subsequences
-	3.16. Maximum Sum Non Adjacent Elements
-	3.17. Paint House
+	3.9. Coin Change Permutations			    i
+	3.10. Zero One Knapsack				r m
+	3.11. Unbounded Knapsack      			  m
+	3.12. Count Binary Strings			    i
+	3.13. Arrange Buildings     			    i
+	3.14. Count Encodings  				  m
+	3.15. Count A+b+c+ Subsequences			r
+	3.16. Maximum Sum Non Adjacent Elements		r
+	3.17. Paint House				  m
 	3.18. Paint House - Many Colors			  m
-	3.19. Paint Fence
-	3.20. Tiling With 2 * 1 Tiles
-	3.21. Tiling With M * 1 Tiles
-	3.22. Friends Pairing
+	3.19. Paint Fence				r m
+	3.20. Tiling With 2 * 1 Tiles			  m
+	3.21. Tiling With M * 1 Tiles			  m
+	3.22. Friends Pairing 				r m
 	3.23. Partition Into Subsets
-	3.24. Buy And Sell Stocks - One Transaction Allowed
-	3.25. Buy And Sell Stocks-infinite Transactions Allowed
-	3.26. Buy And Sell Stocks With Transaction Fee - Infinite Transactions Allowed
-	3.27. Buy And Sell Stocks With Cooldown - Infinite Transaction Allowed
-	3.28. Buy And Sell Stocks - Two Transactions Allowed
-	3.29. Buy And Sell Stocks - K Transactions Allowed
-	3.30. Longest Increasing Subsequence
-	3.31. Maximum Sum Increasing Subsequence
-	3.32. Longest Bitonic Subsequence
+	3.24. BuyAndSellStocks OTA			    i
+	3.25. BuyAndSellStocks ITA			r
+	3.26. BuyAndSellStocksWithTransactionFee ITA	r
+	3.27. BuyAndSellStocksWithCooldown -ITA
+	3.28. BuyAndSellStocks Two TA
+	3.29. BuyAndSellStocks K T
+	3.30. Longest Increasing Subsequence		r m i
+	3.31. Maximum Sum Increasing Subsequence	r
+	3.32. Longest Bitonic Subsequence		r
 	3.33. Maximum Non-overlapping Bridges
-	3.34. Russian Doll Envelopes
-	3.35. Longest Common Subsequence
-	3.36. Longest Palindromic Subsequences
+	3.34. Russian Doll Envelopes			    i
+	3.35. Longest Common Subsequence		r
+	3.36. Longest Palindromic Subsequences		r
 	3.37. Count Palindromic Subsequences
 	3.38. Count Palindromic Substrings
 	3.39. Longest Palindromic Substring
@@ -89,38 +89,38 @@ total - 45hr
 	3.41. PartitionIntoKSubsets
 
 4. Stacks and Queues
-	4.1. NGE
-	4.2. StockSpan
-	4.3. LargestAreaHistgram
-	4.4. SlidingWindowMaximum
-	4.5. SmallestNumberFollowingPattern
-	4.6. CelebrityProblem
-	4.7. MinStack
-	4.8. MinStack_2
-	4.9. TwoStack
+	4.1. NGE				done
+	4.2. StockSpan				done
+	4.3. LargestAreaHistgram		done
+	4.4. SlidingWindowMaximum		done
+	4.5. SmallestNumberFollowingPattern	done
+	4.6. CelebrityProblem			done
+	4.7. MinStack				done
+	4.8. MinStack_2				Todo
+	4.9. TwoStack				done
 	4.10. Kstack
 	4.11. MergeOverlappingInterval
 	4.12. PetrolPumpProblem
 
 5. LinkedList
-	5.1. ReverseDataIterative
+	5.1. ReverseDataIterative		done
 	5.2. ReverseDataRecursive
-	5.3. ReversePointerIterative
+	5.3. ReversePointerIterative		done
 	5.4. ReversePointerRecursive
 	5.5. KReverseMulti
-	5.6. MidPoint
-	5.7. KthFromLast
-	5.8. MergeTwoSortedLL
-	5.9. RemoveDuplicatesInSortedLL
-	5.10. OddEvenLL
-	5.11. IsPalindrome
+	5.6. MidPoint				done
+	5.7. KthFromLast			done
+	5.8. MergeTwoSortedLL			done
+	5.9. RemoveDuplicatesInSortedLL		done
+	5.10. OddEvenLL				done
+	5.11. IsPalindrome	
 	5.12. Fold
 	5.13. Unfold
 	5.14. AddTwoLL
 	5.15. IntersectionPoint
 	5.17. CloneLLWithRandomPointer
 	5.18. FloydCycle
-	5.19. GetAddRemove
+	5.19. GetAddRemove			done
 
 6. GenericTrees
 	6.1. SizeSumMaxHeight
