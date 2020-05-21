@@ -1,4 +1,4 @@
-package java.trees;
+package trees;
 
 public class binaryTree {
     

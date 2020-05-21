@@ -14,7 +14,7 @@ total - 45hr
 	1.3. SpiralDisplay		done
 	1.4. ExitPoint			
 	1.5. RotateBy90			done
-	1.6. ShellRotate	
+	1.6. ShellRotate					Todo
 	1.7. Diagonal Traversal		done
 	1.8. SaddlePoint 		done
  	1.9. SearchIn2dArray		done
@@ -39,7 +39,7 @@ total - 45hr
 	2.18. Floodfill			done	
 	2.19. TargetSum Subsets		done
 	2.20. NQueens			done
-	2.21. KnightsTour
+	2.21. KnightsTour					Todo
 	2.22. Sudoku
 	2.23. MagnatePuzzle
 	
@@ -68,23 +68,23 @@ total - 45hr
 	3.20. Tiling With 2 * 1 Tiles			  m
 	3.21. Tiling With M * 1 Tiles			  m
 	3.22. Friends Pairing 				r m
-	3.23. Partition Into Subsets
+	3.23. Partition Into Subsets				Todo
 	3.24. BuyAndSellStocks OTA			    i
 	3.25. BuyAndSellStocks ITA			r
 	3.26. BuyAndSellStocksWithTransactionFee ITA	r
-	3.27. BuyAndSellStocksWithCooldown -ITA
-	3.28. BuyAndSellStocks Two TA
-	3.29. BuyAndSellStocks K T
+	3.27. BuyAndSellStocksWithCooldown -ITA			Todo
+	3.28. BuyAndSellStocks Two TA				Todo
+	3.29. BuyAndSellStocks K T				Todo
 	3.30. Longest Increasing Subsequence		r m i
 	3.31. Maximum Sum Increasing Subsequence	r
 	3.32. Longest Bitonic Subsequence		r
-	3.33. Maximum Non-overlapping Bridges
+	3.33. Maximum Non-overlapping Bridges			Todo
 	3.34. Russian Doll Envelopes			    i
 	3.35. Longest Common Subsequence		r
 	3.36. Longest Palindromic Subsequences		r
-	3.37. Count Palindromic Subsequences
-	3.38. Count Palindromic Substrings
-	3.39. Longest Palindromic Substring
+	3.37. Count Palindromic Subsequences			Todo
+	3.38. Count Palindromic Substrings			Todo
+	3.39. Longest Palindromic Substring			Todo
 	3.40. CrosswordPuzzleProblem
 	3.41. PartitionIntoKSubsets
 
@@ -96,7 +96,7 @@ total - 45hr
 	4.5. SmallestNumberFollowingPattern	done
 	4.6. CelebrityProblem			done
 	4.7. MinStack				done
-	4.8. MinStack_2				Todo
+	4.8. MinStack_2					Todo
 	4.9. TwoStack				done
 	4.10. Kstack
 	4.11. MergeOverlappingInterval
@@ -104,49 +104,49 @@ total - 45hr
 
 5. LinkedList
 	5.1. ReverseDataIterative		done
-	5.2. ReverseDataRecursive
+	5.2. ReverseDataRecursive		done
 	5.3. ReversePointerIterative		done
-	5.4. ReversePointerRecursive
-	5.5. KReverseMulti
+	5.4. ReversePointerRecursive		done
+	5.5. KReverseMulti				Todo
 	5.6. MidPoint				done
 	5.7. KthFromLast			done
 	5.8. MergeTwoSortedLL			done
 	5.9. RemoveDuplicatesInSortedLL		done
 	5.10. OddEvenLL				done
-	5.11. IsPalindrome	
-	5.12. Fold
-	5.13. Unfold
-	5.14. AddTwoLL
-	5.15. IntersectionPoint
+	5.11. IsPalindrome			done
+	5.12. Fold					Todo
+	5.13. Unfold					
+	5.14. AddTwoLL					Todo
+	5.15. IntersectionPoint			done
 	5.17. CloneLLWithRandomPointer
 	5.18. FloydCycle
 	5.19. GetAddRemove			done
 
 6. GenericTrees
-	6.1. SizeSumMaxHeight
+	6.1. SizeSumMaxHeight			Done
 	6.2. Traversals(pre-post-level--iterative-recursive)
-	6.3. RemoveLeaves
-	6.4. Linearize
-	6.5. Find
-	6.6. NodeToRootPath
-	6.7. LCA
-	6.8. DistanceBetweenTwoNodes
-	6.9. PredecessorAndSuccessor
-	6.10. CeilAndFloor
-	6.11. KthLargestElement
-	6.12. NodeWithMaxSum
-	6.13. Diameter
+	6.3. RemoveLeaves			Done
+	6.4. Linearize				Done
+	6.5. Find				Done
+	6.6. NodeToRootPath			Done
+	6.7. LCA				done
+	6.8. DistanceBetweenTwoNodes		done
+	6.9. PredecessorAndSuccessor		done
+	6.10. CeilAndFloor			done
+	6.11. KthLargestElement				Todo
+	6.12. NodeWithMaxSum			done
+	6.13. Diameter					Todo
 
 7. BinaryTree 
-	7.1. SizeSumMaxHeight
-	7.2. Traversals(pre-post-in-level--iterative-recursive)
+	7.1. SizeSumMaxHeight						
+	7.2. Traversals(pre-post-in-level--iterative-recursive)	Todo Todo
 	7.3. NodeToRootPath
 	7.4. PrintKLevelsDown
-	7.5. PathToLeafFromRootInRange
+	7.5. PathToLeafFromRootInRange				Todo
 	7.6. TransFormToLeftCloneTreeAndReverse
-	7.7. PrintSingleChildNodes
-	7.8. RemoveLeaves
-	7.9. PrintNodesAtKDitstance
+	7.7. PrintSingleChildNodes				Todo
+	7.8. RemoveLeaves					Todo
+	7.9. PrintNodesAtKDitstance				Todo
 	7.10. IsBalanced
 	7.11. IsBST
 	7.12. TreeFromInPre

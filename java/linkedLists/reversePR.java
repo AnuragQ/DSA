@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class MergeTwoSortedLL {
+public class reversePR {
   public static class Node {
     int data;
     Node next;
@@ -37,29 +37,37 @@ public class MergeTwoSortedLL {
       System.out.println();
     }
 
-    public static LinkedList mergeTwoSortedLists(LinkedList l1, LinkedList l2) {
-   
-       LinkedList l=new LinkedList();
-       Node temp1=l1.head;
-       Node temp2=l2.head;
-       while(temp1!=null && temp2!=null){
-           if(temp1.data<temp2.data){
-               l.addLast(temp1.data);
-               temp1=temp1.next;
-           }else{
-               l.addLast(temp2.data);
-               temp2=temp2.next;
-           }
-       }
-       while(temp1!=null){
-           l.addLast(temp1.data);
-           temp1=temp1.next;
-       }
-       while(temp2!=null){
-           l.addLast(temp2.data);
-           temp2=temp2.next;
-       }
-       return l;
+    
+
+
+    public void addFirst(int val) {
+      Node temp = new Node();
+      temp.data = val;
+      temp.next = head;
+      head = temp;
+
+      if (size == 0) {
+        tail = temp;
+      }
+
+      size++;
+    }
+    private void reversePRHelper(Node node){
+      // write your code here
+      if(node==tail){
+          return;
+      }
+      reversePRHelper(node.next);
+      node.next.next=node;
+    }
+
+    public void reversePR(){
+      // write your code here
+      reversePRHelper(head);
+      Node temp=this.head;
+      this.head=tail;
+      temp.next=null;
+      this.tail=temp;
     }
   }
 
@@ -74,17 +82,13 @@ public class MergeTwoSortedLL {
       l1.addLast(d);
     }
 
-    int n2 = Integer.parseInt(br.readLine());
-    LinkedList l2 = new LinkedList();
-    String[] values2 = br.readLine().split(" ");
-    for (int i = 0; i < n2; i++) {
-      int d = Integer.parseInt(values2[i]);
-      l2.addLast(d);
-    }
+    int a = Integer.parseInt(br.readLine());
+    int b = Integer.parseInt(br.readLine());
 
-    LinkedList merged = LinkedList.mergeTwoSortedLists(l1, l2);
-    merged.display();
     l1.display();
-    l2.display();
+    l1.reversePR();
+    l1.addLast(a);
+    l1.addFirst(b);
+    l1.display();
   }
 }

@@ -1,4 +1,4 @@
-package java.hashmap;
+package hashmap;
 
 import java.util.LinkedList;
 
@@ -15,7 +15,6 @@ public class HashMap<K, V> {
 		
 		@Override
 		public String toString() {
-			// TODO Auto-generated method stub
 			return "[" + key + "," + value + "]";
 		}
 	}
