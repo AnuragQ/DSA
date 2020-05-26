@@ -1,9 +1,11 @@
 priority
-1. current count - 165
+1. current count - 193 
+	done - 98
 2. interview prep - ~600
 3. leetcode - medium - 740  
 4. gfg,codechef
 5. leetcode (easy - 407h,hard - 303)
+
 
 daily 5hr
 weekend 10hr	
@@ -68,7 +70,7 @@ total - 45hr
 	3.20. Tiling With 2 * 1 Tiles			  m
 	3.21. Tiling With M * 1 Tiles			  m
 	3.22. Friends Pairing 				r m
-	3.23. Partition Into Subsets				Todo
+	3.23. Partition Into Subsets			r
 	3.24. BuyAndSellStocks OTA			    i
 	3.25. BuyAndSellStocks ITA			r
 	3.26. BuyAndSellStocksWithTransactionFee ITA	r
@@ -86,7 +88,7 @@ total - 45hr
 	3.38. Count Palindromic Substrings			Todo
 	3.39. Longest Palindromic Substring			Todo
 	3.40. CrosswordPuzzleProblem
-	3.41. PartitionIntoKSubsets
+
 
 4. Stacks and Queues
 	4.1. NGE				done
@@ -124,7 +126,7 @@ total - 45hr
 
 6. GenericTrees
 	6.1. SizeSumMaxHeight			Done
-	6.2. Traversals(pre-post-level--iterative-recursive)
+	6.2. Traversals(pre-post-level--iterative-recursive) Todo
 	6.3. RemoveLeaves			Done
 	6.4. Linearize				Done
 	6.5. Find				Done
@@ -133,20 +135,20 @@ total - 45hr
 	6.8. DistanceBetweenTwoNodes		done
 	6.9. PredecessorAndSuccessor		done
 	6.10. CeilAndFloor			done
-	6.11. KthLargestElement				Todo
+	6.11. KthLargestElement			done
 	6.12. NodeWithMaxSum			done
-	6.13. Diameter					Todo
+	6.13. Diameter				done
 
 7. BinaryTree 
 	7.1. SizeSumMaxHeight						
-	7.2. Traversals(pre-post-in-level--iterative-recursive)	Todo Todo
+	7.2. Traversals(pre-post-in-level--iterative-recursive)	done
 	7.3. NodeToRootPath
-	7.4. PrintKLevelsDown
-	7.5. PathToLeafFromRootInRange				Todo
+	7.4. PrintKLevelsDown				done
+	7.5. PathToLeafFromRootInRange			Done
 	7.6. TransFormToLeftCloneTreeAndReverse
-	7.7. PrintSingleChildNodes				Todo
-	7.8. RemoveLeaves					Todo
-	7.9. PrintNodesAtKDitstance				Todo
+	7.7. PrintSingleChildNodes			Done
+	7.8. RemoveLeaves				Done
+	7.9. PrintNodesAtKDitstance			done
 	7.10. IsBalanced
 	7.11. IsBST
 	7.12. TreeFromInPre
@@ -170,9 +172,9 @@ total - 45hr
 	7.30. BoundaryTraversal
 	7.31. VerticalSum
 	7.32. TreeToLL
-	7.33. LLtoTree
+	7.33. LLtoTree					ASK
 	7.34. TreeToCLL
-	7.35. CLLtoTree
+	7.35. CLLtoTree					ASK
 	7.36. TiltBT
 	7.37. CloneWithRandomPointer
 .
@@ -193,11 +195,39 @@ total - 45hr
 	9.5. LongestConsecutiveSequence
 
 10. Heap
+	10.1. Heap(implementation)
+	10.2. KSmallestElement
+	10.3. SortKsortedArray
+	10.4. MergeKsortedLists
+	10.5. Huffman Encoding
+	10.6. MedianPriorityQueue
+	10.7. Sort2Arrays
+	10.8. HeapSort	
 
 11. Trie
+	11.1. Trie creation
 
 12. Graphs
-
+	12.1. Implementation
+	12.2. HasPath
+	12.3. PrintAllPaths
+	12.4. ShortestPath
+	12.5. LongestPath
+	12.6. Ceil
+	12.7. Floor
+	12.8. BFSandDFS
+	12.9. LevelOrder
+	12.10. GetConnectedComponents
+	12.11. IsConnected
+	12.12. IsAcyclic
+	12.13. IsBipartite
+	12.14. CountIslands
+	12.15. Djikstra
+	12.16. Prims
+	12.17. KnightsTour
+	12.18. Astronauts
+	12.19. Diameter
+	12.20. HamiltonianCnP
 13. Math
 
 14. Strings
