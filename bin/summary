@@ -1,9 +1,11 @@
 priority
-1. current count - 165
+1. current count - 193 
+	done - 98
 2. interview prep - ~600
 3. leetcode - medium - 740  
 4. gfg,codechef
 5. leetcode (easy - 407h,hard - 303)
+
 
 daily 5hr
 weekend 10hr	
@@ -124,7 +126,7 @@ total - 45hr
 
 6. GenericTrees
 	6.1. SizeSumMaxHeight			Done
-	6.2. Traversals(pre-post-level--iterative-recursive)
+	6.2. Traversals(pre-post-level--iterative-recursive) Todo
 	6.3. RemoveLeaves			Done
 	6.4. Linearize				Done
 	6.5. Find				Done
@@ -139,15 +141,15 @@ total - 45hr
 
 7. BinaryTree 
 	7.1. SizeSumMaxHeight						
-	7.2. Traversals(pre-post-in-level--iterative-recursive)	Todo Todo
+	7.2. Traversals(pre-post-in-level--iterative-recursive)	done
 	7.3. NodeToRootPath
-	7.4. PrintKLevelsDown
+	7.4. PrintKLevelsDown				done
 	7.5. PathToLeafFromRootInRange			Done
 	7.6. TransFormToLeftCloneTreeAndReverse
 	7.7. PrintSingleChildNodes			Done
 	7.8. RemoveLeaves				Done
 	7.9. PrintNodesAtKDitstance			done
-	7.10. IsBalanced
+	7.10. IsBalanced				done
 	7.11. IsBST
 	7.12. TreeFromInPre
 	7.13. TreeFromInPost
@@ -170,9 +172,9 @@ total - 45hr
 	7.30. BoundaryTraversal
 	7.31. VerticalSum
 	7.32. TreeToLL
-	7.33. LLtoTree
+	7.33. LLtoTree					ASK
 	7.34. TreeToCLL
-	7.35. CLLtoTree
+	7.35. CLLtoTree					ASK
 	7.36. TiltBT
 	7.37. CloneWithRandomPointer
 .
@@ -206,7 +208,26 @@ total - 45hr
 	11.1. Trie creation
 
 12. Graphs
-
+	12.1. Implementation
+	12.2. HasPath
+	12.3. PrintAllPaths
+	12.4. ShortestPath
+	12.5. LongestPath
+	12.6. Ceil
+	12.7. Floor
+	12.8. BFSandDFS
+	12.9. LevelOrder
+	12.10. GetConnectedComponents
+	12.11. IsConnected
+	12.12. IsAcyclic
+	12.13. IsBipartite
+	12.14. CountIslands
+	12.15. Djikstra
+	12.16. Prims
+	12.17. KnightsTour
+	12.18. Astronauts
+	12.19. Diameter
+	12.20. HamiltonianCnP
 13. Math
 
 14. Strings
