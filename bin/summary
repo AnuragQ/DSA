@@ -150,27 +150,27 @@ total - 45hr
 	7.8. RemoveLeaves				Done
 	7.9. PrintNodesAtKDitstance			done
 	7.10. IsBalanced				done
-	7.11. IsBST
+	7.11. IsBST					done
 	7.12. TreeFromInPre
 	7.13. TreeFromInPost
 	7.14. TreeFromPrePost(condition - tree is full BT)
 	7.15. TreeFromInLevel
 	7.16. MultiSolver
 	7.17. LCA
-	7.18. Diameter(normal + efficient) 
-	7.19. LargestBst
+	7.18. Diameter(normal + efficient) 		normal-done efficient-todo
+	7.19. LargestBst				done
 	7.20. RootToLeafPathTargetSum
 	7.21. MaxSumN2L
 	7.22. MaxSumL2L
 	7.23. MaxSumN2N
 	7.24. TreeFromParentArray
 	7.25. TreeFromPerfectArray(CompleteBinaryTreeFromGivenLevelOrder)
-	7.26. TopView
-	7.27. BottomView
-	7.28. LeftView
-	7.29. RightView
+	7.26. TopView					done
+	7.27. BottomView				done
+	7.28. LeftView					done
+	7.29. RightView					done
 	7.30. BoundaryTraversal
-	7.31. VerticalSum
+	7.31. VerticalSum				done
 	7.32. TreeToLL
 	7.33. LLtoTree					ASK
 	7.34. TreeToCLL
