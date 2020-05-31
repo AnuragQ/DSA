@@ -1,4 +1,5 @@
 import java.util.ArrayDeque;
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Map;
 import java.util.PriorityQueue;
@@ -30,16 +31,21 @@ public class test {
         System.out.println(a);
     }
     System.out.println(hm.get(1));
-    PriorityQueue<Integer> pq=new PriorityQueue<>((x,y)->y-x);
-    pq.add(11);
-    pq.add(20);
-    pq.poll();
-    if(pq.peek()==0){
-        System.out.println("hi");
-    }
-    System.out.println(pq.peek());
+
+    ArrayList<Integer> ar= new ArrayList<>();
+    ar.add(1);
+    ar.remove(1);
     
-    System.out.println(pq.size());
+    // PriorityQueue<Integer> pq=new PriorityQueue<>((x,y)->y-x);
+    // pq.add(11);
+    // pq.add(20);
+    // pq.poll();
+    // if(pq.peek()==0){
+    //     System.out.println("hi");
+    // }
+    // System.out.println(pq.peek());
+    
+    // System.out.println(pq.size());
     }
     
     

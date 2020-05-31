@@ -151,15 +151,15 @@ total - 45hr
 	7.9. PrintNodesAtKDitstance			done
 	7.10. IsBalanced				done
 	7.11. IsBST					done
-	7.12. TreeFromInPre
-	7.13. TreeFromInPost
+	7.12. TreeFromInPre				done
+	7.13. TreeFromInPost				done
 	7.14. TreeFromPrePost(condition - tree is full BT)
 	7.15. TreeFromInLevel
 	7.16. MultiSolver
 	7.17. LCA
 	7.18. Diameter(normal + efficient) 		normal-done efficient-todo
 	7.19. LargestBst				done
-	7.20. RootToLeafPathTargetSum
+	7.20. RootToLeafPathTargetSum			done	
 	7.21. MaxSumN2L
 	7.22. MaxSumL2L
 	7.23. MaxSumN2N
@@ -197,7 +197,7 @@ total - 45hr
 10. Heap
 	10.1. Heap(implementation)
 	10.2. KSmallestElement
-	10.3. SortKsortedArray
+	10.3. SortKsortedLL      			done
 	10.4. MergeKsortedLists
 	10.5. Huffman Encoding
 	10.6. MedianPriorityQueue
