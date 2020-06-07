@@ -1,3 +1,5 @@
+package java.arrays;
+
 import java.util.*;
 
 public class MatrixMultiplication {

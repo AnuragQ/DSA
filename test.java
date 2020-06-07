@@ -1,41 +1,65 @@
 import java.util.ArrayDeque;
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.Map;
-import java.util.PriorityQueue;
-import java.util.Stack;
 import java.util.TreeMap;
+import java.util.TreeSet;
+
 
 // import hashmap.HashMap;
 
 public class test {
+    
+    
+    
     public static void main(String[] args) {
     LinkedList<Integer> li=new LinkedList<>();
-    Stack<Integer>st=new Stack<>();
     // st.peek();
     li.add(10);
     ArrayDeque<Integer> q= new ArrayDeque<>();
     q.add(10);
     q.add(20);
     q.add(30);
-    int[] x = new int[2];
-    String[] arr=new String[2];
     // ArrayList<String> st
     System.out.println(q+" ");
     q.remove();
     System.out.println(q+" ");
     TreeMap<Integer,Character> hm=new TreeMap<Integer,Character>();
     hm.put(1, 'a');
-    // hm.
+    // hm.getO
+    for(Map.Entry<Integer,Character> entry:hm.entrySet()){
+        System.out.print(entry.getKey());
+    }
     for(char a:hm.values()){
         System.out.println(a);
     }
     System.out.println(hm.get(1));
-
+    HashSet<Integer> hs=new HashSet<>();
+    hs.add(1);
+    hs.contains(1);
     ArrayList<Integer> ar= new ArrayList<>();
     ar.add(1);
-    ar.remove(1);
-    
+    // ar.remove(1);
+    for(int i=0;i<10;i+=2){
+        System.out.println(i);
+    }
+    TreeSet<Integer> ts=new TreeSet<>();
+    ts.add(4);
+    ts.add(7);
+    ts.add(43);
+    ts.add(9);
+    ts.add(8);
+    ts.add(1);
+    ts.add(-6);
+    System.out.println(ts);
+    int[] arrnew = {9,2,3};
+    Arrays.sort(arrnew);
+    for (int i:arrnew){
+        System.out.println(i);
+    }
+    System.out.print(-2);
     // PriorityQueue<Integer> pq=new PriorityQueue<>((x,y)->y-x);
     // pq.add(11);
     // pq.add(20);

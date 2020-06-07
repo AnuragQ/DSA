@@ -1,3 +1,5 @@
+package java.arrays;
+
 // 1. You are given a number n, representing the number of rows and columns of a square matrix.
 // 2. You are given n * n numbers, representing elements of 2d array a.
 // 3. You are required to find the saddle point of the matrix which is defined as the value which is smallest in it's row but largest in it's column.

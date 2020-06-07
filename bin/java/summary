@@ -1,5 +1,5 @@
 priority
-1. current count - 193 
+1. current count - 221 
 	done - 98
 2. interview prep - ~600
 3. leetcode - medium - 740  
@@ -10,17 +10,48 @@ priority
 daily 5hr
 weekend 10hr	
 total - 45hr 
-1. 2d-array
-	1.1. MatrixMultiplication	done
-	1.2. WaveTraversal		done
-	1.3. SpiralDisplay		done
-	1.4. ExitPoint			
-	1.5. RotateBy90			done
-	1.6. ShellRotate					Todo
-	1.7. Diagonal Traversal		done
-	1.8. SaddlePoint 		done
- 	1.9. SearchIn2dArray		done
-
+1. array
+	1.1. MatrixMultiplication		done
+	1.2. WaveTraversal			done
+	1.3. SpiralDisplay			done
+	1.4. ExitPoint				
+	1.5. RotateBy90				done
+	1.6. ShellRotate						Todo
+	1.7. Diagonal Traversal			done
+	1.8. SaddlePoint 			done
+ 	1.9. SearchIn2dArray			done
+	1.10. SubArrayTargetSum			done	https://www.geeksforgeeks.org/find-subarray-with-given-sum/
+	1.11. EquilibriumIndex				https://www.geeksforgeeks.org/equilibrium-index-of-an-array/
+	1.12. ConvertZigZag				https://www.geeksforgeeks.org/convert-array-into-zig-zag-fashion/
+	1.13. PairTargetDifference			https://www.geeksforgeeks.org/find-a-pair-with-the-given-difference/
+	1.14. ChocolateDistribution			https://www.geeksforgeeks.org/chocolate-distribution-problem/
+	1.15. MaxPlatforms				https://www.geeksforgeeks.org/minimum-number-platforms-required-railwaybus-station/
+	1.16. KSmallestSumPair				https://www.geeksforgeeks.org/find-k-pairs-smallest-sums-two-arrays/
+	1.17. SearchInSortedPivoted			https://www.geeksforgeeks.org/search-an-element-in-a-sorted-and-pivoted-array/
+	1.18. PairInSortedPivoted			https://www.geeksforgeeks.org/given-a-sorted-and-rotated-array-find-if-there-is-a-pair-with-a-given-sum/
+	1.19. RearrangePositiveAndNegative		https://www.geeksforgeeks.org/rearrange-positive-and-negative-numbers-publish/
+	1.20. LargestSubArrayWithEqual01		https://www.geeksforgeeks.org/largest-subarray-with-equal-number-of-0s-and-1s/
+	1.21. Segregate01				https://www.geeksforgeeks.org/segregate-0s-and-1s-in-an-array-by-traversing-array-once/
+	1.22. Sort012					https://www.geeksforgeeks.org/sort-an-array-of-0s-1s-and-2s/	 https://leetcode.com/problems/sort-colors/
+	1.23. MoveZerosToEnd				https://www.geeksforgeeks.org/move-zeroes-end-array-set-2-using-single-traversal/
+	1.24. LargestSumContiguousSubArray		https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/
+	1.25. KConcatenation				https://www.codechef.com/problems/KCON  https://leetcode.com/problems/k-concatenation-maximum-sum/
+	1.26. MaxContiguousCircularSum			https://www.geeksforgeeks.org/maximum-contiguous-circular-sum/
+	1.27. ReorderArrayUsingGivenIndeces		https://www.geeksforgeeks.org/reorder-a-array-according-to-given-indexes/ 
+	1.28. MinMergesToMakePalindrome			https://www.geeksforgeeks.org/find-minimum-number-of-merge-operations-to-make-an-array-palindrome/
+	1.29. MaxProductSubarray			https://www.geeksforgeeks.org/maximum-product-subarray/ https://leetcode.com/problems/maximum-product-subarray/
+	1.30. MaxDiffElementsLargerAfter		https://www.geeksforgeeks.org/maximum-difference-between-two-elements/
+	1.31. MinswapsKelements				https://www.geeksforgeeks.org/minimum-swaps-required-bring-elements-less-equal-k-together/
+	1.32. SmallestPositiveSubsetSum			https://www.geeksforgeeks.org/find-smallest-value-represented-sum-subset-given-array/
+	1.33. GenerateSortedArrayAlternateElms		https://www.geeksforgeeks.org/generate-all-possible-sorted-arrays-from-alternate-elements-of-two-given-arrays/
+	1.34. MaxLengthBitonicSubarray			https://www.geeksforgeeks.org/maximum-length-bitonic-subarray/ 	https://www.geeksforgeeks.org/maximum-length-bitonic-subarray-set-2-time-o1-space/
+	1.35. LargestArraySumDivisibleByK		https://www.geeksforgeeks.org/longest-subarray-sum-divisible-k/ https://leetcode.com/problems/subarray-sums-divisible-by-k/
+	1.36. NextPermutation				https://leetcode.com/problems/next-permutation/
+	1.37. MergeOverlappingInterval			https://www.geeksforgeeks.org/merging-intervals/ https://leetcode.com/problems/merge-intervals/
+	1.38. ThreeWayPartition				https://www.geeksforgeeks.org/three-way-partitioning-of-an-array-around-a-given-range/
+	1.39. MinimizeMaxDistBetweenHeights		www.geeksforgeeks.org/minimize-the-maximum-difference-between-the-heights/ www.interviewbit.com/problems/minimise-the-maximum-difference-between-the-heights/
+	1.40. LargestSumSubArrayKnumbers		https://www.geeksforgeeks.org/largest-sum-subarray-least-k-numbers/  https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/
+	1.41. MaxSum#OverlappingSubArrays		https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/
 2. Recursion
 	2.1. TowerOfHanoi		done
 	2.2. MaxOfArray			done
@@ -160,9 +191,9 @@ total - 45hr
 	7.18. Diameter(normal + efficient) 		normal-done efficient-todo
 	7.19. LargestBst				done
 	7.20. RootToLeafPathTargetSum			done	
-	7.21. MaxSumN2L
-	7.22. MaxSumL2L
-	7.23. MaxSumN2N
+	7.21. MaxSumN2L	
+	7.22. MaxSumL2L					done
+	7.23. MaxSumN2N					done
 	7.24. TreeFromParentArray
 	7.25. TreeFromPerfectArray(CompleteBinaryTreeFromGivenLevelOrder)
 	7.26. TopView					done
@@ -177,7 +208,7 @@ total - 45hr
 	7.35. CLLtoTree					ASK
 	7.36. TiltBT
 	7.37. CloneWithRandomPointer
-.
+
 
 8. BinarySearchTree and AVL
 	8.1. GetAddRemove
@@ -197,13 +228,14 @@ total - 45hr
 10. Heap
 	10.1. Heap(implementation)
 	10.2. KSmallestElement
-	10.3. SortKsortedLL      			done
-	10.4. MergeKsortedLists
+	10.3. SortKsortedArray      			
+	10.4. MergeKsortedLinkedLists			done
 	10.5. Huffman Encoding
 	10.6. MedianPriorityQueue
 	10.7. Sort2Arrays
 	10.8. HeapSort	
-
+	10.9. MergeKSortedArrays			
+	
 11. Trie
 	11.1. Trie creation
 
