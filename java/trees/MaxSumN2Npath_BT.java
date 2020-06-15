@@ -1,4 +1,4 @@
-package trees;
+package java.trees;
 
 public class MaxSumN2Npath_BT {
     public class TreeNode {

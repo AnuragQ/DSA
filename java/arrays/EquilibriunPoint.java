@@ -1,6 +1,7 @@
-package java.arrays;
+package arrays;
 
 class EquilibriunPoint {
+    
     public int pivotIndex(int[] nums) {
         int[] rightsum= new int[nums.length];
         

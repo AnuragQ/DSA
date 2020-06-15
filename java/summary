@@ -1,5 +1,5 @@
 priority
-1. current count - 221 
+1. current count - 298 
 	done - 98
 2. interview prep - ~600
 3. leetcode - medium - 740  
@@ -51,7 +51,10 @@ total - 45hr
 	1.38. ThreeWayPartition				https://www.geeksforgeeks.org/three-way-partitioning-of-an-array-around-a-given-range/
 	1.39. MinimizeMaxDistBetweenHeights		www.geeksforgeeks.org/minimize-the-maximum-difference-between-the-heights/ www.interviewbit.com/problems/minimise-the-maximum-difference-between-the-heights/
 	1.40. LargestSumSubArrayKnumbers		https://www.geeksforgeeks.org/largest-sum-subarray-least-k-numbers/  https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/
-	1.41. MaxSum#OverlappingSubArrays		https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/
+	1.41. MaxSum3OverlappingSubArrays		https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/
+
+
+
 2. Recursion
 	2.1. TowerOfHanoi		done
 	2.2. MaxOfArray			done
@@ -75,7 +78,15 @@ total - 45hr
 	2.21. KnightsTour					Todo
 	2.22. Sudoku
 	2.23. MagnatePuzzle
-	
+	2.24. RatMaze2Direction					https://www.geeksforgeeks.org/rat-in-a-maze-backtracking-2/			
+	2.25. RatMazeAllDirection				https://www.geeksforgeeks.org/rat-in-a-maze-problem-when-movement-in-all-possible-directions-is-allowed
+	2.26. WordBreakProblem					https://www.geeksforgeeks.org/word-break-problem-using-backtracking/
+	2.27. CombinationalSum					https://www.geeksforgeeks.org/combinational-sum/
+	2.28. KSubSetEqualSum					https://www.geeksforgeeks.org/partition-set-k-subsets-equal-sum/
+	2.29. MatchPatternWithoutRegex				https://www.geeksforgeeks.org/match-a-pattern-and-string-without-using-regular-expressions/
+	2.30. LongestRouteHurdleMatrix				https://www.geeksforgeeks.org/longest-possible-route-in-a-matrix-with-hurdles/
+	2.31. Cryptarithmatic					https://www.geeksforgeeks.org/solving-cryptarithmetic-puzzles-backtracking-8/
+	2.32. 
 
 3. DP (r-recursion, m-memoized, i-iterative) and Greedy
 
@@ -143,17 +154,41 @@ total - 45hr
 	5.5. KReverseMulti				Todo
 	5.6. MidPoint				done
 	5.7. KthFromLast			done
-	5.8. MergeTwoSortedLL			done
+	5.8. MergeTwoSortedLL			done		https://www.geeksforgeeks.org/merge-two-sorted-lists-place/
 	5.9. RemoveDuplicatesInSortedLL		done
-	5.10. OddEvenLL				done
+	5.10. OddEvenLL				done		https://www.geeksforgeeks.org/segregate-even-and-odd-elements-in-a-linked-list/
 	5.11. IsPalindrome			done
-	5.12. Fold					Todo
+	5.12. Fold					Todo	https://www.geeksforgeeks.org/rearrange-a-given-linked-list-in-place/
 	5.13. Unfold					
-	5.14. AddTwoLL					Todo
-	5.15. IntersectionPoint			done
-	5.17. CloneLLWithRandomPointer
+	5.14. AddTwoLL					Todo	https://www.geeksforgeeks.org/add-two-numbers-represented-by-linked-lists/
+	5.15. IntersectionPoint			done		https://leetcode.com/problems/intersection-of-two-linked-lists/ 
+	5.17. CloneLLWithRandomPointer				https://www.geeksforgeeks.org/a-linked-list-with-next-and-arbit-pointer/
 	5.18. FloydCycle
 	5.19. GetAddRemove			done
+	5.20. DeleteNodeOnlyNodeReference			https://www.geeksforgeeks.org/in-a-linked-list-given-only-a-pointer-to-a-node-to-be-deleted-in-a-singly-linked-list-how-do-you-delete-it/
+	5.21. NthNodeFromEnd					https://www.geeksforgeeks.org/nth-node-from-the-end-of-a-linked-list/
+	5.22. RemoveDuplicatesUnsortedLL			https://www.geeksforgeeks.org/remove-duplicates-from-an-unsorted-linked-list/
+	5.23. DeleteGreaterNodesOnRight				https://www.geeksforgeeks.org/delete-nodes-which-have-a-greater-value-on-right-side/ https://www.geeksforgeeks.org/delete-nodes-which-have-a-greater-value-on-right-side-using-recursion/
+	5.24. ThreeLinkedListTripletSum				https://www.geeksforgeeks.org/find-a-triplet-from-three-linked-lists-with-sum-equal-to-a-given-number/
+	5.25. FlattenMultilevel					https://www.geeksforgeeks.org/flatten-a-linked-list-with-next-and-child-pointers/ https://www.geeksforgeeks.org/flatten-a-multi-level-linked-list-set-2-depth-wise/
+	5.26. FlattenLLSorted					https://www.geeksforgeeks.org/flattening-a-linked-list/		
+	5.27. PointToNextLarger					https://www.geeksforgeeks.org/point-to-next-higher-value-node-in-a-linked-list-with-an-arbitrary-pointer/
+	5.28. PointToNextLarderRightSide			https://www.geeksforgeeks.org/point-arbit-pointer-greatest-value-right-side-node-linked-list/
+	5.29. Zigzag						https://www.geeksforgeeks.org/linked-list-in-zig-zag-fashion/
+	5.30. SortAbsoluteSortesLL				https://www.geeksforgeeks.org/sort-linked-list-already-sorted-absolute-values/
+	5.31. SubtractNumberRepresentedByLL			https://www.geeksforgeeks.org/subtract-two-numbers-represented-as-linked-lists/
+	5.32. PairSumSortedLL					https://www.geeksforgeeks.org/find-pair-given-sum-sorted-singly-linked-without-extra-space/
+	5.33. MultiplyTwoLL					https://www.geeksforgeeks.org/multiply-two-numbers-represented-linked-lists/
+	5.34. RotateLLBlockwise					https://www.geeksforgeeks.org/rotate-linked-list-block-wise/
+	5.35. JosephusCircleCLL		o(n) complexity tbd			https://www.geeksforgeeks.org/josephus-circle-using-circular-linked-list/
+	5.36. CountedTripletsTargetSumSortedDLL			https://www.geeksforgeeks.org/count-triplets-sorted-doubly-linked-list-whose-sum-equal-given-value-x/
+	5.37. SortBitonicDLL					https://www.geeksforgeeks.org/sort-biotonic-doubly-linked-list/
+	5.38. SortKSortedDLL					https://www.geeksforgeeks.org/sort-k-sorted-doubly-linked-list/
+
+
+
+	
+
 
 6. GenericTrees
 	6.1. SizeSumMaxHeight			Done
@@ -176,10 +211,10 @@ total - 45hr
 	7.3. NodeToRootPath
 	7.4. PrintKLevelsDown				done
 	7.5. PathToLeafFromRootInRange			Done
-	7.6. TransFormToLeftCloneTreeAndReverse
+	7.6. TransFormToLeftCloneTreeAndReverse			https://www.geeksforgeeks.org/double-tree/
 	7.7. PrintSingleChildNodes			Done
 	7.8. RemoveLeaves				Done
-	7.9. PrintNodesAtKDitstance			done
+	7.9. PrintNodesAtKDitstance			done	https://www.geeksforgeeks.org/print-nodes-distance-k-given-node-binary-tree/
 	7.10. IsBalanced				done
 	7.11. IsBST					done
 	7.12. TreeFromInPre				done
@@ -187,27 +222,62 @@ total - 45hr
 	7.14. TreeFromPrePost(condition - tree is full BT)
 	7.15. TreeFromInLevel
 	7.16. MultiSolver
-	7.17. LCA
+	7.17. LCA						https://www.geeksforgeeks.org/lowest-common-ancestor-binary-tree-set-1/
 	7.18. Diameter(normal + efficient) 		normal-done efficient-todo
 	7.19. LargestBst				done
-	7.20. RootToLeafPathTargetSum			done	
+	7.20. RootToLeafPathTargetSum			done  	https://www.geeksforgeeks.org/root-to-leaf-path-sum-equal-to-a-given-number/	
 	7.21. MaxSumN2L	
-	7.22. MaxSumL2L					done
-	7.23. MaxSumN2N					done
-	7.24. TreeFromParentArray
+	7.22. MaxSumL2L					done	https://www.geeksforgeeks.org/find-maximum-path-sum-two-leaves-binary-tree/
+	7.23. MaxSumN2N					done	https://www.geeksforgeeks.org/find-maximum-path-sum-in-a-binary-tree/
+	7.24. TreeFromParentArray				https://www.geeksforgeeks.org/construct-a-binary-tree-from-parent-array-representation/
 	7.25. TreeFromPerfectArray(CompleteBinaryTreeFromGivenLevelOrder)
 	7.26. TopView					done
 	7.27. BottomView				done
-	7.28. LeftView					done
+	7.28. LeftView					done	https://www.geeksforgeeks.org/print-left-view-binary-tree/
 	7.29. RightView					done
-	7.30. BoundaryTraversal
-	7.31. VerticalSum				done
-	7.32. TreeToLL
+	7.30. BoundaryTraversal					https://www.geeksforgeeks.org/boundary-traversal-of-binary-tree/
+	7.31. VerticalSum				done	https://www.geeksforgeeks.org/vertical-sum-in-a-given-binary-tree/
+	7.32. TreeToLL						https://www.geeksforgeeks.org/in-place-convert-a-given-binary-tree-to-doubly-linked-list/
 	7.33. LLtoTree					ASK
-	7.34. TreeToCLL
+	7.34. TreeToCLL						https://www.geeksforgeeks.org/convert-a-binary-tree-to-a-circular-doubly-link-list/
 	7.35. CLLtoTree					ASK
-	7.36. TiltBT
-	7.37. CloneWithRandomPointer
+	7.36. TiltBT						https://www.geeksforgeeks.org/tilt-binary-tree/
+	7.37. CloneWithRandomPointer				https://www.geeksforgeeks.org/clone-binary-tree-random-pointers/
+	7.38. SubtreeTargetSum					https://www.geeksforgeeks.org/count-subtress-sum-given-value-x/
+	7.39. InorderWithoutRecusrion				https://www.geeksforgeeks.org/inorder-tree-traversal-without-recursion/
+	7.40. InorderWithoutRecusrionWithoutStack		https://www.geeksforgeeks.org/inorder-tree-traversal-without-recursion-and-without-stack/
+	7.41. MorrisTraversalPreorder				https://www.geeksforgeeks.org/morris-traversal-for-preorder/
+	7.42. DiagonalTraversal 				https://www.geeksforgeeks.org/diagonal-traversal-of-binary-tree/						
+	7.43. VerticalTraversal					https://www.geeksforgeeks.org/print-binary-tree-vertical-order/
+	7.44. NextNodeInLevelOrder 				https://www.geeksforgeeks.org/find-next-right-node-of-a-given-key/				
+	7.45. SpecialTreeFromPreorder				https://www.geeksforgeeks.org/construct-a-special-tree-from-given-preorder-traversal/
+	7.50. DLLFromTernaryTree				https://www.geeksforgeeks.org/create-doubly-linked-list-ternary-ree/
+	7.51. DeepestLeftLeaf					https://www.geeksforgeeks.org/deepest-left-leaf-node-in-a-binary-tree/					
+	7.52. ConvertToSumTree					https://www.geeksforgeeks.org/convert-a-given-tree-to-sum-tree/
+	7.53. ConvertToLeftSubtreeSum				https://www.geeksforgeeks.org/change-a-binary-tree-so-that-every-node-stores-sum-of-all-nodes-in-left-subtree/
+	7.54. ConnectLeavesInDLL  popular			https://www.geeksforgeeks.org/connect-leaves-doubly-linked-list/					
+	7.55. EvenForrest					https://www.geeksforgeeks.org/convert-tree-forest-even-nodes/
+	7.56. DistanceBetweenTwoNodes				https://www.geeksforgeeks.org/find-distance-between-two-nodes-of-a-binary-tree/
+	7.57. PopulateInorderSuccessor				https://www.geeksforgeeks.org/populate-inorder-successor-for-all-nodes/
+	7.58. MaxWidth						https://www.geeksforgeeks.org/maximum-width-of-a-binary-tree/	
+	7.59. MaxRootToLeafPath					https://www.geeksforgeeks.org/find-the-maximum-sum-path-in-a-binary-tree/
+	7.60. ReverseAlternateLevels				https://www.geeksforgeeks.org/reverse-alternate-levels-binary-tree/
+	7.61. DiagonalSum					https://www.geeksforgeeks.org/diagonal-sum-binary-tree/
+	7.62. IsSubtreeOfAnother 				https://www.geeksforgeeks.org/check-if-a-binary-tree-is-subtree-of-another-binary-tree/
+	7.63. SpecificLevelOrderTrraversal			https://www.geeksforgeeks.org/perfect-binary-tree-specific-level-order-traversal/
+	7.64. HeightOfBTFromParentArray				https://www.geeksforgeeks.org/find-height-binary-tree-represented-parent-array/		
+	7.65. RemoveLeafKLengthPaths				https://www.geeksforgeeks.org/remove-nodes-root-leaf-paths-length-k/
+	7.66. SerializeDeserialize				https://www.geeksforgeeks.org/serialize-deserialize-binary-tree/
+	7.67. HeightInLeafConnectedBT				https://www.geeksforgeeks.org/find-height-of-a-special-binary-tree-whose-leaf-nodes-are-connected/
+	7.68. ExpressionTree					https://www.geeksforgeeks.org/expression-tree/
+	7.69. WidthOfABinaryTree				https://www.geeksforgeeks.org/width-binary-tree-set-1/
+	7.70. 
+
+
+
+
+
+
 
 
 8. BinarySearchTree and AVL
@@ -229,7 +299,7 @@ total - 45hr
 	10.1. Heap(implementation)
 	10.2. KSmallestElement
 	10.3. SortKsortedArray      			
-	10.4. MergeKsortedLinkedLists			done
+	10.4. MergeKsortedLinkedLists			done	https://www.geeksforgeeks.org/merge-k-sorted-linked-lists/ https://leetcode.com/problems/merge-k-sorted-lists/   
 	10.5. Huffman Encoding
 	10.6. MedianPriorityQueue
 	10.7. Sort2Arrays
@@ -263,6 +333,30 @@ total - 45hr
 13. Math
 
 14. Strings
+
+15. Searching and Sorting
+	15.1. MajorityElement 					https://www.geeksforgeeks.org/majority-element/
+	15.2. SearchingKDistantArray				https://www.geeksforgeeks.org/searching-array-adjacent-differ-k/
+	15.3. FindMissingRepeating				https://www.geeksforgeeks.org/find-a-repeating-and-a-missing-number/
+	15.4. FindCeilingInSortedArray				https://www.geeksforgeeks.org/ceiling-in-a-sorted-array/
+	15.5. 3WayQuickSort					https://www.geeksforgeeks.org/3-way-quicksort-dutch-national-flag/
+	15.6. CountSort						https://www.geeksforgeeks.org/counting-sort/
+	15.7. RadixSort						https://www.geeksforgeeks.org/radix-sort/
+	15.8. SortDateEfficient					https://www.geeksforgeeks.org/how-to-efficiently-sort-a-big-list-dates-in-20s/
+	15.9. MiniCostForEqualArray				https://www.geeksforgeeks.org/make-array-elements-equal-minimum-cost/
+
+
+16. Bit Manipulation
+	16.1. CountSetBits					https://www.geeksforgeeks.org/count-set-bits-in-an-integer/
+	16.2. NumberWithOddOccurance				https://www.geeksforgeeks.org/find-the-number-occurring-odd-number-of-times/
+	16.3. CheckBleak					https://www.geeksforgeeks.org/check-if-a-number-is-bleak/
+	16.4. CopySetBits					https://www.geeksforgeeks.org/copy-set-bits-in-a-range/
+	16.5. IsMultipleOf3					https://www.geeksforgeeks.org/write-an-efficient-method-to-check-if-a-number-is-multiple-of-3/
+	16.6. PositionOfOnlySetBit				https://www.geeksforgeeks.org/find-position-of-the-only-set-bit/
+	16.7. BinaryRepresentation				https://www.geeksforgeeks.org/binary-representation-of-a-given-number/
+	16.8. ReverseBitsOfANumberC				https://www.geeksforgeeks.org/write-an-efficient-c-program-to-reverse-bits-of-a-number/
+	16.9. CountBitsToBeFlippedForAToB			https://www.geeksforgeeks.org/count-number-of-bits-to-be-flipped-to-convert-a-to-b/
+	16.10. FindTwoNonRepeating				https://www.geeksforgeeks.org/find-two-non-repeating-elements-in-an-array-of-repeating-elements/
 
 
 

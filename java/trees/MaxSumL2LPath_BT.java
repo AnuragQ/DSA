@@ -1,4 +1,4 @@
-package trees;
+package java.trees;
 
 public class MaxSumL2LPath_BT {
     public static class Node {

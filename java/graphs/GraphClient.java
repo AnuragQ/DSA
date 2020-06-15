@@ -1,4 +1,4 @@
-package graphs;
+package java.graphs;
 
 public class GraphClient {
 

@@ -1,6 +1,6 @@
 // NEW space optimized approach read in future -https://www.geeksforgeeks.org/vertical-sum-in-binary-tree-set-space-optimized/
 
-package trees;
+package java.trees;
 
 import java.util.TreeMap;
 

@@ -1,4 +1,4 @@
-package trees;
+package java.trees;
 
 public class BTFromPreIn{
      public class TreeNode {

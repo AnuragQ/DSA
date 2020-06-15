@@ -1,4 +1,5 @@
-package trees;
+package java.trees;
+
 
 public class R2LPathTargetSum {
 
