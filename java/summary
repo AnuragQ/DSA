@@ -52,6 +52,11 @@ total - 45hr
 	1.39. MinimizeMaxDistBetweenHeights		www.geeksforgeeks.org/minimize-the-maximum-difference-between-the-heights/ www.interviewbit.com/problems/minimise-the-maximum-difference-between-the-heights/
 	1.40. LargestSumSubArrayKnumbers		https://www.geeksforgeeks.org/largest-sum-subarray-least-k-numbers/  https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/
 	1.41. MaxSum3OverlappingSubArrays		https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/
+	1.42. FourSUm					https://www.geeksforgeeks.org/find-four-elements-that-sum-to-a-given-value-set-2/
+	1.43. MaxSumNonAdjacent				https://www.geeksforgeeks.org/maximum-sum-such-that-no-two-elements-are-adjacent/
+	1.44. CommonElementsThreeSorted			https://www.geeksforgeeks.org/find-common-elements-three-sorted-arrays/
+	1.45. CountTripletSumLessThanK			https://www.geeksforgeeks.org/count-triplets-with-sum-smaller-that-a-given-value/
+	1.46. 
 
 
 
@@ -347,7 +352,7 @@ total - 45hr
 
 
 16. Bit Manipulation
-	16.1. CountSetBits					https://www.geeksforgeeks.org/count-set-bits-in-an-integer/
+	16.1. CountSetBits					https://www.geeksforgeeks.org/count-set-bits-in-an-integer/	
 	16.2. NumberWithOddOccurance				https://www.geeksforgeeks.org/find-the-number-occurring-odd-number-of-times/
 	16.3. CheckBleak					https://www.geeksforgeeks.org/check-if-a-number-is-bleak/
 	16.4. CopySetBits					https://www.geeksforgeeks.org/copy-set-bits-in-a-range/
