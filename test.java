@@ -4,16 +4,18 @@ import java.util.Arrays;
 import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.Map;
+import java.util.PriorityQueue;
 import java.util.TreeMap;
 import java.util.TreeSet;
 
-
-// import hashmap.HashMap;
+import java.util.HashMap;
 
 public class test {
-    
-    
-    
+    class pair {
+        int x;
+        int y;
+    }
+
     public static void main(String[] args) {
     LinkedList<Integer> li=new LinkedList<>();
     // st.peek();
@@ -29,6 +31,8 @@ public class test {
     TreeMap<Integer,Character> hm=new TreeMap<Integer,Character>();
     hm.put(1, 'a');
     // hm.getO
+    // hm.cont
+    hm.pu
     for(Map.Entry<Integer,Character> entry:hm.entrySet()){
         System.out.print(entry.getKey());
     }
@@ -37,6 +41,15 @@ public class test {
     }
     System.out.println(hm.get(1));
     HashSet<Integer> hs=new HashSet<>();
+    hs.add(1);
+    hs.add(200);
+    hs.add(30);
+    hs.add(4000);
+    hs.add(5);
+    System.out.println(hs.contains(1));
+    for(int i:hs){
+        System.out.println(i);
+    }
     hs.add(1);
     hs.contains(1);
     ArrayList<Integer> ar= new ArrayList<>();
@@ -60,6 +73,9 @@ public class test {
         System.out.println(i);
     }
     System.out.print(-2);
+    
+    // HashMap<Integer,Integer> hm2=new HashMap<>();
+    // hm2.con
     // PriorityQueue<Integer> pq=new PriorityQueue<>((x,y)->y-x);
     // pq.add(11);
     // pq.add(20);
@@ -70,7 +86,24 @@ public class test {
     // System.out.println(pq.peek());
     
     // System.out.println(pq.size());
+
+    PriorityQueue<pair> pq=new PriorityQueue<>((x,y)->x.x-y.x);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
-    
-    
+
 }

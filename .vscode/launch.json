@@ -6,6 +6,76 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - ReorderUsingIndices",
+            "request": "launch",
+            "mainClass": "arrays.ReorderUsingIndices",
+            "projectName": "DSA"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - KSmallestSumPair",
+            "request": "launch",
+            "mainClass": "arrays.KSmallestSumPair",
+            "projectName": "DSA"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Choco",
+            "request": "launch",
+            "mainClass": "arrays.Choco",
+            "projectName": "DSA"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - sudokuSolver",
+            "request": "launch",
+            "mainClass": "backtracking.sudokuSolver",
+            "projectName": "DSA"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RotateBy90",
+            "request": "launch",
+            "mainClass": "arrays.RotateBy90",
+            "projectName": "DSA"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SubArrayTargetSum",
+            "request": "launch",
+            "mainClass": "java.arrays.SubArrayTargetSum",
+            "projectName": "DSA"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PairTargetDifference",
+            "request": "launch",
+            "mainClass": "java.arrays.PairTargetDifference",
+            "projectName": "DSA"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - sudokuSolver",
+            "request": "launch",
+            "mainClass": "java.backtracking.sudokuSolver",
+            "projectName": "DSA"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - AllIndices",
+            "request": "launch",
+            "mainClass": "AllIndices",
+            "projectName": "DSA"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - GFG",
+            "request": "launch",
+            "mainClass": "java.backtracking.GFG",
+            "projectName": "DSA"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - test",
             "request": "launch",
             "mainClass": "test",
