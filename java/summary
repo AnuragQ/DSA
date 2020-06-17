@@ -40,9 +40,9 @@ total - 45hr
 	1.27. ReorderArrayUsingGivenIndeces	done	https://www.geeksforgeeks.org/reorder-a-array-according-to-given-indexes/  
 	1.28. MinMergesToMakePalindrome		done	https://www.geeksforgeeks.org/find-minimum-number-of-merge-operations-to-make-an-array-palindrome/
 	1.29. MaxProductSubarray		done-rev	https://www.geeksforgeeks.org/maximum-product-subarray/ https://leetcode.com/problems/maximum-product-subarray/
-	1.30. MaxDiffElementsLargerAfter		https://www.geeksforgeeks.org/maximum-difference-between-two-elements/
-	1.31. MinswapsKelements				https://www.geeksforgeeks.org/minimum-swaps-required-bring-elements-less-equal-k-together/
-	1.32. SmallestPositiveSubsetSum			https://www.geeksforgeeks.org/find-smallest-value-represented-sum-subset-given-array/
+	1.30. MaxDiffElementsLargerAfter	done	https://www.geeksforgeeks.org/maximum-difference-between-two-elements/
+	1.31. MinswapsKelements			done	https://www.geeksforgeeks.org/minimum-swaps-required-bring-elements-less-equal-k-together/
+	1.32. SmallestPositiveSubsetSum		done	https://www.geeksforgeeks.org/find-smallest-value-represented-sum-subset-given-array/
 	1.33. GenerateSortedArrayAlternateElms		https://www.geeksforgeeks.org/generate-all-possible-sorted-arrays-from-alternate-elements-of-two-given-arrays/
 	1.34. MaxLengthBitonicSubarray			https://www.geeksforgeeks.org/maximum-length-bitonic-subarray/ 	https://www.geeksforgeeks.org/maximum-length-bitonic-subarray-set-2-time-o1-space/
 	1.35. LargestArraySumDivisibleByK		https://www.geeksforgeeks.org/longest-subarray-sum-divisible-k/ https://leetcode.com/problems/subarray-sums-divisible-by-k/
