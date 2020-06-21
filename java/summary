@@ -59,6 +59,7 @@ total - 45hr
 	1.46. CountSubarrayTargetSum		done 	https://www.geeksforgeeks.org/number-subarrays-sum-exactly-equal-k/ https://leetcode.com/problems/subarray-sum-equals-k/
 	1.47. CountSubarraySumDivisibleByK	done	https://leetcode.com/problems/subarray-sums-divisible-by-k/
 	1.48. subDomainFrequency			https://leetcode.com/problems/subdomain-visit-count/
+	1.49. LeftFloor				done	https://www.geeksforgeeks.org/largest-element-smaller-than-current-element-on-left-for-every-element-in-array/
 
 
 
@@ -310,14 +311,16 @@ total - 45hr
 
 10. Heap
 	10.1. Heap(implementation)
-	10.2. KSmallestElement
-	10.3. SortKsortedArray      			
+	10.2. KSmallestLargestElements		done			https://www.geeksforgeeks.org/k-largestor-smallest-elements-in-an-array/
+	10.3. SortKsortedArray      	done		
 	10.4. MergeKsortedLinkedLists			done	https://www.geeksforgeeks.org/merge-k-sorted-linked-lists/ https://leetcode.com/problems/merge-k-sorted-lists/   
 	10.5. Huffman Encoding
 	10.6. MedianPriorityQueue
 	10.7. Sort2Arrays
 	10.8. HeapSort	
-	10.9. MergeKSortedArrays			
+	10.9. MergeKSortedArrays	done	
+	10.10. KSmallestOriginalOrder(+efficient)	done	https://www.geeksforgeeks.org/find-n-smallest-element-given-array-order-array/ https://www.geeksforgeeks.org/k-smallest-elements-order-using-o1-extra-space/ 
+			
 	
 11. Trie
 	11.1. Trie creation

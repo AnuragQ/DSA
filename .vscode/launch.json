@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - KLargestElements",
+            "request": "launch",
+            "mainClass": "heap.KLargestElements",
+            "projectName": "DSA"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - KSmallestOriginalOrder",
+            "request": "launch",
+            "mainClass": "heap.KSmallestOriginalOrder",
+            "projectName": "DSA"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LeftFloor",
+            "request": "launch",
+            "mainClass": "arrays.LeftFloor",
+            "projectName": "DSA"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - CountSubarrayTargetSum",
             "request": "launch",
             "mainClass": "arrays.CountSubarrayTargetSum",
