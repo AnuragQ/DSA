@@ -372,7 +372,15 @@ total - 45hr
 	16.9. CountBitsToBeFlippedForAToB			https://www.geeksforgeeks.org/count-number-of-bits-to-be-flipped-to-convert-a-to-b/
 	16.10. FindTwoNonRepeating				https://www.geeksforgeeks.org/find-two-non-repeating-elements-in-an-array-of-repeating-elements/
 	16.11. CheckReverseSubarraySort				https://www.geeksforgeeks.org/sort-an-array-where-a-subarray-of-a-sorted-array-is-in-reverse-order/ https://www.geeksforgeeks.org/sort-an-array-where-a-subarray-of-a-sorted-array-is-in-reverse-order/
-	16.12.
+	16.12. InsertInSortedNonOcerlapingInterval		https://www.geeksforgeeks.org/insert-in-sorted-and-non-overlapping-interval-array/
+	16.13. ProductArrayPuzzle				https://www.geeksforgeeks.org/a-product-array-puzzle/			
+	16.14. FindDuplicatesEfficient				https://www.geeksforgeeks.org/find-duplicates-in-on-time-and-constant-extra-space/
+	16.15. SortByBitCount					https://www.geeksforgeeks.org/sort-array-according-count-set-bits/
+	16.16. SortElementsByFrequency				https://www.geeksforgeeks.org/sort-elements-by-frequency/	https://leetcode.com/problems/sort-characters-by-frequency/
+	16.17. GreatestProductPair				https://www.geeksforgeeks.org/find-pair-with-greatest-product-in-array/
+	16.18. MinSwapsToSort					https://www.geeksforgeeks.org/minimum-number-swaps-required-sort-array/ https://www.geeksforgeeks.org/minimum-number-of-swaps-required-to-sort-an-array-set-2/ https://www.geeksforgeeks.org/minimum-number-of-swaps-required-to-sort-an-array-of-first-n-number/
+	16.19. PermuteTwoArraysPairSumGTK			https://www.geeksforgeeks.org/permute-two-arrays-sum-every-pair-greater-equal-k/
+	16.20. MinSwapsIdenticalArray				https://www.geeksforgeeks.org/minimum-swaps-to-make-two-array-identical/
 
 
 
