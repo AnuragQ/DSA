@@ -308,6 +308,7 @@ total - 45hr
 	9.3. GetCommonElementDistinct
 	9.4. GetCommonElementAll
 	9.5. LongestConsecutiveSequence
+	9.6. SmallestSubarrayWithAllMaxFreq		https://www.geeksforgeeks.org/smallest-subarray-with-all-occurrences-of-a-most-frequent-element/
 
 10. Heap
 	10.1. Heap(implementation)
@@ -320,6 +321,7 @@ total - 45hr
 	10.8. HeapSort	
 	10.9. MergeKSortedArrays	done	
 	10.10. KSmallestOriginalOrder(+efficient)	done	https://www.geeksforgeeks.org/find-n-smallest-element-given-array-order-array/ https://www.geeksforgeeks.org/k-smallest-elements-order-using-o1-extra-space/ 
+
 			
 	
 11. Trie
