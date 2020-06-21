@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - CountSubarrayTargetSum",
+            "request": "launch",
+            "mainClass": "arrays.CountSubarrayTargetSum",
+            "projectName": "DSA"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - ReorderUsingIndices",
             "request": "launch",
             "mainClass": "arrays.ReorderUsingIndices",
