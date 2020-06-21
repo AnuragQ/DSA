@@ -284,7 +284,7 @@ total - 45hr
 	7.67. HeightInLeafConnectedBT				https://www.geeksforgeeks.org/find-height-of-a-special-binary-tree-whose-leaf-nodes-are-connected/
 	7.68. ExpressionTree					https://www.geeksforgeeks.org/expression-tree/
 	7.69. WidthOfABinaryTree				https://www.geeksforgeeks.org/width-binary-tree-set-1/
-	7.70. 
+	7.70. CountSingleValuedTrees				https://www.geeksforgeeks.org/find-count-of-singly-subtrees/
 
 
 
@@ -381,6 +381,7 @@ total - 45hr
 	16.18. MinSwapsToSort					https://www.geeksforgeeks.org/minimum-number-swaps-required-sort-array/ https://www.geeksforgeeks.org/minimum-number-of-swaps-required-to-sort-an-array-set-2/ https://www.geeksforgeeks.org/minimum-number-of-swaps-required-to-sort-an-array-of-first-n-number/
 	16.19. PermuteTwoArraysPairSumGTK			https://www.geeksforgeeks.org/permute-two-arrays-sum-every-pair-greater-equal-k/
 	16.20. MinSwapsIdenticalArray				https://www.geeksforgeeks.org/minimum-swaps-to-make-two-array-identical/
+	16.21. PancakeSorting					https://leetcode.com/problems/pancake-sorting/
 
 
 
