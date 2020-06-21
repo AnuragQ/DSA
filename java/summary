@@ -93,7 +93,13 @@ total - 45hr
 	2.29. MatchPatternWithoutRegex				https://www.geeksforgeeks.org/match-a-pattern-and-string-without-using-regular-expressions/
 	2.30. LongestRouteHurdleMatrix				https://www.geeksforgeeks.org/longest-possible-route-in-a-matrix-with-hurdles/
 	2.31. Cryptarithmatic					https://www.geeksforgeeks.org/solving-cryptarithmetic-puzzles-backtracking-8/
-	2.32. 
+	2.32. CrosswordPuzzleProblem				https://www.geeksforgeeks.org/solve-crossword-puzzle/
+	2.33. PrintPalindromicPartitions			https://www.geeksforgeeks.org/print-palindromic-partitions-string/
+	2.34. LandMines						https://www.geeksforgeeks.org/find-shortest-safe-route-in-a-path-with-landmines/
+	2.35. RemoveInvalidParenthesis				https://leetcode.com/problems/remove-invalid-parentheses/ https://www.geeksforgeeks.org/remove-invalid-parentheses/ https://www.interviewbit.com/problems/remove-invalid-parentheses/
+	2.36. TugOfWar						https://www.geeksforgeeks.org/tug-of-war/
+	2.37. LargestPermutationKswaps				https://www.geeksforgeeks.org/largest-permutation-k-swaps/ https://www.geeksforgeeks.org/find-maximum-number-possible-by-doing-at-most-k-swaps/
+	2.38. PathsCornerToMiddle				https://www.geeksforgeeks.org/find-paths-from-corner-cell-to-middle-cell-in-maze/
 
 3. DP (r-recursion, m-memoized, i-iterative) and Greedy
 
@@ -136,7 +142,7 @@ total - 45hr
 	3.37. Count Palindromic Subsequences			Todo
 	3.38. Count Palindromic Substrings			Todo
 	3.39. Longest Palindromic Substring			Todo
-	3.40. CrosswordPuzzleProblem
+
 
 
 4. Stacks and Queues
@@ -351,6 +357,7 @@ total - 45hr
 	15.7. RadixSort						https://www.geeksforgeeks.org/radix-sort/
 	15.8. SortDateEfficient					https://www.geeksforgeeks.org/how-to-efficiently-sort-a-big-list-dates-in-20s/
 	15.9. MiniCostForEqualArray				https://www.geeksforgeeks.org/make-array-elements-equal-minimum-cost/
+	
 
 
 16. Bit Manipulation
@@ -364,6 +371,8 @@ total - 45hr
 	16.8. ReverseBitsOfANumberC				https://www.geeksforgeeks.org/write-an-efficient-c-program-to-reverse-bits-of-a-number/
 	16.9. CountBitsToBeFlippedForAToB			https://www.geeksforgeeks.org/count-number-of-bits-to-be-flipped-to-convert-a-to-b/
 	16.10. FindTwoNonRepeating				https://www.geeksforgeeks.org/find-two-non-repeating-elements-in-an-array-of-repeating-elements/
+	16.11. CheckReverseSubarraySort				https://www.geeksforgeeks.org/sort-an-array-where-a-subarray-of-a-sorted-array-is-in-reverse-order/ https://www.geeksforgeeks.org/sort-an-array-where-a-subarray-of-a-sorted-array-is-in-reverse-order/
+	16.12.
 
 
 
