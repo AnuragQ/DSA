@@ -9,6 +9,14 @@
 	<classpathentry kind="src" path="java/trie"/>
 	<classpathentry kind="src" path="boilers"/>
 	<classpathentry kind="src" path="references"/>
-	<classpathentry excluding="recursion/|dp/|linkedLists/outsourced/|linkedLists/|stacksAndQueues/|trie/" kind="src" path="java"/>
+	<classpathentry kind="src" path="java/trees"/>
+	<classpathentry kind="src" path="java/arrays"/>
+	<classpathentry kind="src" path="java/backtracking"/>
+	<classpathentry kind="src" path="java/graphs"/>
+	<classpathentry kind="src" path="java/hashmap"/>
+	<classpathentry kind="src" path="java/heap"/>
+	<classpathentry kind="src" path="java/java"/>
+	<classpathentry kind="src" path="java/bitmasking"/>
+	<classpathentry excluding="recursion/|dp/|linkedLists/outsourced/|linkedLists/|stacksAndQueues/|trie/|trees/|arrays/|backtracking/|graphs/|hashmap/|heap/|java/|bitmasking/" kind="src" path="java"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

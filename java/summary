@@ -58,8 +58,8 @@ total - 45hr
 	1.45. CountTripletSumLessThanK			https://www.geeksforgeeks.org/count-triplets-with-sum-smaller-that-a-given-value/
 	1.46. CountSubarrayTargetSum		done 	https://www.geeksforgeeks.org/number-subarrays-sum-exactly-equal-k/ https://leetcode.com/problems/subarray-sum-equals-k/
 	1.47. CountSubarraySumDivisibleByK	done	https://leetcode.com/problems/subarray-sums-divisible-by-k/
-	1.48. subDomainFrequency			https://leetcode.com/problems/subdomain-visit-count/
-	1.49. LeftFloor				done	https://www.geeksforgeeks.org/largest-element-smaller-than-current-element-on-left-for-every-element-in-array/
+	
+	1.48. LeftFloor				done	https://www.geeksforgeeks.org/largest-element-smaller-than-current-element-on-left-for-every-element-in-array/
 
 
 
@@ -309,6 +309,7 @@ total - 45hr
 	9.4. GetCommonElementAll
 	9.5. LongestConsecutiveSequence
 	9.6. SmallestSubarrayWithAllMaxFreq		https://www.geeksforgeeks.org/smallest-subarray-with-all-occurrences-of-a-most-frequent-element/
+	1.48. subDomainFrequency			https://leetcode.com/problems/subdomain-visit-count/
 
 10. Heap
 	10.1. Heap(implementation)
@@ -351,6 +352,14 @@ total - 45hr
 13. Math
 
 14. Strings
+	14.1. SmallestWindowWithAllCharsOfiteself			https://www.geeksforgeeks.org/smallest-window-contains-characters-string/
+	14.2. SmallestWindowWithAllCharsOfanother			https://www.geeksforgeeks.org/find-the-smallest-window-in-a-string-containing-all-characters-of-another-string/ https://leetcode.com/problems/minimum-window-substring/
+	14.3. PrintWordsSameCharacterSet				https://www.geeksforgeeks.org/print-words-together-set-characters/
+	14.4. SmallestWindowWithAllDistinctCharsOfanother
+	14.5. RearrangeNoCommonAdjacent					https://www.geeksforgeeks.org/rearrange-characters-string-no-two-adjacent/?ref=rp	
+
+
+
 
 15. Searching and Sorting
 	15.1. MajorityElement 					https://www.geeksforgeeks.org/majority-element/
@@ -362,6 +371,16 @@ total - 45hr
 	15.7. RadixSort						https://www.geeksforgeeks.org/radix-sort/
 	15.8. SortDateEfficient					https://www.geeksforgeeks.org/how-to-efficiently-sort-a-big-list-dates-in-20s/
 	15.9. MiniCostForEqualArray				https://www.geeksforgeeks.org/make-array-elements-equal-minimum-cost/
+	15.10. SortByBitCount					https://www.geeksforgeeks.org/sort-array-according-count-set-bits/
+	15.11. SortElementsByFrequency				https://www.geeksforgeeks.org/sort-elements-by-frequency/	https://leetcode.com/problems/sort-characters-by-frequency/
+	15.12. GreatestProductPair				https://www.geeksforgeeks.org/find-pair-with-greatest-product-in-array/
+	15.13. MinSwapsToSort					https://www.geeksforgeeks.org/minimum-number-swaps-required-sort-array/ https://www.geeksforgeeks.org/minimum-number-of-swaps-required-to-sort-an-array-set-2/ https://www.geeksforgeeks.org/minimum-number-of-swaps-required-to-sort-an-array-of-first-n-number/
+	15.14. PermuteTwoArraysPairSumGTK			https://www.geeksforgeeks.org/permute-two-arrays-sum-every-pair-greater-equal-k/
+	15.15. MinSwapsIdenticalArray				https://www.geeksforgeeks.org/minimum-swaps-to-make-two-array-identical/
+	15.16. PancakeSorting					https://leetcode.com/problems/pancake-sorting/
+
+
+
 	
 
 
@@ -380,19 +399,11 @@ total - 45hr
 	16.12. InsertInSortedNonOcerlapingInterval		https://www.geeksforgeeks.org/insert-in-sorted-and-non-overlapping-interval-array/
 	16.13. ProductArrayPuzzle				https://www.geeksforgeeks.org/a-product-array-puzzle/			
 	16.14. FindDuplicatesEfficient				https://www.geeksforgeeks.org/find-duplicates-in-on-time-and-constant-extra-space/
-	16.15. SortByBitCount					https://www.geeksforgeeks.org/sort-array-according-count-set-bits/
-	16.16. SortElementsByFrequency				https://www.geeksforgeeks.org/sort-elements-by-frequency/	https://leetcode.com/problems/sort-characters-by-frequency/
-	16.17. GreatestProductPair				https://www.geeksforgeeks.org/find-pair-with-greatest-product-in-array/
-	16.18. MinSwapsToSort					https://www.geeksforgeeks.org/minimum-number-swaps-required-sort-array/ https://www.geeksforgeeks.org/minimum-number-of-swaps-required-to-sort-an-array-set-2/ https://www.geeksforgeeks.org/minimum-number-of-swaps-required-to-sort-an-array-of-first-n-number/
-	16.19. PermuteTwoArraysPairSumGTK			https://www.geeksforgeeks.org/permute-two-arrays-sum-every-pair-greater-equal-k/
-	16.20. MinSwapsIdenticalArray				https://www.geeksforgeeks.org/minimum-swaps-to-make-two-array-identical/
-	16.21. PancakeSorting					https://leetcode.com/problems/pancake-sorting/
+	16.15. IsSudokuValid				done	https://leetcode.com/problems/valid-sudoku/
+	16.16. UncommonCharacters				https://www.geeksforgeeks.org/find-uncommon-characters-of-the-two-strings-set-2/	
 
 
 
-
-
-
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------GroupShiftedSequence					https://www.geeksforgeeks.org/group-shifted-string/	
 
 

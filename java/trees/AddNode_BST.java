@@ -1,4 +1,3 @@
-package java.trees;
 
 import java.io.*;
 import java.util.*;
