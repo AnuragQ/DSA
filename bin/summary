@@ -167,7 +167,7 @@ total - 45hr
 	5.4. ReversePointerRecursive		done
 	5.5. KReverseMulti				Todo
 	5.6. MidPoint				done
-	5.7. KthFromLast			done
+	5.7. KthFromLast			done	https://www.geeksforgeeks.org/nth-node-from-the-end-of-a-linked-list/
 	5.8. MergeTwoSortedLL			done		https://www.geeksforgeeks.org/merge-two-sorted-lists-place/
 	5.9. RemoveDuplicatesInSortedLL		done
 	5.10. OddEvenLL				done		https://www.geeksforgeeks.org/segregate-even-and-odd-elements-in-a-linked-list/
@@ -179,25 +179,24 @@ total - 45hr
 	5.17. CloneLLWithRandomPointer				https://www.geeksforgeeks.org/a-linked-list-with-next-and-arbit-pointer/
 	5.18. FloydCycle
 	5.19. GetAddRemove			done
-	5.20. DeleteNodeOnlyNodeReference			https://www.geeksforgeeks.org/in-a-linked-list-given-only-a-pointer-to-a-node-to-be-deleted-in-a-singly-linked-list-how-do-you-delete-it/
-	5.21. NthNodeFromEnd					https://www.geeksforgeeks.org/nth-node-from-the-end-of-a-linked-list/
-	5.22. RemoveDuplicatesUnsortedLL			https://www.geeksforgeeks.org/remove-duplicates-from-an-unsorted-linked-list/
-	5.23. DeleteGreaterNodesOnRight				https://www.geeksforgeeks.org/delete-nodes-which-have-a-greater-value-on-right-side/ https://www.geeksforgeeks.org/delete-nodes-which-have-a-greater-value-on-right-side-using-recursion/
-	5.24. ThreeLinkedListTripletSum				https://www.geeksforgeeks.org/find-a-triplet-from-three-linked-lists-with-sum-equal-to-a-given-number/
-	5.25. FlattenMultilevel					https://www.geeksforgeeks.org/flatten-a-linked-list-with-next-and-child-pointers/ https://www.geeksforgeeks.org/flatten-a-multi-level-linked-list-set-2-depth-wise/
-	5.26. FlattenLLSorted					https://www.geeksforgeeks.org/flattening-a-linked-list/		
-	5.27. PointToNextLarger					https://www.geeksforgeeks.org/point-to-next-higher-value-node-in-a-linked-list-with-an-arbitrary-pointer/
-	5.28. PointToNextLarderRightSide			https://www.geeksforgeeks.org/point-arbit-pointer-greatest-value-right-side-node-linked-list/
-	5.29. Zigzag						https://www.geeksforgeeks.org/linked-list-in-zig-zag-fashion/
-	5.30. SortAbsoluteSortesLL				https://www.geeksforgeeks.org/sort-linked-list-already-sorted-absolute-values/
-	5.31. SubtractNumberRepresentedByLL			https://www.geeksforgeeks.org/subtract-two-numbers-represented-as-linked-lists/
-	5.32. PairSumSortedLL					https://www.geeksforgeeks.org/find-pair-given-sum-sorted-singly-linked-without-extra-space/
-	5.33. MultiplyTwoLL					https://www.geeksforgeeks.org/multiply-two-numbers-represented-linked-lists/
-	5.34. RotateLLBlockwise					https://www.geeksforgeeks.org/rotate-linked-list-block-wise/
-	5.35. JosephusCircleCLL		o(n) complexity tbd			https://www.geeksforgeeks.org/josephus-circle-using-circular-linked-list/
-	5.36. CountedTripletsTargetSumSortedDLL			https://www.geeksforgeeks.org/count-triplets-sorted-doubly-linked-list-whose-sum-equal-given-value-x/
-	5.37. SortBitonicDLL					https://www.geeksforgeeks.org/sort-biotonic-doubly-linked-list/
-	5.38. SortKSortedDLL					https://www.geeksforgeeks.org/sort-k-sorted-doubly-linked-list/
+	5.20. DeleteNodeOnlyNodeReference	done		https://www.geeksforgeeks.org/in-a-linked-list-given-only-a-pointer-to-a-node-to-be-deleted-in-a-singly-linked-list-how-do-you-delete-it/ https://leetcode.com/problems/delete-node-in-a-linked-list/
+	5.21. RemoveDuplicatesUnsortedLL			https://www.geeksforgeeks.org/remove-duplicates-from-an-unsorted-linked-list/
+	5.22. DeleteGreaterNodesOnRight				https://www.geeksforgeeks.org/delete-nodes-which-have-a-greater-value-on-right-side/ https://www.geeksforgeeks.org/delete-nodes-which-have-a-greater-value-on-right-side-using-recursion/
+	5.23. ThreeLinkedListTripletSum				https://www.geeksforgeeks.org/find-a-triplet-from-three-linked-lists-with-sum-equal-to-a-given-number/
+	5.24. FlattenMultilevel					https://www.geeksforgeeks.org/flatten-a-linked-list-with-next-and-child-pointers/ https://www.geeksforgeeks.org/flatten-a-multi-level-linked-list-set-2-depth-wise/
+	5.25. FlattenLLSorted					https://www.geeksforgeeks.org/flattening-a-linked-list/		
+	5.26. PointToNextLarger					https://www.geeksforgeeks.org/point-to-next-higher-value-node-in-a-linked-list-with-an-arbitrary-pointer/
+	5.27. PointToNextLarderRightSide			https://www.geeksforgeeks.org/point-arbit-pointer-greatest-value-right-side-node-linked-list/
+	5.28. Zigzag						https://www.geeksforgeeks.org/linked-list-in-zig-zag-fashion/
+	5.39. SortAbsoluteSortesLL				https://www.geeksforgeeks.org/sort-linked-list-already-sorted-absolute-values/
+	5.40. SubtractNumberRepresentedByLL			https://www.geeksforgeeks.org/subtract-two-numbers-represented-as-linked-lists/
+	5.41. PairSumSortedLL					https://www.geeksforgeeks.org/find-pair-given-sum-sorted-singly-linked-without-extra-space/
+	5.42. MultiplyTwoLL					https://www.geeksforgeeks.org/multiply-two-numbers-represented-linked-lists/
+	5.43. RotateLLBlockwise					https://www.geeksforgeeks.org/rotate-linked-list-block-wise/
+	5.44. JosephusCircleCLL		o(n) complexity tbd			https://www.geeksforgeeks.org/josephus-circle-using-circular-linked-list/
+	5.45. CountedTripletsTargetSumSortedDLL			https://www.geeksforgeeks.org/count-triplets-sorted-doubly-linked-list-whose-sum-equal-given-value-x/
+	5.46. SortBitonicDLL					https://www.geeksforgeeks.org/sort-biotonic-doubly-linked-list/
+	5.47. SortKSortedDLL					https://www.geeksforgeeks.org/sort-k-sorted-doubly-linked-list/
 
 
 
