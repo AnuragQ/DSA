@@ -4,7 +4,47 @@ package arrays;
 // import java.lang.*;
 import java.io.*;
 
+
+    
+    
+
+
+
+
 public class Sort012 {
+
+	public void sortColors(int[] nums) {
+        
+        // 000000111111_______22222
+        //       ^     ^     ^      
+        //       |     |     |
+        //       lo    mid   hi
+        
+        
+        int lo=0,mid=0,hi=nums.length-1;
+        while(mid<=hi){
+            if(nums[mid]==0){
+                //swap lo mid
+                int temp=nums[lo];
+                nums[lo]=nums[mid];
+                nums[mid]=temp;
+                
+                lo++;
+                mid++;
+            }else if(nums[mid]==1){
+                mid++;
+            }else{
+                //swap hi mid
+                int temp=nums[hi];
+                nums[hi]=nums[mid];
+                nums[mid]=temp;
+                
+                hi--;
+            }
+        }
+        
+    }
+    
 
 	/* package whatever //do not write package name here */
 
