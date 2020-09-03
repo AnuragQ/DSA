@@ -26,6 +26,7 @@ resources for dbms-
 misc resources-
 -https://www.geeksforgeeks.org/must-do-coding-questions-for-companies-like-amazon-microsoft-adobe/?ref=leftbar-rightbar
 -https://drive.google.com/drive/u/0/folders/1uJpMlxP7wethLEzk_uO0zv2W1TCY56yY
+https://leetcode.com/discuss/interview-question/437082/Amazon-Behavioral-questions-or-Leadership-Principles-or-LP#:~:text=Tell%20me%20about%20a%20time%20when%20you%20had%20to%20face,how%20did%20you%20resolve%20them%3F
 
 system design resources-
 -http://highscalability.com/start-here/
@@ -49,7 +50,7 @@ total - 45hr
  	1.9. SearchIn2dArray			done
 	1.10. SubArrayTargetSum			done	https://www.geeksforgeeks.org/find-subarray-with-given-sum/
 	1.11. EquilibriumIndex			done	https://www.geeksforgeeks.org/equilibrium-index-of-an-array/
-	1.12. ConvertZigZag				https://www.geeksforgeeks.org/convert-array-into-zig-zag-fashion/
+	1.12. ConvertZigZag			done	https://www.geeksforgeeks.org/convert-array-into-zig-zag-fashion/
 	1.13. PairTargetDifference		done	https://www.geeksforgeeks.org/find-a-pair-with-the-given-difference/
 	1.14. ChocolateDistribution		done	https://www.geeksforgeeks.org/chocolate-distribution-problem/
 	1.15. MinPlatforms				https://www.geeksforgeeks.org/minimum-number-platforms-required-railwaybus-station/ https://www.interviewbit.com/problems/meeting-rooms/
@@ -77,7 +78,7 @@ total - 45hr
 	1.37. MergeOverlappingInterval			https://www.geeksforgeeks.org/merging-intervals/ https://leetcode.com/problems/merge-intervals/
 	1.38. ThreeWayPartition				https://www.geeksforgeeks.org/three-way-partitioning-of-an-array-around-a-given-range/
 	1.39. MinimizeMaxDistBetweenHeights		www.geeksforgeeks.org/minimize-the-maximum-difference-between-the-heights/ www.interviewbit.com/problems/minimise-the-maximum-difference-between-the-heights/
-	1.40. LargestSumSubArrayKnumbers		https://www.geeksforgeeks.org/largest-sum-subarray-least-k-numbers/  https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/
+	1.40. LargestSumSubArrayKnumbers		https://www.geeksforgeeks.org/largest-sum-subarray-least-k-numbers/  
 	1.41. MaxSum3OverlappingSubArrays		https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/
 	1.42. FourSum					https://www.geeksforgeeks.org/find-four-elements-that-sum-to-a-given-value-set-2/
 	1.43. MaxSumNonAdjacent				https://www.geeksforgeeks.org/maximum-sum-such-that-no-two-elements-are-adjacent/
@@ -89,6 +90,7 @@ total - 45hr
 	1.49. MinDistanceBWNumbers			https://www.geeksforgeeks.org/find-the-minimum-distance-between-two-numbers/
 	1.50. IsToeplitz				https://leetcode.com/problems/toeplitz-matrix/ https://www.geeksforgeeks.org/find-if-given-matrix-is-toeplitz-or-not/
 	1.51. ContainerWithMostWater			https://leetcode.com/problems/container-with-most-water/
+https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/
 https://leetcode.com/problems/teemo-attacking/
 https://www.lintcode.com/problem/sort-transformed-array/description https://www.geeksforgeeks.org/sort-array-applying-given-equation/
 https://www.geeksforgeeks.org/minimum-distance-between-words-of-a-string/ https://www.lintcode.com/problem/shortest-word-distance/description
@@ -101,7 +103,6 @@ https://leetcode.com/problems/beautiful-arrangement-ii/
 https://leetcode.com/problems/array-nesting/
 https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/
 CircularArrayLoop					https://leetcode.com/problems/circular-array-loop/ https://www.geeksforgeeks.org/check-loop-array-according-given-constraints/
-
 https://xiaoguan.gitbooks.io/leetcode/content/LeetCode/548-split-array-with-equal-sum-medium.html
 https://leetcode.com/problems/best-sightseeing-pair/
 https://leetcode.com/problems/pour-water/
@@ -119,9 +120,6 @@ TotalWidthOfArray					https://www.geeksforgeeks.org/sum-of-width-max-and-min-dif
 ShortestPalindrome					https://leetcode.com/problems/shortest-palindrome/ https://www.geeksforgeeks.org/minimum-characters-added-front-make-string-palindrome/
 CountSubarrayProductLessThanK				https://leetcode.com/problems/subarray-product-less-than-k/
 CountSubseqProductLessThanK				https://www.geeksforgeeks.org/count-subsequences-product-less-k/
-
-
-
 
 2. Recursion
 	2.1. TowerOfHanoi		done
@@ -227,7 +225,6 @@ LongestPrefixSuffix					https://www.geeksforgeeks.org/longest-prefix-also-suffix
 BurstBaloons						https://leetcode.com/problems/burst-balloons/
 LongestConsecutiveSubsequence				https://www.geeksforgeeks.org/longest-consecutive-subsequence/
 
-
 4. Stacks and Queues
 	4.1. NGE				done
 	4.2. StockSpan				done
@@ -279,11 +276,6 @@ LongestConsecutiveSubsequence				https://www.geeksforgeeks.org/longest-consecuti
 	5.45. CountedTripletsTargetSumSortedDLL			https://www.geeksforgeeks.org/count-triplets-sorted-doubly-linked-list-whose-sum-equal-given-value-x/
 	5.46. SortBitonicDLL					https://www.geeksforgeeks.org/sort-biotonic-doubly-linked-list/
 	5.47. SortKSortedDLL					https://www.geeksforgeeks.org/sort-k-sorted-doubly-linked-list/
-
-
-
-	
-
 
 6. GenericTrees
 	6.1. SizeSumMaxHeight			Done
@@ -385,7 +377,6 @@ https://leetcode.com/problems/minimum-depth-of-binary-tree/
 https://leetcode.com/problems/maximum-width-of-binary-tree/ https://www.geeksforgeeks.org/maximum-width-of-a-binary-tree/
 https://www.geeksforgeeks.org/given-linked-list-representation-of-complete-tree-convert-it-to-linked-representation/
 https://www.geeksforgeeks.org/longest-consecutive-sequence-binary-tree/ https://www.lintcode.com/en/old/problem/binary-tree-longest-consecutive-sequence/
-
 https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
 https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/
 https://www.geeksforgeeks.org/print-postorder-from-given-inorder-and-preorder-traversals/
@@ -410,12 +401,6 @@ https://www.geeksforgeeks.org/check-if-a-given-binary-tree-is-heap/
 https://practice.geeksforgeeks.org/problems/leaf-under-budget/1
 https://www.geeksforgeeks.org/kth-largest-element-bst-using-constant-extra-space/ https://leetcode.com/problems/kth-smallest-element-in-a-bst/
 
-
-
-
-
-
-
 8. BinarySearchTree and AVL
 	8.1. GetAddRemove
 	8.2. Find
@@ -438,8 +423,6 @@ GroupShiftedSequence					https://www.geeksforgeeks.org/group-shifted-string/
 
 CustomeSortString					https://leetcode.com/problems/custom-sort-string/ https://www.geeksforgeeks.org/sort-string-according-order-defined-another-string/
 
-
-
 10. Heap
 	10.1. Heap(implementation)
 	10.2. KSmallestLargestElements		done			https://www.geeksforgeeks.org/k-largestor-smallest-elements-in-an-array/
@@ -451,8 +434,6 @@ CustomeSortString					https://leetcode.com/problems/custom-sort-string/ https://
 	10.8. HeapSort	
 	10.9. MergeKSortedArrays	done	
 	10.10. KSmallestOriginalOrder(+efficient)	done	https://www.geeksforgeeks.org/find-n-smallest-element-given-array-order-array/ https://www.geeksforgeeks.org/k-smallest-elements-order-using-o1-extra-space/ 
-
-			
 	
 11. Trie
 	11.1. Trie creation
@@ -478,12 +459,9 @@ CustomeSortString					https://leetcode.com/problems/custom-sort-string/ https://
 	12.18. Astronauts
 	12.19. Diameter
 	12.20. HamiltonianCnP
-
 https://www.geeksforgeeks.org/shortest-path-reach-one-prime-changing-single-digit-time/
 https://www.geeksforgeeks.org/count-number-trees-forest/
 https://www.geeksforgeeks.org/water-jug-problem-using-bfs/ 
-
-
 
 13. Math
 
@@ -517,13 +495,11 @@ https://www.geeksforgeeks.org/find-the-longest-substring-with-k-unique-character
 https://leetcode.com/problems/longest-consecutive-sequence/
 https://www.geeksforgeeks.org/count-subarrays-total-distinct-elements-original-array/
 https://www.geeksforgeeks.org/count-substrings-binary-string-containing-k-ones/
-
 https://leetcode.com/problems/word-pattern/
 https://leetcode.com/problems/reveal-cards-in-increasing-order/
 https://leetcode.com/problems/shifting-letters/
 https://leetcode.com/problems/integer-to-english-words/
 https://leetcode.com/problems/long-pressed-name/
-
 https://www.lintcode.com/problem/next-closest-time/description
 https://www.lintcode.com/problem/add-bold-tag-in-string/description
 https://www.lintcode.com/problem/similar-rgb-color/
@@ -535,7 +511,6 @@ ContainsBinaryPermutations				https://www.geeksforgeeks.org/check-if-a-binary-st
 ContainsBinaryTillN					https://leetcode.com/problems/binary-string-with-substrings-representing-1-to-n/
 ClosestPalindrome					https://leetcode.com/problems/find-the-closest-palindrome/
 group anagram https://leetcode.com/problems/group-anagrams/ https://www.geeksforgeeks.org/given-a-sequence-of-words-print-all-anagrams-together/
-
 
 15. Searching and Sorting
 	15.1. MajorityElement 					https://www.geeksforgeeks.org/majority-element/
@@ -557,11 +532,6 @@ group anagram https://leetcode.com/problems/group-anagrams/ https://www.geeksfor
 	15.17. SortAfterSquaring				https://www.geeksforgeeks.org/sort-array-converting-elements-squares/
 	15.18. ShortestUnsortedSubArray				https://leetcode.com/problems/shortest-unsorted-continuous-subarray/ https://www.geeksforgeeks.org/minimum-length-unsorted-subarray-sorting-which-makes-the-complete-array-sorted/
 
-
-
-	
-
-
 16. Bit Manipulation
 	16.1. CountSetBits					https://www.geeksforgeeks.org/count-set-bits-in-an-integer/	
 	16.2. NumberWithOddOccurance				https://www.geeksforgeeks.org/find-the-number-occurring-odd-number-of-times/
@@ -579,19 +549,12 @@ group anagram https://leetcode.com/problems/group-anagrams/ https://www.geeksfor
 	16.14. FindDuplicatesEfficient				https://www.geeksforgeeks.org/find-duplicates-in-on-time-and-constant-extra-space/
 	16.15. IsSudokuValid				done	https://leetcode.com/problems/valid-sudoku/
 	16.16. UncommonCharacters				https://www.geeksforgeeks.org/find-uncommon-characters-of-the-two-strings-set-2/	
-
-
-
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
-
 https://leetcode.com/problems/happy-number/
 https://www.geeksforgeeks.org/height-complete-binary-tree-heap-n-nodes/
-
 https://leetcode.com/problems/magic-squares-in-grid/
 https://leetcode.com/problems/max-chunks-to-make-sorted-ii/
 https://cheonhyangzhang.gitbooks.io/leetcode-solutions/content/solutions-451-500/487-max-consecutive-ones-ii.html
 
 
-
+https://www.geeksforgeeks.org/minimum-salary-hike-for-each-employee-such-that-no-employee-feels-unfair/
