@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - TreeToForest",
+            "request": "launch",
+            "mainClass": "trees.TreeToForest",
+            "projectName": "DSA"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TreeToForest",
+            "request": "launch",
+            "mainClass": "TreeToForest",
+            "projectName": "DSA"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Landmines",
+            "request": "launch",
+            "mainClass": "Landmines",
+            "projectName": "DSA"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - KLargestElements",
             "request": "launch",
             "mainClass": "heap.KLargestElements",
