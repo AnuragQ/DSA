@@ -1,4 +1,3 @@
-package arrays;
 
 class MaxProdSubarray {
     public int maxProduct(int[] nums) {

@@ -10,6 +10,7 @@ Note -> If there is no path through the staircase print null.
 */
 
 import java.io.*;
+import java.util.Scanner;
 
 public class climb_stairs_with_minimum_moves_iter {
 
@@ -17,42 +18,35 @@ public class climb_stairs_with_minimum_moves_iter {
 
 
 
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        int n = Integer.parseInt(br.readLine());
-        int[] arr = new int[n];
-        for (int i = 0; i < arr.length; i++) {
-            arr[i] = Integer.parseInt(br.readLine());
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        int[] arr=new int[n];
+        
+        for(int i=0;i<n;i++){
+            arr[i]=sc.nextInt();
         }
-
-
-        System.out.println(getMinMoves(arr, 0, Integer.MAX_VALUE));
+        sc.close();
+        
+        Integer[] dp=new Integer[n];
+        dp[n-1]=0;
+        for(int i=n-2;i>=0;i--){
+            if(arr[i]==0){
+                continue;
+            }
+            Integer min=Integer.MAX_VALUE;
+            for(int j=i+1;j<=Math.min(arr[i]+i,arr.length-1);j++){
+                if(dp[j]!=null){
+                    min=Math.min(dp[j],min);
+                }
+            }
+            if(min==Integer.MAX_VALUE){
+                dp[i]=null;
+            }else{
+                dp[i]=min+1;
+            }
+        }
+        System.out.println(dp[0]);
     }
 
-    public static int getMinMoves(int[] arr, int idx, int msf) {
-        if (idx == arr.length - 1) {
-            return 0;
-        }
-        if (idx > arr.length - 1) {
-            return Integer.MAX_VALUE;
-        }
-        if (arr[idx] == 0) {
-            return Integer.MAX_VALUE;
-        }
-
-        int ans = Integer.MAX_VALUE;
-        for (int i = 1; i <= arr[idx]; i++) {
-            int moves = getMinMoves(arr, idx + i, msf);
-
-            ans = Math.min(moves, ans);
-
-        }
-        if (ans == Integer.MAX_VALUE) {
-            ans = 0;
-        } else {
-            ans += 1;
-        }
-
-        return ans;
-    }
-
+   
 }

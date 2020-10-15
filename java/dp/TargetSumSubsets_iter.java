@@ -1,4 +1,3 @@
-import java.io.*;
 import java.util.*;
 
 public class TargetSumSubsets_iter {
@@ -13,6 +12,7 @@ public class TargetSumSubsets_iter {
         int target=sc.nextInt();
         
         
+        sc.close();
         
         boolean[][] dp=new boolean[n+1][target+1];
         

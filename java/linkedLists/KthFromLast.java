@@ -200,18 +200,25 @@ public class KthFromLast {
   
     public int kthFromLast(int k){
  
-        Node fast=head,slow=head;
-        while(k>0){
-            k--;
+      Node fast=head,slow=head;
+    	k--;
+        while(k-->0){
+            if(fast==null){
+                return -1;
+            }
             fast=fast.next;
+        }
+        if(fast==null){
+            return -1;
         }
         while( fast.next!=null){
             fast=fast.next;
             slow=slow.next;
         }
-        int val=slow.data;
-       
-        return val;
+        
+        if(slow==null)
+            return -1;
+        return slow.data;
       // write your code here
     }
   }

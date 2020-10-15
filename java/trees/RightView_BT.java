@@ -1,4 +1,4 @@
-package java.trees;
+package trees;
 
 import java.util.TreeMap;
 

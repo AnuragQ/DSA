@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class LongesPalindromicSubsequence_rec {
+public class LongestPalindromicSubsequence_rec {
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

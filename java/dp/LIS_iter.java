@@ -11,24 +11,50 @@ public class LIS_iter {
         for (int i = 0; i < arr.length; i++) {
             arr[i] = Integer.parseInt(br.readLine());
         }
-        int[] dp = new int[n];
-        dp[0] = 1;
-        for (int i = 1; i < n; i++) {
-            for (int j = 0; j < i; j++) {
-                if (arr[j] < arr[i]) {
-                    if (dp[j] > dp[i]) {
-                        dp[i] = dp[j];
-                    }
-                }
+        //meaning for each i in lis array --> longest increasing subsequence ending on i
+        int[] lis = new int[n];
+        
+        int lss=0;
+        
+        for(int i=0;i<n;i++){
+            int max=0;
+            // for(int j=0;j<i;j++){
+            for(int j=Math.max(0,lss-1);j<i;j++){//small optimization
 
+                if(arr[j]<arr[i]){
+                    max=Math.max(max,lis[j]);
+                }
             }
-            dp[i] += 1;
+            lis[i]=max+1;
+            lss=Math.max(lss,lis[i]);
         }
-        int ans = Integer.MIN_VALUE;
-        for (int i = 0; i < n; i++) {
-            ans = Math.max(ans, dp[i]);
-        }
-        System.out.print(ans);
+        System.out.println(lss);
+
+
+
+
+
+
+
+        // int[] dp = new int[n];
+
+        // dp[0] = 1;
+        // for (int i = 1; i < n; i++) {
+        //     for (int j = 0; j < i; j++) {
+        //         if (arr[j] < arr[i]) {
+        //             if (dp[j] > dp[i]) {
+        //                 dp[i] = dp[j];
+        //             }
+        //         }
+
+        //     }
+        //     dp[i] += 1;
+        // }
+        // int ans = Integer.MIN_VALUE;
+        // for (int i = 0; i < n; i++) {
+        //     ans = Math.max(ans, dp[i]);
+        // }
+        // System.out.print(ans);
     }
 
 }
