@@ -198,30 +198,30 @@ public class KthFromLast {
       tail = temp;
     }
   
-    public int kthFromLast(int k){
- 
-      Node fast=head,slow=head;
-    	k--;
-        while(k-->0){
-            if(fast==null){
-                return -1;
-            }
-            fast=fast.next;
-        }
+public int kthFromLast(int k){
+
+  Node fast=head,slow=head;
+  k--;
+    while(k-->0){
         if(fast==null){
             return -1;
         }
-        while( fast.next!=null){
-            fast=fast.next;
-            slow=slow.next;
-        }
-        
-        if(slow==null)
-            return -1;
-        return slow.data;
-      // write your code here
+        fast=fast.next;
     }
-  }
+    if(fast==null){
+        return -1;
+    }
+    while( fast.next!=null){
+        fast=fast.next;
+        slow=slow.next;
+    }
+    
+    if(slow==null)
+        return -1;
+    return slow.data;
+  // write your code here
+}
+}
 
   public static void main(String[] args) throws IOException {
     BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

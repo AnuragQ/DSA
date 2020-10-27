@@ -1,6 +1,6 @@
 // https://practice.geeksforgeeks.org/problems/reverse-alternate-levels-of-a-perfect-binary-tree/1
 // https://www.geeksforgeeks.org/reverse-alternate-levels-binary-tree/
-class Tree
+public class ReverseAlternateLevelsPerfectBinaryTree
 {
 	static void reverseAlternate( Node root)  
     {  

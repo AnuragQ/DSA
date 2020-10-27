@@ -93,40 +93,40 @@ public class OddEvenLL {
             }
         }
 
-        public void oddEven() {
-            // write your code here
+public void oddEven() {
+    // write your code here
 
-            LinkedList odd = new LinkedList();
-            LinkedList even = new LinkedList();
+    LinkedList odd = new LinkedList();
+    LinkedList even = new LinkedList();
 
-            while (this.size() > 0) {
-                int val = this.getFirst();
-                this.removeFirst();
-                if (val % 2 == 0) {
-                    even.addLast(val);
-                } else {
-                    odd.addLast(val);
-                }
-            }
-            if (odd.tail != null) {
-                odd.tail.next = even.head;
-                this.head = odd.head;
-                if (even.tail != null)
-                    this.tail = even.tail;
-                else
-                    this.tail = odd.tail;
-
-                this.size = even.size + odd.size;
-            } else {
-                this.head = even.head;
-                this.tail = even.tail;
-                this.size = even.size;
-            }
-
-
-
-
+    while (this.size() > 0) {
+        int val = this.getFirst();
+        this.removeFirst();
+        if (val % 2 == 0) {
+            even.addLast(val);
+        } else {
+            odd.addLast(val);
         }
+    }
+    if (odd.tail != null) {
+        odd.tail.next = even.head;
+        this.head = odd.head;
+        if (even.tail != null)
+            this.tail = even.tail;
+        else
+            this.tail = odd.tail;
+
+        this.size = even.size + odd.size;
+    } else {
+        this.head = even.head;
+        this.tail = even.tail;
+        this.size = even.size;
+    }
+
+
+
+
+}
     }
 
     public static void main(String[] args) throws IOException {

@@ -17,7 +17,13 @@ public static void main(String[] args) throws Exception {
         }
 
     }
+        waweTraversal(array, m, n);
     sc.close();
+    
+    
+    
+ }
+static void waweTraversal(int[][] array,int m,int n){
     for (int j=0;j<m;j++){
         for(int i=0;i<n;i++){
             int row=j%2==0?i:n-i-1;
@@ -25,8 +31,6 @@ public static void main(String[] args) throws Exception {
             System.out.println(array[row][j]);
         }
     }
-    
-    
- }
+}
 
 }

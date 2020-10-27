@@ -21,29 +21,7 @@ class MinSwapsKTogether {
 				arr[i] = Integer.parseInt(inp[i]);
 			}
 			int k = Integer.parseInt((br.readLine()));
-// 			System.out.println(k);
-			int good=0;
-			for (int i=0;i<n;i++){
-			   if(arr[i]<=k){
-			        good++;
-			    } 
-			}
-			int ans=0,bad=0;
-			for(int i=0; i<good;i++){
-			    if(arr[i]>k){
-			        bad++;
-			    }
-			}
-			ans=bad;
-			for(int i=0,j=good;j<arr.length;i++,j++){
-			    if(arr[i]>k){
-			        bad--;
-			    }
-			    if(arr[j]>k){
-			        bad++;
-			    }
-			    ans=Math.min(ans,bad);
-			}
+			int ans=minSwapsKTogether(arr, k);
 			System.out.println(ans);
 			
 
@@ -52,4 +30,31 @@ class MinSwapsKTogether {
 		br.close();
 		
 	}
+static int minSwapsKTogether(int[] arr,int k){
+    int n=arr.length;
+    int good=0;
+    for (int i=0;i<n;i++){
+        if(arr[i]<=k){
+            good++;
+        } 
+    }
+    int ans=0,bad=0;
+    for(int i=0; i<good;i++){
+        if(arr[i]>k){
+            bad++;
+        }
+    }
+    ans=bad;
+    for(int i=0,j=good;j<arr.length;i++,j++){
+        if(arr[i]>k){
+            bad--;
+        }
+        if(arr[j]>k){
+            bad++;
+        }
+        ans=Math.min(ans,bad);
+    }
+    return ans;
+}
+	
 }

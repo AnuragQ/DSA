@@ -2,6 +2,7 @@ package arrays;
 
 import java.util.*;
 
+
 public class RotateBy90 {
 
     public static void main(String[] args) throws Exception {
@@ -18,20 +19,24 @@ public class RotateBy90 {
             }
         }
         sc.close();
-        for (int i = 0; i < n / 2; i++) {
-
-            for (int j = i; j < n - i - 1; j++) {
-                int temp = array[i][j];
-                array[i][j] = array[n - j - 1][i];
-                array[n - j - 1][i] = array[n - i - 1][n - j - 1];
-                array[n - i - 1][n - j - 1] = array[j][n - i - 1];
-                array[j][n - i - 1] = temp;
-
-            }
-        }
+        rotateBy90(array);
         display(array);
 
     }
+static void rotateBy90(int[][] array){
+    int n=array.length;
+    for (int i = 0; i < n / 2; i++) {
+
+        for (int j = i; j < n - i - 1; j++) {
+            int temp = array[i][j];
+            array[i][j] = array[n - j - 1][i];
+            array[n - j - 1][i] = array[n - i - 1][n - j - 1];
+            array[n - i - 1][n - j - 1] = array[j][n - i - 1];
+            array[j][n - i - 1] = temp;
+
+        }
+    }
+}
 
     public static void display(int[][] arr) {
         for (int i = 0; i < arr.length; i++) {

@@ -66,31 +66,31 @@ public class PrintNodeToRootPathInRange_BT {
         return root;
     }
 
-    public static void pathToLeafFromRoot(Node node, String path, int sum, int lo, int hi) {
-        // write your code here
-        if (node == null) {
-            return;
+public static void pathToLeafFromRoot(Node node, String path, int sum, int lo, int hi) {
+    // write your code here
+    if (node == null) {
+        return;
+    }
+    if (node.left == null && node.right == null) {
+        if (sum + node.data <= hi && sum + node.data >= lo) {
+            path = path + node.data + " ";
+            System.out.println(path);
         }
-        if (node.left == null && node.right == null) {
-            if (sum + node.data <= hi && sum + node.data >= lo) {
-                path = path + node.data + " ";
-                System.out.println(path);
-            }
-            return;
-
-        }
-        path = path + node.data + " ";
-
-
-
-        pathToLeafFromRoot(node.left, path, sum + node.data, lo, hi);
-        pathToLeafFromRoot(node.right, path, sum + node.data, lo, hi);
-
-
-
-
+        return;
 
     }
+    path = path + node.data + " ";
+
+
+
+    pathToLeafFromRoot(node.left, path, sum + node.data, lo, hi);
+    pathToLeafFromRoot(node.right, path, sum + node.data, lo, hi);
+
+
+
+
+
+}
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

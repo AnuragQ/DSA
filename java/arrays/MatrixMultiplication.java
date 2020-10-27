@@ -46,5 +46,26 @@ public class MatrixMultiplication {
             }
         }
     }
+static int[][] matrixMultiplication(int[][] array1,int m1,int n1,int[][] array2,int m2,int n2){
+    if (n2 != m1) {
+        System.out.print("Invalid input");
+        return null;
+    } else {
+        int[][] prod = new int[n1][m2];
+        for (int i = 0; i < n1; i++) {
+            for (int j = 0; j < m2; j++) {
+                int sum = 0;
+                for (int k = 0; k < n2; k++) {
+                    sum += array1[i][k] * array2[k][j];
+
+                }
+                prod[i][j] = sum;
+            }
+        }
+        return prod;
+    }
+    
+}
+    
 
 }

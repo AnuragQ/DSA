@@ -1,5 +1,4 @@
 
-
 // 1. You are given a string str. The string str will contains numbers only, where each number stands for a key pressed on a mobile phone.
 // 2. The following list is the key to characters map
 // 0 -> .;
@@ -25,31 +24,19 @@ public class print_kpc {
         String str = br.readLine();
         printKPC(str, "");
 
-
     }
-    static String[] codes = {
-        ".;",
-        "abc",
-        "def",
-        "ghi",
-        "jkl",
-        "mno",
-        "pqrs",
-        "tu",
-        "vwx",
-        "yz"
-    };
 
+static String[] codes = { ".;", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tu", "vwx", "yz" };
 
-    public static void printKPC(String str, String asf) {
-        if (str.length() == 0) {
-            System.out.println(asf);
-            return;
-        }
-        String code = codes[str.charAt(0) - '0'];
-        for (int i = 0; i < code.length(); i++) {
-            printKPC(str.substring(1), asf + code.charAt(i));
-        }
+public static void printKPC(String str, String asf) {
+    if (str.length() == 0) {
+        System.out.println(asf);
+        return;
     }
+    String code = codes[str.charAt(0) - '0'];
+    for (int i = 0; i < code.length(); i++) {
+        printKPC(str.substring(1), asf + code.charAt(i));
+    }
+}
 
 }

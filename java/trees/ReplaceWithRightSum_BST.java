@@ -82,17 +82,17 @@ public class ReplaceWithRightSum_BST {
   }
 
 //   static int sum = 0;
-  public static int rwsol(Node node,int sum){
-    // write your code here
-    if (node==null){
-        return 0;
-    }
-    int rightsum=rwsol(node.right,sum);
-    int data=node.data;
-    node.data=sum+rightsum;
-    int leftsum=rwsol(node.left,data+node.data);
-    return leftsum+data+rightsum;
+public static int rwsol(Node node,int sum){
+  // write your code here
+  if (node==null){
+      return 0;
   }
+  int rightsum=rwsol(node.right,sum);
+  int data=node.data;
+  node.data=sum+rightsum;
+  int leftsum=rwsol(node.left,data+node.data);
+  return leftsum+data+rightsum;
+}
 
   public static void main(String[] args) throws Exception {
     BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

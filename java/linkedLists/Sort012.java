@@ -10,7 +10,7 @@ class Node
     }
 }
 */
-class Sort012
+public class Sort012
 {
     static Node segregate(Node head)
     {

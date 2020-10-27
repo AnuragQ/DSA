@@ -1,7 +1,8 @@
 import java.io.*;
+import java.util.Arrays;
 
 public class LIS_iter {
-
+    
     public static void main(String[] args) throws IOException {
         // write your code here
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -55,6 +56,43 @@ public class LIS_iter {
         //     ans = Math.max(ans, dp[i]);
         // }
         // System.out.print(ans);
+    }
+
+    // O(NLogN)
+    public int lengthOfLIS(int[] nums) {
+        int n=nums.length;
+        int[] arr=new int[n];
+        int j=0;
+        Arrays.fill(arr,Integer.MIN_VALUE);
+        for(int i=0;i<n;i++){
+            int idx=-1;
+            int curval=nums[i];
+            
+            int lo=0;
+            int hi=j;
+            int mid=0;
+            while(lo<=hi){
+
+                mid=(lo+hi)/2;
+                if(curval<=arr[mid]){
+                    hi=mid-1;
+                    idx=mid;
+
+                }else{
+                    lo=mid+1;
+                }
+            }
+
+            if(idx==-1 ){
+
+                arr[j]=curval;
+                j++;
+            }else{
+                arr[idx]=curval;
+            }
+        }
+        
+        return j;
     }
 
 }

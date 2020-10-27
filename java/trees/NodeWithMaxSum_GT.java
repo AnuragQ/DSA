@@ -52,29 +52,29 @@ public class NodeWithMaxSum_GT {
       int mySum;
       
   }
-  
-  public static pair getMaxSumSubtree(Node node){
-      if(node==null ){
-          return null;
-      }
-      pair myPair=new pair();
-      myPair.maxSum=Integer.MIN_VALUE;
 
-      for(Node child:node.children){
-          pair childPair=getMaxSumSubtree(child);
-          myPair.mySum+=childPair.mySum;
-          if(myPair.maxSum<childPair.maxSum){
-              myPair.maxSum=childPair.maxSum;
-              myPair.maxSumNode=childPair.maxSumNode;
-          }
-      }
-      myPair.mySum+=node.data;
-    //   System.out.println(node.data+" "+myPair.maxSum);
-      if(myPair.mySum>=myPair.maxSum){
-          myPair.maxSumNode=node;
-          myPair.maxSum=myPair.mySum;
-      }
-      return myPair;
+public static pair getMaxSumSubtree(Node node){
+    if(node==null ){
+        return null;
+    }
+    pair myPair=new pair();
+    myPair.maxSum=Integer.MIN_VALUE;
+
+    for(Node child:node.children){
+        pair childPair=getMaxSumSubtree(child);
+        myPair.mySum+=childPair.mySum;
+        if(myPair.maxSum<childPair.maxSum){
+            myPair.maxSum=childPair.maxSum;
+            myPair.maxSumNode=childPair.maxSumNode;
+        }
+    }
+    myPair.mySum+=node.data;
+  //   System.out.println(node.data+" "+myPair.maxSum);
+    if(myPair.mySum>=myPair.maxSum){
+        myPair.maxSumNode=node;
+        myPair.maxSum=myPair.mySum;
+    }
+    return myPair;
       
       
       

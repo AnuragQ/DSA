@@ -17,15 +17,19 @@ public class DiagonalTraversal {
             }
         }
         sc.close();
-        
-        for(int i=0;i<n;i++){
-            
-            for(int col=i,  row=0;row<n & col<n;row++,col++){
-                System.out.println(array[row][col]);
-            }
-        }
+        printDiagonalTraversal(array);
+
 
 
     }
+public static void printDiagonalTraversal(int[][] array){
+    int n=array.length;
+    for(int i=0;i<n;i++){
+
+        for(int col=i,  row=0;row<n & col<n;row++,col++){
+            System.out.println(array[row][col]);
+        }
+    }
+}
 
 }

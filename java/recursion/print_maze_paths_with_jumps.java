@@ -17,28 +17,28 @@ public class print_maze_paths_with_jumps {
         printMazePaths(0, 0, n - 1, m - 1, "");
         System.out.println();
     }
-
-    // sr - source row
-    // sc - source column
-    // dr - destination row
-    // dc - destination column
-    public static void printMazePaths(int sr, int sc, int dr, int dc, String psf) {
-        if (sr == dr && sc == dc) {
-            System.out.println(psf);
-        }
-
-        for (int i = 1; i <= dc - sc; i++) {
-            printMazePaths(sr, sc + i, dr, dc, psf + "h" + i);
-        }
-
-        for (int i = 1; i <= dr - sr; i++) {
-            printMazePaths(sr + i, sc, dr, dc, psf + "v" + i);
-        }
-
-        for (int i = 1; i <= Math.min(dc - sc, dr - sr); i++) {
-            printMazePaths(sr + i, sc + i, dr, dc, psf + "d" + i);
-        }
-
+// printMazePaths(0, 0, n - 1, m - 1, "");
+// sr - source row
+// sc - source column
+// dr - destination row
+// dc - destination column
+public static void printMazePaths(int sr, int sc, int dr, int dc, String psf) {
+    if (sr == dr && sc == dc) {
+        System.out.println(psf);
     }
+
+    for (int i = 1; i <= dc - sc; i++) {
+        printMazePaths(sr, sc + i, dr, dc, psf + "h" + i);
+    }
+
+    for (int i = 1; i <= dr - sr; i++) {
+        printMazePaths(sr + i, sc, dr, dc, psf + "v" + i);
+    }
+
+    for (int i = 1; i <= Math.min(dc - sc, dr - sr); i++) {
+        printMazePaths(sr + i, sc + i, dr, dc, psf + "d" + i);
+    }
+
+}
 
 }

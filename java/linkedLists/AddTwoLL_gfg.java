@@ -1,18 +1,18 @@
 
 
 
+class Node {
+    int data;
+    Node next;
 
+    Node(int d) {
+        data = d;
+        next = null;
+    }
+}
 
 class AddTwoLL_gfg{
-    class Node {
-        int data;
-        Node next;
     
-        Node(int d) {
-            data = d;
-            next = null;
-        }
-    }
     
     static int size(Node head){
         int size=0;

@@ -81,15 +81,15 @@ public class IsGenericTreeSymmetric {
     return h;
   }
 
-  public static boolean IsSymmetric(Node node) {
-    // write your code here
-    Boolean isSymmetric=true;
-    for(int i=0;i<node.children.size()/2;i++){
-        if(node.children.get(i).children.size()!=node.children.get(node.children.size()-i-1).children.size()){
-            isSymmetric=false;
-            break;
-        }
-    }
+public static boolean IsSymmetric(Node node) {
+  // write your code here
+  Boolean isSymmetric=true;
+  for(int i=0;i<node.children.size()/2;i++){
+      if(node.children.get(i).children.size()!=node.children.get(node.children.size()-i-1).children.size()){
+          isSymmetric=false;
+          break;
+      }
+  }
     for(Node child:node.children){
         isSymmetric=isSymmetric&&IsSymmetric(child);
     }

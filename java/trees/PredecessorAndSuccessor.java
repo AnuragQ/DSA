@@ -47,27 +47,27 @@ public class PredecessorAndSuccessor {
     return root;
   }
 
-  static Node predecessor;
-  static Node successor;
-  static int state;
-  public static void predecessorAndSuccessor(Node node, int data) {
+static Node predecessor;
+static Node successor;
+static int state;
+public static void predecessorAndSuccessor(Node node, int data) {
 
-    
-    if(state==0){
-        if(node.data==data){
-            state=1;
-        }else{
-            predecessor=node;
-        }
-    }else if(state==1){
-        state=2;
-        successor=node;
-    }
-    for(Node child:node.children){
-        predecessorAndSuccessor(child,data);
-    }
-    
+  
+  if(state==0){
+      if(node.data==data){
+          state=1;
+      }else{
+          predecessor=node;
+      }
+  }else if(state==1){
+      state=2;
+      successor=node;
   }
+  for(Node child:node.children){
+      predecessorAndSuccessor(child,data);
+  }
+  
+}
 
   public static void main(String[] args) throws IOException {
     BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

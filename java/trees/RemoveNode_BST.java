@@ -89,28 +89,28 @@ public class RemoveNode_BST {
         ans=Math.max(max(node.right),ans);
         return ans;
     }
-  public static Node remove(Node node, int data) {
-    // write your code here
-    if(node==null){
-        return null;
-    }
-    if(data>node.data){
-        node.right=remove(node.right,data);
-    }else if(data<node.data){
-        node.left=remove(node.left,data);
-    }else{
-        if(node.left==null){
-            node=node.right;
-        }else if(node.right==null){
-            node=node.left;
-        }else{
-            int max=max(node.left);
-            node.data=max;
-            node.left=remove(node.left,max);
-        }
-    }
-    return node;
+public static Node remove(Node node, int data) {
+  // write your code here
+  if(node==null){
+      return null;
   }
+  if(data>node.data){
+      node.right=remove(node.right,data);
+  }else if(data<node.data){
+      node.left=remove(node.left,data);
+  }else{
+      if(node.left==null){
+          node=node.right;
+      }else if(node.right==null){
+          node=node.left;
+      }else{
+          int max=max(node.left);
+          node.data=max;
+          node.left=remove(node.left,max);
+      }
+  }
+  return node;
+}
 
   public static void main(String[] args) throws Exception {
     BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

@@ -19,17 +19,7 @@ class LargestSubarraySumDivByK {
 		    for(int i=0;i<n;i++){
 		        arr[i]=Integer.parseInt(inp[i]);
 		    }
-		    HashMap<Integer,Integer> hm=new HashMap<>();
-		    hm.put(0,-1);
-		    int ans=0,sum=0;
-		    for(int i=0;i<n;i++){
-		        sum+=arr[i];
-		        if(hm.containsKey(((sum%k)+k)%k)){
-		            ans=Math.max(ans,i-hm.get(((sum%k)+k)%k));
-		        }else{
-		            hm.put(((sum%k)+k)%k,i);
-		        }
-		    }
+		    int ans=largestSubarraySumDivByK(arr, k);
 		    System.out.println(ans);
 		    
 		    
@@ -38,4 +28,18 @@ class LargestSubarraySumDivByK {
 		br.close();
 		
 	}
+static int largestSubarraySumDivByK(int[]arr, int k){
+    HashMap<Integer,Integer> hm=new HashMap<>();
+    hm.put(0,-1);
+    int ans=0,sum=0,n=arr.length;
+    for(int i=0;i<n;i++){
+        sum+=arr[i];
+        if(hm.containsKey(((sum%k)+k)%k)){
+            ans=Math.max(ans,i-hm.get(((sum%k)+k)%k));
+        }else{
+            hm.put(((sum%k)+k)%k,i);
+        }
+    }
+    return ans;
+}
 }

@@ -36,47 +36,47 @@ public class Diameter_GT {
         return root;
     }
 
-    static class diaPair {
-        int maxDia;
-        int myHeight;
+static class diaPair {
+    int maxDia;
+    int myHeight;
+}
+
+public static diaPair getDiameter(Node node) {
+    diaPair myans = new diaPair();
+
+    if (node == null) {
+        myans.myHeight = -1;
+        myans.maxDia = -1;
+        return new diaPair();
     }
-
-    public static diaPair getDiameter(Node node) {
-        diaPair myans = new diaPair();
-
-        if (node == null) {
-            myans.myHeight = -1;
-            myans.maxDia = -1;
-            return new diaPair();
-        }
-        int highest = -1;
-        int scondHighest = -1;
-        if (node.children.size() != 1) {
-            for (Node child : node.children) {
-                diaPair ch = getDiameter(child);
-                if (ch.myHeight >= highest) {
-                    scondHighest = highest;
-                    highest = ch.myHeight;
-                } else if (ch.myHeight >= scondHighest) {
-                    scondHighest = ch.myHeight;
-                }
-                myans.maxDia = Math.max(myans.maxDia, ch.maxDia);
+    int highest = -1;
+    int scondHighest = -1;
+    if (node.children.size() != 1) {
+        for (Node child : node.children) {
+            diaPair ch = getDiameter(child);
+            if (ch.myHeight >= highest) {
+                scondHighest = highest;
+                highest = ch.myHeight;
+            } else if (ch.myHeight >= scondHighest) {
+                scondHighest = ch.myHeight;
             }
-            myans.myHeight = highest + 1;
-            myans.maxDia = Math.max(myans.maxDia, highest + scondHighest + 2);
-            return myans;
-        } else if (node.children.size() == 1) {
-            diaPair childans = getDiameter(node.children.get(0));
-            myans.maxDia = Math.max(childans.maxDia, childans.myHeight + 1);
-            myans.myHeight = childans.myHeight + 1;
-            return myans;
-        } else {
-            myans.myHeight = 0;
-            myans.maxDia = 1;
-            return myans;
+            myans.maxDia = Math.max(myans.maxDia, ch.maxDia);
         }
-
+        myans.myHeight = highest + 1;
+        myans.maxDia = Math.max(myans.maxDia, highest + scondHighest + 2);
+        return myans;
+    } else if (node.children.size() == 1) {
+        diaPair childans = getDiameter(node.children.get(0));
+        myans.maxDia = Math.max(childans.maxDia, childans.myHeight + 1);
+        myans.myHeight = childans.myHeight + 1;
+        return myans;
+    } else {
+        myans.myHeight = 0;
+        myans.maxDia = 1;
+        return myans;
     }
+
+}
 
     public static void main(String[] args) throws NumberFormatException, IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

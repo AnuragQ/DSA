@@ -8,7 +8,7 @@ class Node
 }
 
 
-class solver
+class DetectAndRemoveLoop
 {
     public static void removeLoop(Node head){
         // code here

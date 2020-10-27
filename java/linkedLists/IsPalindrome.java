@@ -56,31 +56,31 @@ public class IsPalindrome {
 
 
 
-    public pairPal IsPalindrome(Node node, Node n2u) {
-      if (node.next == null) {
-        pairPal p = new pairPal();
-        p.n2u = n2u.next;
-        if (node.data == n2u.data) {
-          p.isPalindrome = true;
-        } else {
-          p.isPalindrome = false;
-        }
-        return p;
-      }
-      pairPal ret = IsPalindrome(node.next, n2u);
-      if (ret.isPalindrome) {
-        if (node.data == ret.n2u.data) {
-          ret.n2u = ret.n2u.next;
-          return ret;
-        } else {
-          ret.isPalindrome = false;
-          return ret;
-        }
-      } else {
-        return ret;
-      }
-
+public pairPal IsPalindrome(Node node, Node n2u) {
+  if (node.next == null) {
+    pairPal p = new pairPal();
+    p.n2u = n2u.next;
+    if (node.data == n2u.data) {
+      p.isPalindrome = true;
+    } else {
+      p.isPalindrome = false;
     }
+    return p;
+  }
+  pairPal ret = IsPalindrome(node.next, n2u);
+  if (ret.isPalindrome) {
+    if (node.data == ret.n2u.data) {
+      ret.n2u = ret.n2u.next;
+      return ret;
+    } else {
+      ret.isPalindrome = false;
+      return ret;
+    }
+  } else {
+    return ret;
+  }
+
+}
 
     public boolean IsPalindrome() {
       // write your code here

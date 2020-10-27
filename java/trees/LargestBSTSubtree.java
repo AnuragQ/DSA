@@ -83,67 +83,67 @@ public class LargestBSTSubtree {
         display(node.right);
     }
 
-    static class BstPair {
-        Node bstNode;
-        int size;
-        boolean isBst;
-        int hi;
-        int lo;
+static class BstPair {
+    Node bstNode;
+    int size;
+    boolean isBst;
+    int hi;
+    int lo;
 
-        BstPair(Node bstNode, int size, boolean isBst, int hi, int lo) {
-            this.bstNode = bstNode;
-            this.size = size;
-            this.isBst = isBst;
-            this.hi = hi;
-            this.lo = lo;
-
-        }
-    }
-
-    public static BstPair largestBst(Node node) {
-        if (node == null) {
-            return new BstPair(null, 0, true, Integer.MIN_VALUE, Integer.MAX_VALUE);
-
-        }
-
-        BstPair left = largestBst(node.left);
-        BstPair right = largestBst(node.right);
-        int lo, hi;
-        lo = Math.min(node.data, left.lo);
-        hi = Math.max(node.data, right.hi);
-
-        BstPair ans = new BstPair(node, 0, false, hi, lo);
-
-        // System.out.println(lo + " " + hi);
-
-        if (!left.isBst && !right.isBst) {
-
-        } else if (!left.isBst) {
-            ans.bstNode = right.bstNode;
-            ans.size = right.size;
-            return ans;
-        } else if (!right.isBst) {
-            ans.bstNode = left.bstNode;
-            ans.size = left.size;
-            return ans;
-        } else if (node.data > left.hi && node.data < right.lo) {
-            // System.out.println("in ");
-            ans.isBst = true;
-            ans.size = left.size + right.size + 1;
-            return ans;
-        }
-
-        if (left.size > right.size) {
-            ans.bstNode = left.bstNode;
-            ans.size = left.size;
-            return ans;
-        } else {
-            ans.bstNode = right.bstNode;
-            ans.size = right.size;
-            return ans;
-        }
+    BstPair(Node bstNode, int size, boolean isBst, int hi, int lo) {
+        this.bstNode = bstNode;
+        this.size = size;
+        this.isBst = isBst;
+        this.hi = hi;
+        this.lo = lo;
 
     }
+}
+
+public static BstPair largestBst(Node node) {
+    if (node == null) {
+        return new BstPair(null, 0, true, Integer.MIN_VALUE, Integer.MAX_VALUE);
+
+    }
+
+    BstPair left = largestBst(node.left);
+    BstPair right = largestBst(node.right);
+    int lo, hi;
+    lo = Math.min(node.data, left.lo);
+    hi = Math.max(node.data, right.hi);
+
+    BstPair ans = new BstPair(node, 0, false, hi, lo);
+
+    // System.out.println(lo + " " + hi);
+
+    if (!left.isBst && !right.isBst) {
+
+    } else if (!left.isBst) {
+        ans.bstNode = right.bstNode;
+        ans.size = right.size;
+        return ans;
+    } else if (!right.isBst) {
+        ans.bstNode = left.bstNode;
+        ans.size = left.size;
+        return ans;
+    } else if (node.data > left.hi && node.data < right.lo) {
+        // System.out.println("in ");
+        ans.isBst = true;
+        ans.size = left.size + right.size + 1;
+        return ans;
+    }
+
+    if (left.size > right.size) {
+        ans.bstNode = left.bstNode;
+        ans.size = left.size;
+        return ans;
+    } else {
+        ans.bstNode = right.bstNode;
+        ans.size = right.size;
+        return ans;
+    }
+
+}
 
     public static void main(String[] args) throws NumberFormatException, IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

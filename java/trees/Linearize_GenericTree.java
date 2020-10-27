@@ -45,30 +45,28 @@ public class Linearize_GenericTree {
 
     return root;
   }
-   private static Node getTail(Node node){
-        while(node.children.size()==1)
-            node=node.children.get(0);
-        
-        return node;
-    }
-  public static void linearize(Node node){
-    // write your code here
-    for (Node child: node.children){
-        linearize(child);
-    }
-    while(node.children.size()>1){
-        Node lastc=node.children.remove(node.children.size()-1);
-        Node slc=node.children.get(node.children.size()-1);
-        getTail(slc).children.add(lastc);;
-        
-        
-    }
-    
-    
-    
-    
-    
+  
+private static Node getTail(Node node) {
+  while (node.children.size() == 1)
+    node = node.children.get(0);
+
+  return node;
+}
+
+public static void linearize(Node node) {
+  // write your code here
+  for (Node child : node.children) {
+    linearize(child);
   }
+  while (node.children.size() > 1) {
+    Node lastc = node.children.remove(node.children.size() - 1);
+    Node slc = node.children.get(node.children.size() - 1);
+    getTail(slc).children.add(lastc);
+    ;
+
+  }
+
+}
 
   public static void main(String[] args) throws IOException {
     BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

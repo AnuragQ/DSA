@@ -46,34 +46,34 @@ class PathSum2 {
     
     
     
-//     public List<List<Integer>> pathSum(TreeNode root, int sum) {
-//         if(root==null){
-//             return new ArrayList<>();
-//         }
-//         List<List<Integer>> myans=new ArrayList<>();
-//         if(root.left==null && root.right==null){
-//             if(root.val==sum){
-//                 List<Integer> path=new ArrayList<>();
-//                 path.add(root.val);
-//                 myans.add(path);
+    // public List<List<Integer>> pathSum(TreeNode root, int sum) {
+    //     if(root==null){
+    //         return new ArrayList<>();
+    //     }
+    //     List<List<Integer>> myans=new ArrayList<>();
+    //     if(root.left==null && root.right==null){
+    //         if(root.val==sum){
+    //             List<Integer> path=new ArrayList<>();
+    //             path.add(root.val);
+    //             myans.add(path);
                 
-//             }
-//             return myans;
-//         }
-//         List<List<Integer>> lans=pathSum(root.left,sum-root.val);
-//         for(List<Integer> l:lans){
-//             l.add(0,root.val);
-//         }
-//         myans.addAll(lans);
+    //         }
+    //         return myans;
+    //     }
+    //     List<List<Integer>> lans=pathSum(root.left,sum-root.val);
+    //     for(List<Integer> l:lans){
+    //         l.add(0,root.val);
+    //     }
+    //     myans.addAll(lans);
         
-//         List<List<Integer>> rans=pathSum(root.right,sum-root.val);
-//         for(List<Integer> r:rans){
-//             r.add(0,root.val);
-//         }
-//         myans.addAll(rans);
+    //     List<List<Integer>> rans=pathSum(root.right,sum-root.val);
+    //     for(List<Integer> r:rans){
+    //         r.add(0,root.val);
+    //     }
+    //     myans.addAll(rans);
         
         
-//         return myans;
+    //     return myans;
         
-//     }
+    // }
 }

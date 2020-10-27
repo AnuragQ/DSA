@@ -9,8 +9,8 @@ public class ConvertArrayZigzag {
         arr[i]=arr[j];
         arr[j]=temp;
     }
-	public static void main (String[] args) throws NumberFormatException, IOException{
-		//code
+    public static void main (String[] args) throws NumberFormatException, IOException{
+        //code
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int t=Integer.parseInt(br.readLine());
         while(t-->0){
@@ -21,22 +21,25 @@ public class ConvertArrayZigzag {
                 arr[i]=Integer.parseInt(str[i]);
             }
         
-            if(arr.length>1){
-                for(int i=1; i<arr.length;i+=2){
-                    if(arr[i]<arr[i-1]){
-                        swap(i,i-1,arr);
-                        
-                    }
-                    if(i+1<arr.length && arr[i]<arr[i+1]){
-                        swap(i,i+1,arr);
-                    }
-                }
-            }
-            for(int i=0;i<arr.length;i++){
-                System.out.print(arr[i]+" ");
-            }
+            
                 System.out.println();
 
         }
-	}   
+    }   
+private static void convertArrayZigzag(int[] arr){
+    if(arr.length>1){
+        for(int i=1; i<arr.length;i+=2){
+            if(arr[i]<arr[i-1]){
+                swap(i,i-1,arr);
+                
+            }
+            if(i+1<arr.length && arr[i]<arr[i+1]){
+                swap(i,i+1,arr);
+            }
+        }
+    }
+    for(int i=0;i<arr.length;i++){
+        System.out.print(arr[i]+" ");
+    }
+}
 }

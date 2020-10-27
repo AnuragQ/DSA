@@ -17,23 +17,7 @@ class MinMergesReqdForPalindrome {
 			for (int i = 0; i < n; i++) {
 				arr[i] = Integer.parseInt(inp[i]);
 			}
-			int count=0;
-			int i=0,j=n-1;
-			while(i<=j){
-			    if(arr[i]==arr[j]){
-			        i++;
-			        j--;
-			        
-			    }else if(arr[i]>arr[j]){
-			        j--;
-			        arr[j]=arr[j]+arr[j+1];
-			        count++;
-			    }else if(arr[j]>arr[i]){
-			        i++;
-			        arr[i]=arr[i]+arr[i-1];
-			        count++;
-			    }
-			}
+			int count=minMergesReqdForPalindrome(arr);
 			System.out.println(count);
 			
 
@@ -42,4 +26,25 @@ class MinMergesReqdForPalindrome {
 		br.close();
 
 	}
+static int minMergesReqdForPalindrome(int[] arr){
+    int count=0;
+    int n=arr.length;
+    int i=0,j=n-1;
+    while(i<=j){
+        if(arr[i]==arr[j]){
+            i++;
+            j--;
+            
+        }else if(arr[i]>arr[j]){
+            j--;
+            arr[j]=arr[j]+arr[j+1];
+            count++;
+        }else if(arr[j]>arr[i]){
+            i++;
+            arr[i]=arr[i]+arr[i-1];
+            count++;
+        }
+    }
+    return count;
+}
 }

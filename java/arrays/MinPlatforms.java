@@ -19,25 +19,29 @@ class MinPlatforms {
 		        arrivalTimes[i]=Integer.parseInt(arr[i]);
 		        departureTimes[i]=Integer.parseInt(dep[i]);
 		    }
-	     Arrays.sort(arrivalTimes);
-		    Arrays.sort(departureTimes);
-
-		  int maxPlatforms=Integer.MIN_VALUE;
-		    int arrival=0;
-		    int departure=0;
-		    int platforms=0;
-		    while(arrival<n && departure<n){
-    		    if( arrivalTimes[arrival]<=departureTimes[departure]){
-    		        platforms++;
-    		        arrival++;
-    		    }else{
-    		        platforms--;
-    		        departure++;
-    		    }
-    		    maxPlatforms=platforms>=maxPlatforms?platforms:maxPlatforms;
-		    }
-		    System.out.println(maxPlatforms);
-		    
+	        minPlatforms(departureTimes, arrivalTimes);
 		}
 	}
+static void minPlatforms(int[] departureTimes,int[] arrivalTimes){
+    int n=departureTimes.length;
+    Arrays.sort(arrivalTimes);
+    Arrays.sort(departureTimes);
+
+    int maxPlatforms=Integer.MIN_VALUE;
+    int arrival=0;
+    int departure=0;
+    int platforms=0;
+    while(arrival<n && departure<n){
+        if( arrivalTimes[arrival]<=departureTimes[departure]){
+            platforms++;
+            arrival++;
+        }else{
+            platforms--;
+            departure++;
+        }
+        maxPlatforms=platforms>=maxPlatforms?platforms:maxPlatforms;
+    }
+    System.out.println(maxPlatforms);
+        
+}
 }

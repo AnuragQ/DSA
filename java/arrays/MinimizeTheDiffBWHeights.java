@@ -19,35 +19,40 @@ class MinimizeTheDiffBWHeights {
 		    for(int i=0;i<n;i++){
 		        arr[i]=Integer.parseInt(inp[i]);
 		        
-		    }
-		    Arrays.sort(arr);
-		    int ans=arr[n-1]-arr[0];
-		    int big=arr[n-1]-k;
-		    int small=arr[0]+k;
-		    if(big<small){
-		        int temp=big;
-		        big=small;
-		        small=temp;
-		    }
-		    if((big-small)>=ans){
-		        System.out.println(ans);
-		    }else{
-		        for(int i=1;i<n-1;i++){
-		            if(arr[i]+k<=big || arr[i]-k>=small){
-		                continue;
-		            }else{
-		                if(arr[i]+k-big>small-arr[i]+k){
-		                    small=arr[i]-k;
-		                }else{
-		                    big=arr[i]+k;
-		                }
-		            }
-		        }
-		        System.out.println(big-small);
-		    }
+			}
+			System.out.println(minimizeTheDiffBWHeights(arr, k));
+		    
 		    
 		    
 		    
 		}
+	}
+private static int minimizeTheDiffBWHeights(int[] arr, int k) {
+    int n=arr.length;
+    Arrays.sort(arr);
+    int ans=arr[n-1]-arr[0];
+    int big=arr[n-1]-k;
+    int small=arr[0]+k;
+    if(big<small){
+        int temp=big;
+        big=small;
+        small=temp;
     }
+    if((big-small)>=ans){
+        return (ans);
+    }else{
+        for(int i=1;i<n-1;i++){
+            if(arr[i]+k<=big || arr[i]-k>=small){
+                continue;
+            }else{
+                if(arr[i]+k-big>small-arr[i]+k){
+                    small=arr[i]-k;
+                }else{
+                    big=arr[i]+k;
+                }
+            }
+        }
+        return (big-small);
+    }
+}
 }

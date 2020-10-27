@@ -16,42 +16,43 @@ public class get_maze_paths_with_jumps {
         ArrayList<String> paths = getMazePaths(0, 0, n - 1, m - 1);
         System.out.println(paths);
     }
+// ArrayList<String> paths = getMazePaths(0, 0, n - 1, m - 1);
 
-    // sr - source row
-    // sc - source column
-    // dr - destination row
-    // dc - destination column
-    public static ArrayList<String> getMazePaths(int sr, int sc, int dr, int dc) {
-        if (sr == dr && sc == dc) {
-            ArrayList<String> ans = new ArrayList<>();
-            ans.add("");
-            return ans;
+// sr - source row
+// sc - source column
+// dr - destination row
+// dc - destination column
+public static ArrayList<String> getMazePaths(int sr, int sc, int dr, int dc) {
+    if (sr == dr && sc == dc) {
+        ArrayList<String> ans = new ArrayList<>();
+        ans.add("");
+        return ans;
+    }
+    ArrayList<String> myans = new ArrayList<>();
+
+    for (int i = 1; i <= dc - sc; i++) {
+        ArrayList<String> rv = getMazePaths(sr, sc + i, dr, dc);
+        for (int j = 0; j < rv.size(); j++) {
+            myans.add("h" + i + rv.get(j));
         }
-        ArrayList<String> myans = new ArrayList<>();
+    }
 
-        for (int i = 1; i <= dc - sc; i++) {
-            ArrayList<String> rv = getMazePaths(sr, sc + i, dr, dc);
-            for (int j = 0; j < rv.size(); j++) {
-                myans.add("h" + i + rv.get(j));
-            }
+    for (int i = 1; i <= dr - sr; i++) {
+        ArrayList<String> rv = getMazePaths(sr + i, sc, dr, dc);
+        for (int j = 0; j < rv.size(); j++) {
+            myans.add("v" + i + rv.get(j));
         }
-
-        for (int i = 1; i <= dr - sr; i++) {
-            ArrayList<String> rv = getMazePaths(sr + i, sc, dr, dc);
-            for (int j = 0; j < rv.size(); j++) {
-                myans.add("v" + i + rv.get(j));
-            }
-
-        }
-        for (int i = 1; i <= Math.min(dc - sc, dr - sr); i++) {
-            ArrayList<String> rv = getMazePaths(sr + i, sc + i, dr, dc);
-            for (int j = 0; j < rv.size(); j++) {
-                myans.add("d" + i + rv.get(j));
-            }
-
-        }
-        return myans;
 
     }
+    for (int i = 1; i <= Math.min(dc - sc, dr - sr); i++) {
+        ArrayList<String> rv = getMazePaths(sr + i, sc + i, dr, dc);
+        for (int j = 0; j < rv.size(); j++) {
+            myans.add("d" + i + rv.get(j));
+        }
+
+    }
+    return myans;
+
+}
 
 }

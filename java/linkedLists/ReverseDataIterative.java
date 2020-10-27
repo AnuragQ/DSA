@@ -164,17 +164,17 @@ private Node getNodeAt(int idx) {
         return temp;
       
     }
-    public void reverseDI() {
-      // write your code here
-      for(int i=0;i<size/2;i++){
-          Node first=getNodeAt(i);
-          Node second=getNodeAt(size-i-1);
-          int temp=first.data;
-          first.data=second.data;
-          second.data=temp;
-          
-      }
-    }
+public void reverseDI() {
+  // write your code here
+  for(int i=0;i<size/2;i++){
+      Node first=getNodeAt(i);
+      Node second=getNodeAt(size-i-1);
+      int temp=first.data;
+      first.data=second.data;
+      second.data=temp;
+      
+  }
+}
   }
 
   public static void main(String[] args) throws IOException {

@@ -4,10 +4,6 @@ import java.io.*;
 import java.util.TreeSet;
 
 /**
- * 
- * 
- * 
- * 
  * main idea is to use a self balancing tree to store data and for each value
  * get the max from the tree strictly lower than current
  */

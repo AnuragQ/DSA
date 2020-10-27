@@ -17,21 +17,21 @@ public class TargetSumSubsets {
         printTargetSumSubsets(arr, 0, "", 0, tar);
     System.out.println();
     }
-
-    // set is the subset
-    // sos is sum of subset
-    // tar is target
-    public static void printTargetSumSubsets(int[] arr, int idx, String set, int sos, int tar) {
-        
-        if(tar==sos && idx==arr.length){
-            System.out.println(set+".");
-            return;
-        }   
-        if(tar<sos || idx==arr.length){
-            return;
-        }
-        printTargetSumSubsets(arr,idx+1,set+String.valueOf(arr[idx] +", "),sos+arr[idx],tar);
-        printTargetSumSubsets(arr,idx+1,set,sos,tar);
+// printTargetSumSubsets(arr, 0, "", 0, tar);
+// set is the subset
+// sos is sum of subset
+// tar is target
+public static void printTargetSumSubsets(int[] arr, int idx, String set, int sos, int tar) {
+    
+    if(tar==sos && idx==arr.length){
+        System.out.println(set+".");
+        return;
+    }   
+    if(tar<sos || idx==arr.length){
+        return;
     }
+    printTargetSumSubsets(arr,idx+1,set+String.valueOf(arr[idx] +", "),sos+arr[idx],tar);
+    printTargetSumSubsets(arr,idx+1,set,sos,tar);
+}
 
 }

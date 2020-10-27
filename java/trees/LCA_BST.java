@@ -94,7 +94,7 @@ public class LCA_BST {
     // System.out.println(d1+" "+d2+" "+node.data);
     return ans;
     
-  }
+  } 
 
   public static void main(String[] args) throws Exception {
     BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

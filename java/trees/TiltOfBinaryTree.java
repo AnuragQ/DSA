@@ -93,17 +93,17 @@ public class TiltOfBinaryTree {
     return th;
   }
 
-  static int tilt = 0;
-  public static int tilt(Node node){
-    // write your code here to set the tilt data member
-    if(node==null){
-        return 0;
-    }
-    int leftans=tilt(node.left);
-    int rightans=tilt(node.right);
-    tilt+=Math.abs(leftans-rightans);
-    return leftans+rightans+node.data;
+static int tilt = 0;
+public static int tilt(Node node){
+  // write your code here to set the tilt data member
+  if(node==null){
+      return 0;
   }
+  int leftans=tilt(node.left);
+  int rightans=tilt(node.right);
+  tilt+=Math.abs(leftans-rightans);
+  return leftans+rightans+node.data;
+}
 
   public static void main(String[] args) throws Exception {
     BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

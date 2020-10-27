@@ -15,11 +15,11 @@ public class MaxOfAnArray {
         System.out.print(maxOfArray(array,0));
     }
 
-    public static int maxOfArray(int[] arr, int idx){
-        if(idx==arr.length){
-            return Integer.MIN_VALUE;
-        }
-        return Math.max(maxOfArray(arr,idx+1),arr[idx]);
+public static int maxOfArray(int[] arr, int idx){
+    if(idx==arr.length){
+        return Integer.MIN_VALUE;
     }
+    return Math.max(maxOfArray(arr,idx+1),arr[idx]);
+}
 
 }

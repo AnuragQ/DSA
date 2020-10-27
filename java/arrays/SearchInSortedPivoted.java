@@ -15,40 +15,10 @@ class SearchInSortedPivoted {
 		    int[] arr=new int[n];
 		    for(int i=0;i<n;i++){
 		        arr[i]=Integer.parseInt(inp[i]);
-		    }
-		    int target=Integer.parseInt(br.readLine());
-		    
-		    int start=0;
-		    int end=n-1;
-		    int mid=0; 
-		    int index=-1;
-		    while(start<=end){
-		        mid=(start+end)/2;
-		        if(arr[mid]==target){
-		            index=mid;
-		            break;
-		        }else
-		        // first array is sorted
-		        if(arr[mid]>=arr[start]){
-		            if(arr[mid]>=target && arr[start]<=target){
-		                end=mid-1;
-		            }else{
-		                start=mid+1;
-		            }
-		            
-		        }else
-		        //second array is sorted
-		        {
-		            if(target>arr[mid] && target<arr[end]){
-		                start=mid+1;
-		            }else{
-		                end=mid-1;
-		            }
-		        }
+			}
+			int target=Integer.parseInt(br.readLine());
 
-		        
-		        
-		    }
+		    int index=searchInSortedPivoted(arr, target);
 		    System.out.println(index);
 		    
 		    
@@ -89,6 +59,40 @@ class SearchInSortedPivoted {
 		    
 		}
 	}
+
+static int searchInSortedPivoted(int[] arr,int target){
+    int n=arr.length;
+    int start=0;
+    int end=n-1;
+    int mid=0; 
+    int index=-1;
+    while(start<=end){
+        mid=(start+end)/2;
+        if(arr[mid]==target){
+            index=mid;
+            break;
+        }else
+        // first array is sorted
+        if(arr[mid]>=arr[start]){
+            if(arr[mid]>=target && arr[start]<=target){
+                end=mid-1;
+            }else{
+                start=mid+1;
+            }
+            
+        }else
+        //second array is sorted
+        {
+            if(target>arr[mid] && target<arr[end]){
+                start=mid+1;
+            }else{
+                end=mid-1;
+            }
+        }	        
+        
+    }
+    return index;
+}
 // 	public  static int binarySearch(int[] arr,int start,int end,int target){
 // 	    int index=-1;
 // 	    int mid=0;

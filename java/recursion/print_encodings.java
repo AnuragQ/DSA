@@ -25,28 +25,29 @@ public class print_encodings {
         printEncodings(str, "");
         System.out.println();
     }
+    // printEncodings(str, "");
 
-    public static void printEncodings(String str, String ans) {
-        if (str.length() == 0) {
-            System.out.println(ans);
-            return;
-        }
-        if(str.charAt(0)=='0'){
-            return;
-        }
-        // System.out.println(ans);
-        int num = Integer.parseInt(str.substring(0, 1));
-        if (num > 0) {
-            printEncodings(str.substring(1), ans + (char)('a'+num-1));
-        }
-        if (str.length() >1) {
-            num = Integer.parseInt(str.substring(0, 2));
-            // System.out.print(num);
-            if (num > 0 && num <= 26) {
-                printEncodings(str.substring(2), ans + (char)('a'+num-1));
-            }
-        }
-
+public static void printEncodings(String str, String ans) {
+    if (str.length() == 0) {
+        System.out.println(ans);
+        return;
     }
+    if(str.charAt(0)=='0'){
+        return;
+    }
+    // System.out.println(ans);
+    int num = Integer.parseInt(str.substring(0, 1));
+    if (num > 0) {
+        printEncodings(str.substring(1), ans + (char)('a'+num-1));
+    }
+    if (str.length() >1) {
+        num = Integer.parseInt(str.substring(0, 2));
+        // System.out.print(num);
+        if (num > 0 && num <= 26) {
+            printEncodings(str.substring(2), ans + (char)('a'+num-1));
+        }
+    }
+
+}
 
 }

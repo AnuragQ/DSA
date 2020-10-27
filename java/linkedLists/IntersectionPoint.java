@@ -39,31 +39,31 @@ public class IntersectionPoint {
     }
 
    
-    public static int findIntersection(LinkedList one, LinkedList two){
-      // write your code here
-      Node fast,slow;
-        if(one.size()>two.size()){
-            slow=two.head;
-             fast=one.head;
-        }
-        else{
-             fast=two.head;
-             slow=one.head;
-        }
-        int extra=Math.abs(one.size()-two.size());
-        while(extra>0){
-            extra--;
-            fast=fast.next;
-        }
-        while(fast!=null){
-            if(fast==slow){
-                return fast.data;
-            }
-            fast=fast.next;
-            slow=slow.next;
-        }
-         return -1;
+public static int findIntersection(LinkedList one, LinkedList two){
+  // write your code here
+  Node fast,slow;
+    if(one.size()>two.size()){
+        slow=two.head;
+          fast=one.head;
     }
+    else{
+          fast=two.head;
+          slow=one.head;
+    }
+    int extra=Math.abs(one.size()-two.size());
+    while(extra>0){
+        extra--;
+        fast=fast.next;
+    }
+    while(fast!=null){
+        if(fast==slow){
+            return fast.data;
+        }
+        fast=fast.next;
+        slow=slow.next;
+    }
+      return -1;
+}
    
   }
 

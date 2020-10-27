@@ -13,23 +13,23 @@ public class LastIndex {
         }
         int num=sc.nextInt();
         sc.close();
-        System.out.print(firstIndex(array,0,num));
+        System.out.print(lastIndex(array,0,num));
         // write your code here
     }
 
-    public static int firstIndex(int[] arr, int idx, int x){
-        if(idx==arr.length){
-            return -1;
-        }
-        int index=firstIndex(arr,idx+1,x);
-        if(index!=-1){
-            return index;
-        }
-        if(arr[idx]==x){
-            return idx;
-        }
-        
+public static int lastIndex(int[] arr, int idx, int x){
+    if(idx==arr.length){
+        return -1;
+    }
+    int index=lastIndex(arr,idx+1,x);
+    if(index!=-1){
         return index;
     }
+    if(arr[idx]==x){
+        return idx;
+    }
+    
+    return index;
+}
 
 }

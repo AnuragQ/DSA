@@ -84,72 +84,72 @@ public class Traversals_BT {
         display(node.right);
     }
 
-    public static void levelOrder(Node node) {
-        ArrayDeque<Node> mq = new ArrayDeque<>();
-        mq.add(node);
+public static void levelOrder(Node node) {
+    ArrayDeque<Node> mq = new ArrayDeque<>();
+    mq.add(node);
 
-        while (mq.size() > 0) {
-            int cicl = mq.size();
+    while (mq.size() > 0) {
+        int cicl = mq.size();
 
-            for (int i = 0; i < cicl; i++) {
-                node = mq.remove();
-                System.out.print(node.data + " ");
+        for (int i = 0; i < cicl; i++) {
+            node = mq.remove();
+            System.out.print(node.data + " ");
 
-                if (node.left != null) {
-                    mq.add(node.left);
-                }
-
-                if (node.right != null) {
-                    mq.add(node.right);
-                }
+            if (node.left != null) {
+                mq.add(node.left);
             }
 
-            System.out.println();
-        }
-    }
-    public static class TPair {
-        Node node;
-        int state;
-        TPair(Node node, int state) {
-            this.node = node;
-            this.state = state;
-        }
-    }
-    public static void iterativePrePostInTraversal(Node node) {
-        String preorder = "", inorder = "", postorder = "";
-
-        Stack < TPair > st = new Stack < > ();
-
-        st.push(new TPair(node, 1));
-
-        while (!st.isEmpty()) {
-            TPair p = st.pop();
-            if (p.state == 1) {
-                p.state = 2;
-                st.push(p);
-                if (p.node.left != null)
-                    st.push(new TPair(p.node.left, 1));
-                preorder = preorder + p.node.data + " ";
-            } else if (p.state == 2) {
-                p.state = 3;
-                st.push(p);
-                if (p.node.right != null)
-
-                    st.push(new TPair(p.node.right, 1));
-                inorder = inorder + p.node.data + " ";
-
-            } else {
-                postorder = postorder + p.node.data + " ";
+            if (node.right != null) {
+                mq.add(node.right);
             }
         }
-        System.out.println(preorder);
-        System.out.println(inorder);
-        System.out.println(postorder);
 
-
-
-        // write your code here
+        System.out.println();
     }
+}
+public static class TPair {
+    Node node;
+    int state;
+    TPair(Node node, int state) {
+        this.node = node;
+        this.state = state;
+    }
+}
+public static void iterativePrePostInTraversal(Node node) {
+    String preorder = "", inorder = "", postorder = "";
+
+    Stack < TPair > st = new Stack < > ();
+
+    st.push(new TPair(node, 1));
+
+    while (!st.isEmpty()) {
+        TPair p = st.pop();
+        if (p.state == 1) {
+            p.state = 2;
+            st.push(p);
+            if (p.node.left != null)
+                st.push(new TPair(p.node.left, 1));
+            preorder = preorder + p.node.data + " ";
+        } else if (p.state == 2) {
+            p.state = 3;
+            st.push(p);
+            if (p.node.right != null)
+
+                st.push(new TPair(p.node.right, 1));
+            inorder = inorder + p.node.data + " ";
+
+        } else {
+            postorder = postorder + p.node.data + " ";
+        }
+    }
+    System.out.println(preorder);
+    System.out.println(inorder);
+    System.out.println(postorder);
+
+
+
+    // write your code here
+}
 
 
 

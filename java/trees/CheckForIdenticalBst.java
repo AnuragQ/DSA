@@ -60,9 +60,6 @@ public class CheckForIdenticalBst {
                 ridx++;
             }
         }
-
-
-
         return isIdentical(aleft, bleft) && isIdentical(aright, bright);
     }
 }

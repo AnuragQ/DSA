@@ -69,24 +69,24 @@ public class PrintSingleChildNodes_BT {
     }
 
 
-    public static void printSingleChildNodes(Node node, Node parent) {
-        // write your code here
-        if (node == null) {
-            return;
-        }
-        if(node.left!=null){
-            if(node.right==null){
-                System.out.println(node.left.data);
-            }
-            printSingleChildNodes(node.left,parent);
-        }
-        if(node.right!=null){
-            if(node.left==null){
-                System.out.println(node.right.data);
-            }
-            printSingleChildNodes(node.right,parent);
-        }
+public static void printSingleChildNodes(Node node, Node parent) {
+    // write your code here
+    if (node == null) {
+        return;
     }
+    if(node.left!=null){
+        if(node.right==null){
+            System.out.println(node.left.data);
+        }
+        printSingleChildNodes(node.left,parent);
+    }
+    if(node.right!=null){
+        if(node.left==null){
+            System.out.println(node.right.data);
+        }
+        printSingleChildNodes(node.right,parent);
+    }
+}
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

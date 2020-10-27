@@ -28,43 +28,43 @@ public class PairTargetDifference {
 		
 		
 	}
-	public static void findPair_NLOGN_1(int[] arr,int target){
-	    Arrays.sort(arr);
-    		int i=0,j=1;
-    		boolean found=false;
-    		while(i<arr.length && j<arr.length ){
-    		    
-    		    if(arr[j]-arr[i]==target){
-    		        found=true;
-    		        break;
-    		    }else if(arr[j]-arr[i]<target){
-    		        j++;
-    		    }
-    		    else{
-    		        if(i<j-1){
-    		            i++;
-    		        }
-    		        else{
-    		            i++;
-    		            j++;
-    		        }
-    		    }
-    		}
-    		System.out.println(found?1:-1);
-	}
-	public static void findPair_N_N(int[] arr,int target){
-	    HashSet<Integer> hs = new HashSet<>();
-    		
-    		boolean found=false;
-    		for (int i=0;i<arr.length;i++){
-    		        hs.add(arr[i]+target);
-    		    }
-    		for (int i=0;i<arr.length;i++){
-    		    if(hs.contains(arr[i])){
-    		        found=true;
-    		        break;
-    		    }
-    		}
-    		System.out.println(found?1:-1);
-	}
+public static void findPair_NLOGN_1(int[] arr,int target){
+    Arrays.sort(arr);
+        int i=0,j=1;
+        boolean found=false;
+        while(i<arr.length && j<arr.length ){
+            
+            if(arr[j]-arr[i]==target){
+                found=true;
+                break;
+            }else if(arr[j]-arr[i]<target){
+                j++;
+            }
+            else{
+                if(i<j-1){
+                    i++;
+                }
+                else{
+                    i++;
+                    j++;
+                }
+            }
+        }
+        System.out.println(found?1:-1);
+}
+public static void findPair_N_N(int[] arr,int target){
+    HashSet<Integer> hs = new HashSet<>();
+        
+        boolean found=false;
+        for (int i=0;i<arr.length;i++){
+                hs.add(arr[i]+target);
+            }
+        for (int i=0;i<arr.length;i++){
+            if(hs.contains(arr[i])){
+                found=true;
+                break;
+            }
+        }
+        System.out.println(found?1:-1);
+}
 }

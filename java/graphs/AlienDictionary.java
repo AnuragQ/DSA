@@ -1,5 +1,6 @@
 // https://practice.geeksforgeeks.org/problems/alien-dictionary/1
 // https://practice.geeksforgeeks.org/problems/alien-dictionary/1
+import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.HashMap;
 
@@ -10,7 +11,7 @@ class Solution
     {
         // Write your code here
         HashMap<Character,ArrayList<Character>> graph=new HashMap<>();
-                HashMap<Character,Integer> indegree=new HashMap<>();
+        HashMap<Character,Integer> indegree=new HashMap<>();
 
         for(int i=0;i<dict.length-1;i++){
             String one=dict[i];

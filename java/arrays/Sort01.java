@@ -19,19 +19,8 @@ class Sort01 {
 		    for(int i=0;i<n;i++){
 		        arr[i]=Integer.parseInt(inp[i]);
 		    }
-		    int i=0,j=n-1;
-		    while(i<=j){
-		        while(i<n && arr[i]==0){
-		            i+=1;
-		        }
-		        while(j>=0 && arr[j]==1){
-		            j-=1;
-		        }
-		        if(i<j){
-		        arr[j]=1;
-		        arr[i]=0;}
-		    }
-		    for( i=0;i<n;i++){
+		    
+		    for(int i=0;i<n;i++){
 		        System.out.print(arr[i]+" ");
 		    }
 		    System.out.println();
@@ -43,4 +32,19 @@ class Sort01 {
 		
 		
 	}
+static void sort01(int[] arr){
+    
+    int n=arr.length,i=0,j=n-1;
+    while(i<=j){
+        while(i<n && arr[i]==0){
+            i+=1;
+        }
+        while(j>=0 && arr[j]==1){
+            j-=1;
+        }
+        if(i<j){
+        arr[j]=1;
+        arr[i]=0;}
+    }
+}
 }

@@ -63,48 +63,48 @@ public class Fold {
             return prev;
         }
 
-        public void fold() {
-            // write your code here
-            Node node = this.head;
-            Node slow = node;
-            Node fast = node;
-            while (fast != null && fast.next != null) {
-                // System.out.println(fast.data);
-                slow = slow.next;
-                fast = fast.next.next;
-            }
-            Node right = slow.next;
-            slow.next = null;
+public void fold() {
+    // write your code here
+    Node node = this.head;
+    Node slow = node;
+    Node fast = node;
+    while (fast != null && fast.next != null) {
+        // System.out.println(fast.data);
+        slow = slow.next;
+        fast = fast.next.next;
+    }
+    Node right = slow.next;
+    slow.next = null;
 
-            right = reverse(right);
-            Node dum = new Node();
-            Node cur = dum;
-            Node tail = null;
-            while (node != null || right != null) {
-                if (node != null) {
-                    cur.next = node;
-                    cur = cur.next;
-                    node = node.next;
-                    if (cur != null)
-                        tail = cur;
-
-                }
-                if (right != null) {
-                    cur.next = right;
-                    cur = cur.next;
-                    right = right.next;
-                    if (cur != null)
-                        tail = cur;
-
-                }
-                // System.out.println(tail.data);
-
-            }
-            this.tail = tail;
-            this.head = dum.next;
+    right = reverse(right);
+    Node dum = new Node();
+    Node cur = dum;
+    Node tail = null;
+    while (node != null || right != null) {
+        if (node != null) {
+            cur.next = node;
+            cur = cur.next;
+            node = node.next;
+            if (cur != null)
+                tail = cur;
 
         }
+        if (right != null) {
+            cur.next = right;
+            cur = cur.next;
+            right = right.next;
+            if (cur != null)
+                tail = cur;
+
+        }
+        // System.out.println(tail.data);
+
     }
+    this.tail = tail;
+    this.head = dum.next;
+
+}
+}
 
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

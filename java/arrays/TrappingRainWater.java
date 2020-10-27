@@ -16,23 +16,28 @@ class GFG {
 		    for(int i=0;i<n;i++){
 		        arr[i]=Integer.parseInt(inp[i]);
 		    }
+		    int totalWater=trappingRainWater(arr);
 		    
-		    int[] leftMaxHeight=new int[n];
-		    int leftmax=Integer.MIN_VALUE;
-		    for(int i=0;i<n;i++){
-		        leftMaxHeight[i]=leftmax;
-		        leftmax=Math.max(arr[i],leftmax);
-		    }
-		    
-		    int totalWater=0;
-		    int rightmax=Integer.MIN_VALUE;
-		    for(int i=n-1;i>=0;i--){
-		        int height=Math.max(Math.min(rightmax,leftMaxHeight[i]),0);
-		        totalWater+=Math.max(height-arr[i],0);
-		        rightmax=Math.max(arr[i],rightmax);
-		    }
 		    System.out.println(totalWater);
 		    
 		}
 	}
+static int trappingRainWater(int[] arr){
+    int n=arr.length;
+    int[] leftMaxHeight=new int[n];
+    int leftmax=Integer.MIN_VALUE;
+    for(int i=0;i<n;i++){
+        leftMaxHeight[i]=leftmax;
+        leftmax=Math.max(arr[i],leftmax);
+    }
+    
+    int totalWater=0;
+    int rightmax=Integer.MIN_VALUE;
+    for(int i=n-1;i>=0;i--){
+        int height=Math.max(Math.min(rightmax,leftMaxHeight[i]),0);
+        totalWater+=Math.max(height-arr[i],0);
+        rightmax=Math.max(arr[i],rightmax);
+    }
+    return totalWater;
+}
 }

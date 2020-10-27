@@ -24,26 +24,26 @@ public class AllIndices {
             System.out.println(iarr[i]);
         }
     }
-    // niche jate hue count
-    // upar ate hue list mei add
-    // kyuki list ka size recursion ke end mei pta chlega
+// niche jate hue count
+// upar ate hue list mei add
+// kyuki list ka size recursion ke end mei pta chlega
 
 
-    
-    public static int[] allIndices(int[] arr, int x, int idx, int fsf) {
-        // write ur code here
-        if (idx == arr.length) {
-            return new int[fsf];
-        }
-        if (arr[idx] == x) {
-            fsf++;
-        }
-        int[] indices = allIndices(arr, x, idx + 1, fsf);
-        if (arr[idx] == x) {
-            indices[fsf-1] = idx;
-        }
-        return indices;
 
+public static int[] allIndices(int[] arr, int x, int idx, int fsf) {
+    // write ur code here
+    if (idx == arr.length) {
+        return new int[fsf];
     }
+    if (arr[idx] == x) {
+        fsf++;
+    }
+    int[] indices = allIndices(arr, x, idx + 1, fsf);
+    if (arr[idx] == x) {
+        indices[fsf-1] = idx;
+    }
+    return indices;
+
+}
 
 }

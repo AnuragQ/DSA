@@ -18,35 +18,40 @@ class MaximumIndex {
 		        arr[i]=Integer.parseInt(inp[i]);
 		        
 		    }
-		    int[] max=new int[n];
-		    int msf=Integer.MIN_VALUE;
-		    for(int i=n-1;i>=0;i--){
-		        msf=Math.max(arr[i],msf);
-		        max[i]=msf;
-		    }
 		    int ans=0;
-		    for(int i=0;i<n-1;i++){
-		        int start=i;
-		        int end=n-1;
-		        int mid=(start+end)/2;
-		        int myans=0;
-		        while(start<=end){
-		            mid=(start+end)/2;
-		            if(max[mid]<arr[i]){
-		                end=mid-1;
-		            }else{
-		                start=mid+1;
-		                myans=mid;
-		            }
-		            
-		            ans=Math.max(myans-i,ans);
-		        }
-		    }
 		    
 		    System.out.println(ans);
 		    
 		}
 	}
+static int maximumIndex(int[] arr){
+    int n=arr.length;
+    int[] max=new int[n];
+        int msf=Integer.MIN_VALUE;
+        for(int i=n-1;i>=0;i--){
+            msf=Math.max(arr[i],msf);
+            max[i]=msf;
+        }
+        int ans=0;
+        for(int i=0;i<n-1;i++){
+            int start=i;
+            int end=n-1;
+            int mid=(start+end)/2;
+            int myans=0;
+            while(start<=end){
+                mid=(start+end)/2;
+                if(max[mid]<arr[i]){
+                    end=mid-1;
+                }else{
+                    start=mid+1;
+                    myans=mid;
+                }
+                
+                ans=Math.max(myans-i,ans);
+            }
+        }
+    return ans;
+}
 }
 
 

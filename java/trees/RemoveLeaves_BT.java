@@ -83,21 +83,21 @@ public class RemoveLeaves_BT {
         display(node.right);
     }
 
-    public static Node removeLeaves(Node node) {
-        // write your code here
-        if (node == null) {
-            return null;
-        }
-        if (node.right != null && node.right.left == null && node.right.right == null) {
-            node.right = null;
-        }
-        if (node.left != null && node.left.left == null && node.left.right == null) {
-            node.left = null;
-        }
-        removeLeaves(node.left);
-        removeLeaves(node.right);
-        return node;
+public static Node removeLeaves(Node node) {
+    // write your code here
+    if (node == null) {
+        return null;
     }
+    if (node.right != null && node.right.left == null && node.right.right == null) {
+        node.right = null;
+    }
+    if (node.left != null && node.left.left == null && node.left.right == null) {
+        node.left = null;
+    }
+    removeLeaves(node.left);
+    removeLeaves(node.right);
+    return node;
+}
 
     public static void main(String[] args) throws NumberFormatException, IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

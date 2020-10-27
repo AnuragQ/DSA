@@ -19,26 +19,28 @@ class SmallestNumberSubset {
 			for (int i = 0; i < n; i++) {
 				arr[i] = Integer.parseInt(inp[i]);
 			}
-            int max=1;
-            boolean found=false;
-            for (int i=0;i<n;i++){
-                if(arr[i]>max){
-                    System.out.println(max);
-                    found=true;
-                    break;
-                }else{
-                    max+=arr[i];
-                }
-            }
-            if(!found){
-                System.out.println(max);
-            }
-
-
+            System.out.println(smallestNumberSubset(arr));
 
 		}
 
 		br.close();
 
-	}
+    }
+
+static int smallestNumberSubset(int[] arr){
+    int n=arr.length;
+    int max=1;
+    boolean found=false;
+    for (int i=0;i<n;i++){
+        if(arr[i]>max){
+            System.out.println(max);
+            found=true;
+            break;
+        }else{
+            max+=arr[i];
+        }
+    }
+    
+    return max;
+}
 }

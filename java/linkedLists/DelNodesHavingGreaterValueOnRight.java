@@ -9,7 +9,7 @@ class Node {
   }
 }
 
-class GfG
+class DelNodesHavingGreaterValueOnRight
 {   int max = Integer.MIN_VALUE;
     Node compute(Node head)
     {

@@ -20,17 +20,9 @@ class MaxDifferenceLargerAfter {
 				arr[i] = Integer.parseInt(inp[i]);
 			}
 
-            int max=Integer.MIN_VALUE;
-            int ans=Integer.MIN_VALUE;
-            for(int i=n-1;i>=0;i--){
-                if(arr[i]<max){
-                    ans=Math.max(ans,max-arr[i]);
-                }else{
-                    max=arr[i];
-                }
-            }
+            int ans=maxDifferenceLargerAfter(arr);
             
-            System.out.println(Math.max(ans,-1));
+            System.out.println(ans);
         
 		}
 		
@@ -38,4 +30,18 @@ class MaxDifferenceLargerAfter {
 		br.close();
 
 	}
+static int maxDifferenceLargerAfter(int[] arr){
+    int n=arr.length;
+    int max=Integer.MIN_VALUE;
+        int ans=Integer.MIN_VALUE;
+        for(int i=n-1;i>=0;i--){
+            if(arr[i]<max){
+                ans=Math.max(ans,max-arr[i]);
+            }else{
+                max=arr[i];
+            }
+        }
+        ans=Math.max(ans,-1);
+        return ans;
+}
 }

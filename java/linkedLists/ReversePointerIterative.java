@@ -189,11 +189,7 @@ public class ReversePointerIterative {
           prev=cur;
           cur=next;
       }
-      head=prev;
-      
-      
-      
-      
+      head=prev;     
     }
   }
 

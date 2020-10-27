@@ -12,24 +12,18 @@ public class RightView_BT {
             left = right = null;
         }
     }
-
     
     static void rightView(Node node,int level, TreeMap<Integer,Integer> hm){
         if(node==null){
             return;
         }
-        // if(!hm.containsKey(level) ){
-            
-            hm.put(level,node.data);
-        // }
-  
+        hm.put(level,node.data);  
         rightView( node.left,  level+1, hm);
         rightView( node.right,  level+1,  hm);
 
         
         
     }
-    // Method that prints the bottom view.
     public void rightView(Node root)
     {
          TreeMap<Integer,Integer> hm=new TreeMap<Integer,Integer>();
@@ -37,6 +31,5 @@ public class RightView_BT {
             for(Integer i:hm.values()){
                 System.out.print(i+" ");
             }
-    // Code here
     }
    }

@@ -80,19 +80,19 @@ public class AddNode_BST {
     display(node.right);
   }
 
-  public static Node add(Node node, int data) {
-    // write your code here
-    if(node==null){
-        return new Node(data,null,null);
-    }
-    
-    if(data>node.data){
-        node.right=add(node.right,data);
-    }else if(data<node.data){
-        node.left=add(node.left,data);
-    }
-    return node;
+public static Node add(Node node, int data) {
+  // write your code here
+  if(node==null){
+      return new Node(data,null,null);
   }
+  
+  if(data>node.data){
+      node.right=add(node.right,data);
+  }else if(data<node.data){
+      node.left=add(node.left,data);
+  }
+  return node;
+}
 
   public static void main(String[] args) throws Exception {
     BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

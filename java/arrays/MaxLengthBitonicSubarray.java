@@ -29,36 +29,36 @@ class MaxLengthBitonicSubarray {
     }
     // space O(1)-https://www.geeksforgeeks.org/maximum-length-bitonic-subarray-set-2-time-o1-space/
     // time O(N) space O(N)
-    private static int bitonic(int[] arr,int n) {
-        int[] ascending = new int[n];
-            int[] descending = new int[n];
-            int ctr=1;
-            ascending[0]=1;
-            for(int i=1;i<n;i++){
-                
-                if(arr[i]>arr[i-1]){
-                    // ctr+=1
-                    ascending[i]=++ctr;
-                }else{
-                    ctr=1;
-                    ascending[i]=ctr;
-                }
+private static int bitonic(int[] arr,int n) {
+    int[] ascending = new int[n];
+        int[] descending = new int[n];
+        int ctr=1;
+        ascending[0]=1;
+        for(int i=1;i<n;i++){
+            
+            if(arr[i]>arr[i-1]){
+                // ctr+=1
+                ascending[i]=++ctr;
+            }else{
+                ctr=1;
+                ascending[i]=ctr;
             }
-            descending[n-1]=1;
-            ctr=1;
-            for(int i=n-2;i>=0;i--){
-                if(arr[i+1]<arr[i]){
-                    descending[i]=++ctr;
-                }else{
-                    ctr=1;
-                    descending[i]=ctr;
-                }
+        }
+        descending[n-1]=1;
+        ctr=1;
+        for(int i=n-2;i>=0;i--){
+            if(arr[i+1]<arr[i]){
+                descending[i]=++ctr;
+            }else{
+                ctr=1;
+                descending[i]=ctr;
             }
-            int ans=Integer.MIN_VALUE;
-            for(int i=0;i<n;i++){
-                ans=Math.max(ans,ascending[i]+descending[i]-1);
-                
-            }
-            return ans;
-    }
+        }
+        int ans=Integer.MIN_VALUE;
+        for(int i=0;i<n;i++){
+            ans=Math.max(ans,ascending[i]+descending[i]-1);
+            
+        }
+        return ans;
+}
 }

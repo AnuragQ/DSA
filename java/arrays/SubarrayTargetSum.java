@@ -19,28 +19,33 @@ class SubArrayTargetSum {
             for (int i = 0; i < n; i++) {
                 arr[i] = Long.parseLong(numsarr[i]);
             }
-            long sum = arr[0];
-            int left = 0, right = 1;
-            while ((left <= right && sum != target)) {
-                if (right < n && sum < target) {
-                    sum += arr[right];
-                    right++;
-                } else if (left < n) {
-                    sum -= arr[left];
-                    left++;
-                }
-                // System.out.println(sum);
-            }
-            if (sum == target) {
-                System.out.println((left + 1) + " " + (right));
-
-            } else {
-                System.out.println("-1");
-            }
-
-        }
+            subArrayTargetSum(arr, target);
+       }
 
         br.close();
     }
+static void subArrayTargetSum(long[] arr,int target){
+    int n=arr.length;
 
+    long sum = arr[0];
+    int left = 0, right = 1;
+    while ((left <= right && sum != target)) {
+        if (right < n && sum < target) {
+            sum += arr[right];
+            right++;
+        } else if (left < n) {
+            sum -= arr[left];
+            left++;
+        }
+        // System.out.println(sum);
+    }
+    if (sum == target) {
+        System.out.println((left + 1) + " " + (right));
+
+    } else {
+        System.out.println("-1");
+    }
+
+
+}
 }

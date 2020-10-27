@@ -50,32 +50,32 @@ public class KthLargestElement_GT {
     return root;
   }
 
-  public static PriorityQueue<Integer> kthLargest(Node node, int k, PriorityQueue<Integer> pq) {
+public static PriorityQueue<Integer> kthLargest(Node node, int k, PriorityQueue<Integer> pq) {
 
-    if (node == null) {
-      return pq;
-    }
-    if (pq.size() == k) {
-      if (pq.peek() < node.data) {
-        pq.poll();
-        pq.add(node.data);
-      }
-    } else {
+  if (node == null) {
+    return pq;
+  }
+  if (pq.size() == k) {
+    if (pq.peek() < node.data) {
+      pq.poll();
       pq.add(node.data);
     }
-
-    for (Node child : node.children) {
-      pq = kthLargest(child, k, pq);
-    }
-    return pq;
-
+  } else {
+    pq.add(node.data);
   }
 
-  public static int kthLargest(Node node, int k) {
-    PriorityQueue<Integer> pQueue = kthLargest(node, k, new PriorityQueue<Integer>());
-    return pQueue.peek();
-
+  for (Node child : node.children) {
+    pq = kthLargest(child, k, pq);
   }
+  return pq;
+
+}
+
+public static int kthLargest(Node node, int k) {
+  PriorityQueue<Integer> pQueue = kthLargest(node, k, new PriorityQueue<Integer>());
+  return pQueue.peek();
+
+}
 
   public static void main(String[] args) throws NumberFormatException, IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

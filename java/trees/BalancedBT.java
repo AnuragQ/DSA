@@ -16,35 +16,35 @@ public class BalancedBT {
  }
  
 
-    private class pair{
-        int height;
-        boolean isBalanced;
-        pair(int height,boolean isBalanced){
-            this.height=height;
-            this.isBalanced=isBalanced;
-        }
+private class pair{
+    int height;
+    boolean isBalanced;
+    pair(int height,boolean isBalanced){
+        this.height=height;
+        this.isBalanced=isBalanced;
     }
-    public boolean isBalanced(TreeNode root) {
-        pair p=myBalanced(root);
+}
+public boolean isBalanced(TreeNode root) {
+    pair p=myBalanced(root);
+    
+    return p.isBalanced;
+}
+private pair myBalanced(TreeNode node){
+    if(node==null){
         
-        return p.isBalanced;
+        return new pair(-1,true);
     }
-    private pair myBalanced(TreeNode node){
-        if(node==null){
-            
-            return new pair(-1,true);
-        }
-        pair left=myBalanced(node.left);
-        pair right=myBalanced(node.right);
-        if(!left.isBalanced || !right.isBalanced){
-            return new pair(-1,false);
-        }
-        if(Math.abs(left.height-right.height)>1){
-            return new pair(-1,false);
-        }
-        return new pair(Math.max(left.height,right.height)+1,true);
-        
-    }   
+    pair left=myBalanced(node.left);
+    pair right=myBalanced(node.right);
+    if(!left.isBalanced || !right.isBalanced){
+        return new pair(-1,false);
+    }
+    if(Math.abs(left.height-right.height)>1){
+        return new pair(-1,false);
+    }
+    return new pair(Math.max(left.height,right.height)+1,true);
+    
+}   
     // private int myBalanced2(TreeNode root){
     //     return null;
     // }

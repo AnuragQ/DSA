@@ -37,29 +37,29 @@ class SegregateOddEven {
 
 		}
 	}
-	public static Node segregate(Node head){
-	    Node odd=new Node(0);
-	    Node even=new Node(0);
-	    Node etemp=even;
-	    Node otemp=odd;
-	    while(head!=null){
-	        if((head.data&1)==0){
-	            even.next=head;
-	            head=head.next;
-	            even=even.next;
-	        }else{
-	            odd.next=head;
-	            head=head.next;
-	            odd=odd.next;
-	        }
-	       // head=head.next;
-	    }
-        even.next=otemp.next;
-        ///////////
-        odd.next=null;
-        ///////////                         
-	    return etemp.next;
-	}
+public static Node segregate(Node head){
+    Node odd=new Node(0);
+    Node even=new Node(0);
+    Node etemp=even;
+    Node otemp=odd;
+    while(head!=null){
+        if((head.data&1)==0){
+            even.next=head;
+            head=head.next;
+            even=even.next;
+        }else{
+            odd.next=head;
+            head=head.next;
+            odd=odd.next;
+        }
+    // head=head.next;
+    }
+    even.next=otemp.next;
+    ///////////
+    odd.next=null;
+    ///////////                         
+    return etemp.next;
+}
 	
 	
 }

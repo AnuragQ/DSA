@@ -50,21 +50,21 @@ public class reverseDR {
             System.out.println();
         }
 
-        private Node reverseDR(Node node, Node n2u) {
-            if (node.next == null) {
-                n2u.data = node.data;
-                return n2u.next;
-            }
-            int newData = node.data;
-            n2u = reverseDR(node.next, n2u);
-            n2u.data = newData;
-            return n2u.next;
-        }
+private Node reverseDR(Node node, Node n2u) {
+    if (node.next == null) {
+        n2u.data = node.data;
+        return n2u.next;
+    }
+    int newData = node.data;
+    n2u = reverseDR(node.next, n2u);
+    n2u.data = newData;
+    return n2u.next;
+}
 
-        public void reverseDR() {
-            // write your code here
-            reverseDR(head, head);
-        }
+public void reverseDR() {
+    // write your code here
+    reverseDR(head, head);
+}
     }
 
     public static void main(String[] args) throws IOException {

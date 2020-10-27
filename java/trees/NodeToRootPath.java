@@ -47,24 +47,24 @@ public class NodeToRootPath {
         return root;
     }
 
-    public static ArrayList<Integer> nodeToRootPath(Node node, int data) {
-        // write your code here
-        ArrayList<Integer> path = new ArrayList<>();
-        if (data == node.data) {
-            path.add(data);
-        } else {
-            for (Node child : node.children) {
-                ArrayList<Integer> pr = nodeToRootPath(child, data);
-                if (!pr.isEmpty()) {
-                    pr.add(node.data);
-                    path = pr;
-                    break;
-                }
+public static ArrayList<Integer> nodeToRootPath(Node node, int data) {
+    // write your code here
+    ArrayList<Integer> path = new ArrayList<>();
+    if (data == node.data) {
+        path.add(data);
+    } else {
+        for (Node child : node.children) {
+            ArrayList<Integer> pr = nodeToRootPath(child, data);
+            if (!pr.isEmpty()) {
+                pr.add(node.data);
+                path = pr;
+                break;
             }
         }
-        return path;
-
     }
+    return path;
+
+}
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

@@ -13,6 +13,12 @@ public static void main(String[] args) throws IOException {
        a[i] = Integer.parseInt(br.readLine());
     }
     int k = Integer.parseInt(br.readLine());
+    
+    
+    // code
+ }
+static void slidingWindowMaximum(int[] a,int k){
+    int n=a.length;
     int[] nge=new int [n];
     Stack<Integer> st = new Stack<>();
     
@@ -42,7 +48,5 @@ public static void main(String[] args) throws IOException {
         System.out.println(a[tempidx]);
         
     }
-    
-    // code
- }
+}
 }

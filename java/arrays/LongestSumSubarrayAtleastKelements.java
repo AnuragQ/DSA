@@ -19,35 +19,41 @@ class LongestSumSubarrayAtleastKelements {
 		        
 		    }
 		    int k=Integer.parseInt(br.readLine());
-		    int[] kadane=new int[n];
-		    int prevSubSum=0;
-		    for(int i=0;i<n;i++){
-		        prevSubSum+=arr[i];
-		        if(prevSubSum<arr[i]){
-		            
-		            prevSubSum=arr[i];
-		        }
-		        kadane[i]=prevSubSum;
-		    }
-		    int l=0;
-		    int r=k;
-		    int windowSum=0;
-		    for(int i=l;i<r;i++){
-		        windowSum+=arr[i];
-		    }
-		    int ans=windowSum;
-		    while(r<arr.length){
-		        windowSum+=(arr[r]-arr[l]);
-		        
-		        ans=Math.max(ans,windowSum+Math.max(0,kadane[l]));
-		        l++;
-		        r++;
-		    }
-		    System.out.println(ans);
+			int ans=longestSumSubarrayAtleastKelements(arr, k);
+			 System.out.println(ans);
             
 		    
 		}
 	}
+static int longestSumSubarrayAtleastKelements(int[] arr,int k){
+    int n=arr.length;
+    int[] kadane=new int[n];
+        int prevSubSum=0;
+        for(int i=0;i<n;i++){
+            prevSubSum+=arr[i];
+            if(prevSubSum<arr[i]){
+                
+                prevSubSum=arr[i];
+            }
+            kadane[i]=prevSubSum;
+        }
+        int l=0;
+        int r=k;
+        int windowSum=0;
+        for(int i=l;i<r;i++){
+            windowSum+=arr[i];
+        }
+        int ans=windowSum;
+        while(r<arr.length){
+            windowSum+=(arr[r]-arr[l]);
+            
+            ans=Math.max(ans,windowSum+Math.max(0,kadane[l]));
+            l++;
+            r++;
+        }
+    return ans;
+
+}
 }
 
 

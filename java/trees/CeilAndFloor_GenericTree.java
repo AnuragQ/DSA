@@ -47,27 +47,27 @@ public class CeilAndFloor_GenericTree {
   }
 
   
-  static int ceil;
-  static int floor;
-  public static void ceilAndFloor(Node node, int data) {
-    // Write your code here
-    if(node==null){
-        return;
-    }
-    
-    
-    if(node.data>floor && node.data<data){
-        floor=node.data;
-    }
-    if(node.data<ceil && node.data>data){
-        ceil=node.data;
-    }
-    
-    
-    for(Node child:node.children){
-        ceilAndFloor(child,data);
-    }
+static int ceil;
+static int floor;
+public static void ceilAndFloor(Node node, int data) {
+  // Write your code here
+  if(node==null){
+      return;
   }
+  
+  
+  if(node.data>floor && node.data<data){
+      floor=node.data;
+  }
+  if(node.data<ceil && node.data>data){
+      ceil=node.data;
+  }
+  
+  
+  for(Node child:node.children){
+      ceilAndFloor(child,data);
+  }
+}
 
   public static void main(String[] args) throws IOException {
     BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

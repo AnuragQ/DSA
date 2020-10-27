@@ -18,16 +18,16 @@ public class FirstIndex {
         // write your code here
     }
 
-    public static int firstIndex(int[] arr, int idx, int x){
-        if(idx==arr.length){
-            return -1;
-        }
-         
-        if(arr[idx]==x){
-            return idx;
-        }
-        int index=firstIndex(arr,idx+1,x);
-        return index;
+public static int firstIndex(int[] arr, int idx, int x){
+    if(idx==arr.length){
+        return -1;
     }
+        
+    if(arr[idx]==x){
+        return idx;
+    }
+    int index=firstIndex(arr,idx+1,x);
+    return index;
+}
 
 }

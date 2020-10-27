@@ -83,62 +83,62 @@ public class PrintNodesAtKdistance_BT {
         display(node.right);
     }
 
-    public static class FoundPair {
-        boolean found;
-        int k;
+public static class FoundPair {
+    boolean found;
+    int k;
+}
+
+public static FoundPair printKNodesFar(Node node, int data, int k, boolean found) {
+    // write your code here
+    if (node == null) {
+        FoundPair ans = new FoundPair();
+        ans.k = -1;
+        return ans;
+    }
+    if (k == 0 && found == true) {
+        System.out.println(node.data);
+    }
+    if (node.data == data || found == true) {
+
+        printKNodesFar(node.left, data, k - 1, true);
+        printKNodesFar(node.right, data, k - 1, true);
+        FoundPair ans = new FoundPair();
+        ans.found = true;
+        ans.k = k - 1;
+        return ans;
     }
 
-    public static FoundPair printKNodesFar(Node node, int data, int k, boolean found) {
-        // write your code here
-        if (node == null) {
-            FoundPair ans = new FoundPair();
-            ans.k = -1;
-            return ans;
-        }
-        if (k == 0 && found == true) {
+    FoundPair leftAns = printKNodesFar(node.left, data, k, false);
+    FoundPair rightAns = printKNodesFar(node.right, data, k, false);
+
+    if (leftAns.found) {
+        if (leftAns.k == 0) {
             System.out.println(node.data);
+
         }
-        if (node.data == data || found == true) {
+        printKNodesFar(node.right, data, leftAns.k - 1, true);
+        leftAns.k--;
+        return leftAns;
+    } else if (rightAns.found) {
+        if (rightAns.k == 0) {
+            System.out.println(node.data);
 
-            printKNodesFar(node.left, data, k - 1, true);
-            printKNodesFar(node.right, data, k - 1, true);
-            FoundPair ans = new FoundPair();
-            ans.found = true;
-            ans.k = k - 1;
-            return ans;
         }
+        printKNodesFar(node.left, data, rightAns.k - 1, true);
 
-        FoundPair leftAns = printKNodesFar(node.left, data, k, false);
-        FoundPair rightAns = printKNodesFar(node.right, data, k, false);
+        rightAns.k--;
+        return rightAns;
+    } else {
 
-        if (leftAns.found) {
-            if (leftAns.k == 0) {
-                System.out.println(node.data);
-
-            }
-            printKNodesFar(node.right, data, leftAns.k - 1, true);
-            leftAns.k--;
-            return leftAns;
-        } else if (rightAns.found) {
-            if (rightAns.k == 0) {
-                System.out.println(node.data);
-
-            }
-            printKNodesFar(node.left, data, rightAns.k - 1, true);
-
-            rightAns.k--;
-            return rightAns;
-        } else {
-
-            return new FoundPair();
-        }
-
+        return new FoundPair();
     }
 
-    public static void printKNodesFar(Node node, int data, int k) {
-        printKNodesFar(node, data, k, false);
+}
 
-    }
+public static void printKNodesFar(Node node, int data, int k) {
+    printKNodesFar(node, data, k, false);
+
+}
 
     public static void main(String[] args) throws NumberFormatException, IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

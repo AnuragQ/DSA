@@ -80,18 +80,18 @@ public class PrintInRange_BST {
     display(node.right);
   }
 
-  public static void pir(Node node, int d1, int d2) {
-    // write your code here
-    if(node==null){
-        return;
-    }
-        pir(node.left,d1,d2);
-
-    if(node.data<=d2 && node.data>=d1){
-        System.out.println(node.data);
-    }
-    pir(node.right,d1,d2);
+public static void pir(Node node, int d1, int d2) {
+  // write your code here
+  if(node==null){
+      return;
   }
+      pir(node.left,d1,d2);
+
+  if(node.data<=d2 && node.data>=d1){
+      System.out.println(node.data);
+  }
+  pir(node.right,d1,d2);
+}
 
   public static void main(String[] args) throws Exception {
     BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

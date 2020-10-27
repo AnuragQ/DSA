@@ -1,7 +1,7 @@
 import java.util.*;
 
 // https://leetcode.com/problems/group-anagrams/
-class Solution {
+public class GroupAnagrams {
     public List<List<String>> groupAnagrams(String[] strs) {
         HashMap<String,ArrayList<String>> map=new HashMap<>(); 
         for(int i=0;i<strs.length;i++){

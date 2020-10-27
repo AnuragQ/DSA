@@ -23,41 +23,45 @@ class RearrangeAlternatePosNeg {
 		    for(int i=0;i<n;i++){
 		        arr[i]=Integer.parseInt(inp[i]);
 		    }
-		    
-		    int index=0;
-		    
-		    while(index<n){
-		        if(index%2==0 && arr[index]<0){
-		            int nextPositive=index+1;
-		            while(nextPositive<n && arr[nextPositive]<0){
-		                nextPositive++;
-		            }
-		            if(nextPositive==n){
-		                index++;
-		                continue;
-		            }
-		            rotateRight(arr,index,nextPositive);
-		        }
-		        if(index%2==1 && arr[index]>=0){
-		          int nextNegative=index+1;
-		            while(nextNegative<n && arr[nextNegative]>=0){
-		                nextNegative++;
-		            }
-		            if(nextNegative==n){
-		                index++;
-		                continue;
-		            }
-		            rotateRight(arr,index,nextNegative);
-		        }
-		        index++;
-		    }
 		    for(int i=0;i<n;i++){
 		        System.out.print(arr[i]+" ");
 		    }
 		    System.out.println();
-		    
+		    		    
 		    
 		    
 		}
 	}
+static void rearrangeAlternatePosNeg(int[] arr){
+    int index=0;
+    int n=arr.length;
+        
+    while(index<n){
+        if(index%2==0 && arr[index]<0){
+            int nextPositive=index+1;
+            while(nextPositive<n && arr[nextPositive]<0){
+                nextPositive++;
+            }
+            if(nextPositive==n){
+                index++;
+                continue;
+            }
+            rotateRight(arr,index,nextPositive);
+        }
+        if(index%2==1 && arr[index]>=0){
+            int nextNegative=index+1;
+            while(nextNegative<n && arr[nextNegative]>=0){
+                nextNegative++;
+            }
+            if(nextNegative==n){
+                index++;
+                continue;
+            }
+            rotateRight(arr,index,nextNegative);
+        }
+        index++;
+    }
+    
+
+}
 }
