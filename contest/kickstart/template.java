@@ -3,7 +3,9 @@ import java.util.*;
 import java.lang.*;
 import java.io.*;
 
-public class Solution {
+// author: @anuragq (linkedin.com/in/anuragq)
+
+class Solution {
     
 
     /* package whatever //do not write package name here */
