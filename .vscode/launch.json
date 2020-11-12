@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - LongestArithmatic",
+            "request": "launch",
+            "mainClass": "LongestArithmatic",
+            "projectName": "DSA"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Solution",
+            "request": "launch",
+            "mainClass": "Solution",
+            "projectName": "DSA"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - solution",
+            "request": "launch",
+            "mainClass": "solution",
+            "projectName": "DSA"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - TreeToForest",
             "request": "launch",
             "mainClass": "trees.TreeToForest",
