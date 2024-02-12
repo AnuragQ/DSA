@@ -4,6 +4,12 @@
 
 data structures and algorithms problems and notes
 
+# DSA
+
+
+
+data structures and algorithms problems and notes
+
 
 priority
 1. this list
